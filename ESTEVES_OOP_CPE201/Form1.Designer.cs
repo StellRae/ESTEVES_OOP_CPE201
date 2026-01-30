@@ -4,6 +4,7 @@
     {
         /// Hi ron was here
         /// heheheh
+        /// done design heheh
         
         /// <summary>
         /// Required designer variable.
@@ -72,30 +73,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 429);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(4, 504);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 31);
+            this.label1.Size = new System.Drawing.Size(136, 29);
             this.label1.TabIndex = 16;
             this.label1.Text = "Item Name:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // itemnameTxtbox
             // 
-            this.itemnameTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.itemnameTxtbox.Location = new System.Drawing.Point(172, 433);
+            this.itemnameTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.itemnameTxtbox.Location = new System.Drawing.Point(146, 505);
             this.itemnameTxtbox.Name = "itemnameTxtbox";
-            this.itemnameTxtbox.Size = new System.Drawing.Size(377, 29);
+            this.itemnameTxtbox.Size = new System.Drawing.Size(535, 26);
             this.itemnameTxtbox.TabIndex = 17;
             this.itemnameTxtbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 477);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 552);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 31);
+            this.label3.Size = new System.Drawing.Size(75, 29);
             this.label3.TabIndex = 18;
             this.label3.Text = "Price:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -103,28 +104,28 @@
             // priceTxtbox
             // 
             this.priceTxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceTxtbox.Location = new System.Drawing.Point(110, 477);
+            this.priceTxtbox.Location = new System.Drawing.Point(93, 552);
             this.priceTxtbox.Name = "priceTxtbox";
-            this.priceTxtbox.Size = new System.Drawing.Size(209, 29);
+            this.priceTxtbox.Size = new System.Drawing.Size(173, 29);
             this.priceTxtbox.TabIndex = 19;
             this.priceTxtbox.TextChanged += new System.EventHandler(this.priceTxtbox_TextChanged);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(771, 433);
+            this.button2.Location = new System.Drawing.Point(740, 549);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(183, 97);
+            this.button2.Size = new System.Drawing.Size(103, 44);
             this.button2.TabIndex = 21;
-            this.button2.Text = "Edit";
+            this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_182530;
-            this.pictureBox4.Location = new System.Drawing.Point(819, 283);
+            this.pictureBox4.Location = new System.Drawing.Point(718, 317);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox4.Size = new System.Drawing.Size(141, 147);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
@@ -133,9 +134,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181900;
-            this.pictureBox5.Location = new System.Drawing.Point(819, 146);
+            this.pictureBox5.Location = new System.Drawing.Point(718, 164);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox5.Size = new System.Drawing.Size(141, 147);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 14;
             this.pictureBox5.TabStop = false;
@@ -144,9 +145,9 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181849;
-            this.pictureBox6.Location = new System.Drawing.Point(819, 12);
+            this.pictureBox6.Location = new System.Drawing.Point(718, 11);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox6.Size = new System.Drawing.Size(141, 147);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 13;
             this.pictureBox6.TabStop = false;
@@ -155,9 +156,9 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181822;
-            this.pictureBox15.Location = new System.Drawing.Point(629, 283);
+            this.pictureBox15.Location = new System.Drawing.Point(537, 317);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox15.Size = new System.Drawing.Size(144, 147);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox15.TabIndex = 12;
             this.pictureBox15.TabStop = false;
@@ -166,9 +167,9 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181808;
-            this.pictureBox14.Location = new System.Drawing.Point(629, 146);
+            this.pictureBox14.Location = new System.Drawing.Point(537, 164);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox14.Size = new System.Drawing.Size(144, 147);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 11;
             this.pictureBox14.TabStop = false;
@@ -177,9 +178,9 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181754;
-            this.pictureBox13.Location = new System.Drawing.Point(629, 12);
+            this.pictureBox13.Location = new System.Drawing.Point(537, 12);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox13.Size = new System.Drawing.Size(144, 146);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 10;
             this.pictureBox13.TabStop = false;
@@ -188,9 +189,9 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181741;
-            this.pictureBox12.Location = new System.Drawing.Point(422, 283);
+            this.pictureBox12.Location = new System.Drawing.Point(359, 317);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox12.Size = new System.Drawing.Size(135, 147);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 9;
             this.pictureBox12.TabStop = false;
@@ -199,9 +200,9 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181725;
-            this.pictureBox11.Location = new System.Drawing.Point(422, 146);
+            this.pictureBox11.Location = new System.Drawing.Point(359, 164);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox11.Size = new System.Drawing.Size(135, 147);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 8;
             this.pictureBox11.TabStop = false;
@@ -210,9 +211,9 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181712;
-            this.pictureBox10.Location = new System.Drawing.Point(422, 12);
+            this.pictureBox10.Location = new System.Drawing.Point(359, 12);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox10.Size = new System.Drawing.Size(135, 146);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 7;
             this.pictureBox10.TabStop = false;
@@ -221,9 +222,9 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181656;
-            this.pictureBox9.Location = new System.Drawing.Point(208, 283);
+            this.pictureBox9.Location = new System.Drawing.Point(180, 317);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox9.Size = new System.Drawing.Size(137, 147);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 6;
             this.pictureBox9.TabStop = false;
@@ -232,9 +233,9 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181638;
-            this.pictureBox8.Location = new System.Drawing.Point(208, 146);
+            this.pictureBox8.Location = new System.Drawing.Point(180, 164);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox8.Size = new System.Drawing.Size(137, 147);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 5;
             this.pictureBox8.TabStop = false;
@@ -243,9 +244,9 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181622;
-            this.pictureBox7.Location = new System.Drawing.Point(208, 12);
+            this.pictureBox7.Location = new System.Drawing.Point(180, 12);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox7.Size = new System.Drawing.Size(137, 146);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 4;
             this.pictureBox7.TabStop = false;
@@ -254,9 +255,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181555;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 283);
+            this.pictureBox3.Location = new System.Drawing.Point(16, 317);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox3.Size = new System.Drawing.Size(132, 147);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
@@ -265,9 +266,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181537;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 146);
+            this.pictureBox2.Location = new System.Drawing.Point(17, 164);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox2.Size = new System.Drawing.Size(131, 147);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -276,9 +277,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181509;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 118);
+            this.pictureBox1.Size = new System.Drawing.Size(131, 146);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -286,9 +287,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(570, 433);
+            this.button1.Location = new System.Drawing.Point(740, 497);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(185, 97);
+            this.button1.Size = new System.Drawing.Size(103, 44);
             this.button1.TabIndex = 22;
             this.button1.Text = "New";
             this.button1.UseVisualStyleBackColor = true;
@@ -298,7 +299,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(966, 607);
+            this.ClientSize = new System.Drawing.Size(913, 605);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.priceTxtbox);
