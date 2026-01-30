@@ -2,6 +2,7 @@
 {
     partial class Form1
     {
+        /// Hi ron was here
         /// <summary>
         /// Required designer variable.
         /// </summary>
