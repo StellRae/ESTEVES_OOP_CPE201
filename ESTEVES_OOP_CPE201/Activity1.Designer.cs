@@ -1,6 +1,6 @@
 ﻿namespace ESTEVES_OOP_CPE201
 {
-    partial class Form1
+    partial class Activity1
     {
         /// Hi ron was here
         /// heheheh

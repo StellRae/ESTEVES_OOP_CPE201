@@ -10,15 +10,37 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Form2 : Form
+    public partial class Activity2 : Form
     {
-        public Form2()
+        public Activity2()
         {
             InitializeComponent();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            //codes for disabling the textbox
+            itemnametxtbox.Enabled = false;
+            pricetextbox.Enabled = false;
+            discountedtxtbox.Enabled = false;
+            qty_totaltxtbox.Enabled = false;
+            discount_totaltxtbox.Enabled = false;
+            disconted_txtbox.Enabled = false;
+            discounted_totaltxtbox.Enabled = false;
+            changetxtbox.Enabled = false;
+
+            //codes for inserting picture or image inside the label tool
+            name1lbl.Text = "";
+            name2lbl.Text = "";
+            name3lbl.Text = "";
+            name4lbl.Text = "";
+            name5lbl.Text = "";
+            name6lbl.Text = "";
+            name7lbl.Text = "";
+            name8lbl.Text = "";
+            name9lbl.Text = "";
+
+
 
         }
 
@@ -118,6 +140,16 @@ namespace ESTEVES_OOP_CPE201
         }
 
         private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pricetxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label34_Click(object sender, EventArgs e)
         {
 
         }
