@@ -228,8 +228,9 @@
             this.B_itemnameTxtbox10.AutoSize = true;
             this.B_itemnameTxtbox10.Location = new System.Drawing.Point(310, 420);
             this.B_itemnameTxtbox10.Name = "B_itemnameTxtbox10";
-            this.B_itemnameTxtbox10.Size = new System.Drawing.Size(15, 14);
+            this.B_itemnameTxtbox10.Size = new System.Drawing.Size(109, 17);
             this.B_itemnameTxtbox10.TabIndex = 21;
+            this.B_itemnameTxtbox10.Text = "Iced Mocha Float";
             this.B_itemnameTxtbox10.UseVisualStyleBackColor = true;
             // 
             // B_itemnameTxtbox9
@@ -303,7 +304,7 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Activity3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -333,7 +334,7 @@
             this.Controls.Add(this.foodARdbtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Activity3";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.DisplayPictureBox)).EndInit();
             this.ResumeLayout(false);
