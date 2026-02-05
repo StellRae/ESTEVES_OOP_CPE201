@@ -39,9 +39,9 @@
             this.txtbox_qty = new System.Windows.Forms.TextBox();
             this.txtbox_itemname = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtboxtotal_price = new System.Windows.Forms.TextBox();
-            this.txtboxtotal_discount = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
+            this.txtbox_total_discount = new System.Windows.Forms.TextBox();
+            this.txtboxtotal_quantity = new System.Windows.Forms.TextBox();
+            this.total_discounted = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -275,38 +275,38 @@
             this.label1.Text = "Name of an item:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtboxtotal_price
+            // txtbox_total_discount
             // 
-            this.txtboxtotal_price.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtbox_total_discount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtboxtotal_price.Location = new System.Drawing.Point(120, 67);
-            this.txtboxtotal_price.Name = "txtboxtotal_price";
-            this.txtboxtotal_price.Size = new System.Drawing.Size(206, 20);
-            this.txtboxtotal_price.TabIndex = 8;
-            this.txtboxtotal_price.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
+            this.txtbox_total_discount.Location = new System.Drawing.Point(120, 67);
+            this.txtbox_total_discount.Name = "txtbox_total_discount";
+            this.txtbox_total_discount.Size = new System.Drawing.Size(206, 20);
+            this.txtbox_total_discount.TabIndex = 8;
+            this.txtbox_total_discount.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
-            // txtboxtotal_discount
+            // txtboxtotal_quantity
             // 
-            this.txtboxtotal_discount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtboxtotal_quantity.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtboxtotal_discount.Location = new System.Drawing.Point(120, 19);
-            this.txtboxtotal_discount.Name = "txtboxtotal_discount";
-            this.txtboxtotal_discount.Size = new System.Drawing.Size(207, 20);
-            this.txtboxtotal_discount.TabIndex = 6;
-            this.txtboxtotal_discount.TextChanged += new System.EventHandler(this.disconted_txtbox_TextChanged);
+            this.txtboxtotal_quantity.Location = new System.Drawing.Point(120, 19);
+            this.txtboxtotal_quantity.Name = "txtboxtotal_quantity";
+            this.txtboxtotal_quantity.Size = new System.Drawing.Size(207, 20);
+            this.txtboxtotal_quantity.TabIndex = 6;
+            this.txtboxtotal_quantity.TextChanged += new System.EventHandler(this.disconted_txtbox_TextChanged);
             // 
-            // label32
+            // total_discounted
             // 
-            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.total_discounted.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(5, 74);
-            this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(34, 13);
-            this.label32.TabIndex = 4;
-            this.label32.Text = "Price:";
-            this.label32.Click += new System.EventHandler(this.label32_Click);
+            this.total_discounted.AutoSize = true;
+            this.total_discounted.Location = new System.Drawing.Point(-5, 71);
+            this.total_discounted.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.total_discounted.Name = "total_discounted";
+            this.total_discounted.Size = new System.Drawing.Size(127, 13);
+            this.total_discounted.TabIndex = 4;
+            this.total_discounted.Text = "Total Discounted Amount";
+            this.total_discounted.Click += new System.EventHandler(this.label32_Click);
             // 
             // label33
             // 
@@ -646,10 +646,10 @@
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.Controls.Add(this.txtboxtotal_price);
+            this.groupBox3.Controls.Add(this.txtbox_total_discount);
             this.groupBox3.Controls.Add(this.txtboxtotal_discounted);
-            this.groupBox3.Controls.Add(this.txtboxtotal_discount);
-            this.groupBox3.Controls.Add(this.label32);
+            this.groupBox3.Controls.Add(this.txtboxtotal_quantity);
+            this.groupBox3.Controls.Add(this.total_discounted);
             this.groupBox3.Controls.Add(this.label33);
             this.groupBox3.Controls.Add(this.label34);
             this.groupBox3.Location = new System.Drawing.Point(16, 217);
@@ -1421,9 +1421,9 @@
         private System.Windows.Forms.TextBox txtbox_qty;
         private System.Windows.Forms.TextBox txtbox_itemname;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtboxtotal_price;
-        private System.Windows.Forms.TextBox txtboxtotal_discount;
-        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox txtbox_total_discount;
+        private System.Windows.Forms.TextBox txtboxtotal_quantity;
+        private System.Windows.Forms.Label total_discounted;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;

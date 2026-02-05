@@ -24,6 +24,8 @@ namespace ESTEVES_OOP_CPE201
         float total_quantity = 0;
         float total_discount = 0;
         float total_discounted_price = 0;
+        float cash_rendered = 0;
+        float change = 0;
 
         //input
         float currentlyapplieddiscount = 0;
@@ -44,12 +46,22 @@ namespace ESTEVES_OOP_CPE201
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            txtbox_itemname.Clear();
+            txtbox_price.Clear();
+            txtbox_discount.Clear();
+            txtboxtotal_discounted.Clear();
+            txtbox_qty.Clear();
+            txtboxtotal_discounted.Clear();
+            txtboxtotal_quantity.Clear();
+            txtbox_total_discount.Clear();
+            txtbox_discounted.Clear();
+            txtboxcash_rendered.Clear();
+            changetxtbox.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -70,7 +82,14 @@ namespace ESTEVES_OOP_CPE201
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            total_quantity += temp_qty;
+            total_discount += temp_discount;
+            total_discounted_price += temp_discounted_price;
+
+            // output
+            txtboxtotal_quantity.Text = total_quantity.ToString("F2");
+            txtboxtotal_discounted.Text = total_discount.ToString("F2");
+            txtbox_total_discount.Text = total_discounted_price.ToString("F2");  
 
         }
 
@@ -146,6 +165,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
+           
 
         }
 
@@ -296,7 +316,10 @@ namespace ESTEVES_OOP_CPE201
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            cash_rendered = float.Parse(txtboxcash_rendered.Text);
+            change = cash_rendered - total_discounted_price;
+            //
+            changetxtbox.Text = change.ToString("F2");
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
