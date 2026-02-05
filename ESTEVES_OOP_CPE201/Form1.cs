@@ -177,7 +177,6 @@ namespace ESTEVES_OOP_CPE201
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
            
-
         }
 
         private void label34_Click(object sender, EventArgs e)
@@ -327,10 +326,20 @@ namespace ESTEVES_OOP_CPE201
 
         private void button5_Click(object sender, EventArgs e)
         {
-            cash_rendered = float.Parse(txtboxcash_rendered.Text);
-            change = cash_rendered - total_discounted_price;
             //
             changetxtbox.Text = change.ToString("F2");
+            if (cash_rendered < total_discounted_price)
+            {
+                MessageBox.Show("Insufficient Cash");
+                return;
+            }
+            //
+            changetxtbox.Text = change.ToString("F2");
+
+            cash_rendered = float.Parse(txtboxcash_rendered.Text);
+            change = cash_rendered - total_discounted_price;
+            
+           
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
