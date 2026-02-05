@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.EmployeeRdbtn = new System.Windows.Forms.RadioButton();
+            this.an_employee = new System.Windows.Forms.RadioButton();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.discount_totaltxtbox = new System.Windows.Forms.TextBox();
-            this.discountedtxtbox = new System.Windows.Forms.TextBox();
-            this.pricetextbox = new System.Windows.Forms.TextBox();
-            this.qty_totaltxtbox = new System.Windows.Forms.TextBox();
-            this.itemnametxtbox = new System.Windows.Forms.TextBox();
+            this.temp_discounted = new System.Windows.Forms.TextBox();
+            this.tenp_discount = new System.Windows.Forms.TextBox();
+            this.temp_price = new System.Windows.Forms.TextBox();
+            this.tenp_qty = new System.Windows.Forms.TextBox();
+            this.temp_name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.disconted_txtbox = new System.Windows.Forms.TextBox();
+            this.total_price = new System.Windows.Forms.TextBox();
+            this.total_discount = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cash_rendered = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.regularRbtn = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.discounted_totaltxtbox = new System.Windows.Forms.TextBox();
-            this.noTaxRdbtn = new System.Windows.Forms.RadioButton();
+            this.with_disc = new System.Windows.Forms.RadioButton();
+            this.senior_citizen = new System.Windows.Forms.RadioButton();
+            this.total_discounted = new System.Windows.Forms.TextBox();
+            this.no_discount = new System.Windows.Forms.RadioButton();
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
@@ -68,7 +68,7 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.enter_button = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label31 = new System.Windows.Forms.Label();
             this.changetxtbox = new System.Windows.Forms.TextBox();
@@ -99,67 +99,67 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.name20lbl = new System.Windows.Forms.PictureBox();
+            this.name19lbl = new System.Windows.Forms.PictureBox();
+            this.name18lbl = new System.Windows.Forms.PictureBox();
+            this.name17lbl = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.name16lbl = new System.Windows.Forms.PictureBox();
+            this.name15lbl = new System.Windows.Forms.PictureBox();
             this.name10lbl = new System.Windows.Forms.PictureBox();
             this.name4lbl = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.name14lbl = new System.Windows.Forms.PictureBox();
             this.name9lbl = new System.Windows.Forms.PictureBox();
             this.name3lbl = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.name13lbl = new System.Windows.Forms.PictureBox();
             this.name7lbl = new System.Windows.Forms.PictureBox();
             this.name1lbl = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.name12lbl = new System.Windows.Forms.PictureBox();
             this.name8lbl = new System.Windows.Forms.PictureBox();
             this.name5lbl = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.name11lbl = new System.Windows.Forms.PictureBox();
             this.name6lbl = new System.Windows.Forms.PictureBox();
             this.name2lbl = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.name20lbl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name19lbl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name18lbl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name17lbl)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name16lbl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name15lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name10lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name4lbl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name14lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name9lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name3lbl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name13lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name7lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name1lbl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name12lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name8lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name5lbl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name11lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name6lbl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.name2lbl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
-            // EmployeeRdbtn
+            // an_employee
             // 
-            this.EmployeeRdbtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.an_employee.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.EmployeeRdbtn.AutoSize = true;
-            this.EmployeeRdbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmployeeRdbtn.Location = new System.Drawing.Point(163, 94);
-            this.EmployeeRdbtn.Name = "EmployeeRdbtn";
-            this.EmployeeRdbtn.Size = new System.Drawing.Size(98, 17);
-            this.EmployeeRdbtn.TabIndex = 16;
-            this.EmployeeRdbtn.TabStop = true;
-            this.EmployeeRdbtn.Text = "Employee Disc.";
-            this.EmployeeRdbtn.UseVisualStyleBackColor = true;
-            this.EmployeeRdbtn.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            this.an_employee.AutoSize = true;
+            this.an_employee.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.an_employee.Location = new System.Drawing.Point(163, 94);
+            this.an_employee.Name = "an_employee";
+            this.an_employee.Size = new System.Drawing.Size(98, 17);
+            this.an_employee.TabIndex = 16;
+            this.an_employee.TabStop = true;
+            this.an_employee.Text = "Employee Disc.";
+            this.an_employee.UseVisualStyleBackColor = true;
+            this.an_employee.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // button4
             // 
@@ -210,57 +210,57 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // discount_totaltxtbox
+            // temp_discounted
             // 
-            this.discount_totaltxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.temp_discounted.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.discount_totaltxtbox.Location = new System.Drawing.Point(104, 118);
-            this.discount_totaltxtbox.Name = "discount_totaltxtbox";
-            this.discount_totaltxtbox.Size = new System.Drawing.Size(58, 20);
-            this.discount_totaltxtbox.TabIndex = 10;
-            this.discount_totaltxtbox.TextChanged += new System.EventHandler(this.discount_totaltxtbox_TextChanged);
+            this.temp_discounted.Location = new System.Drawing.Point(104, 118);
+            this.temp_discounted.Name = "temp_discounted";
+            this.temp_discounted.Size = new System.Drawing.Size(58, 20);
+            this.temp_discounted.TabIndex = 10;
+            this.temp_discounted.TextChanged += new System.EventHandler(this.discount_totaltxtbox_TextChanged);
             // 
-            // discountedtxtbox
+            // tenp_discount
             // 
-            this.discountedtxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tenp_discount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.discountedtxtbox.Location = new System.Drawing.Point(104, 91);
-            this.discountedtxtbox.Name = "discountedtxtbox";
-            this.discountedtxtbox.Size = new System.Drawing.Size(58, 20);
-            this.discountedtxtbox.TabIndex = 9;
-            this.discountedtxtbox.TextChanged += new System.EventHandler(this.discountedtxtbox_TextChanged);
+            this.tenp_discount.Location = new System.Drawing.Point(104, 91);
+            this.tenp_discount.Name = "tenp_discount";
+            this.tenp_discount.Size = new System.Drawing.Size(58, 20);
+            this.tenp_discount.TabIndex = 9;
+            this.tenp_discount.TextChanged += new System.EventHandler(this.discountedtxtbox_TextChanged);
             // 
-            // pricetextbox
+            // temp_price
             // 
-            this.pricetextbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.temp_price.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pricetextbox.Location = new System.Drawing.Point(104, 67);
-            this.pricetextbox.Name = "pricetextbox";
-            this.pricetextbox.Size = new System.Drawing.Size(58, 20);
-            this.pricetextbox.TabIndex = 8;
-            this.pricetextbox.TextChanged += new System.EventHandler(this.pricetextbox_TextChanged);
+            this.temp_price.Location = new System.Drawing.Point(104, 67);
+            this.temp_price.Name = "temp_price";
+            this.temp_price.Size = new System.Drawing.Size(58, 20);
+            this.temp_price.TabIndex = 8;
+            this.temp_price.TextChanged += new System.EventHandler(this.pricetextbox_TextChanged);
             // 
-            // qty_totaltxtbox
+            // tenp_qty
             // 
-            this.qty_totaltxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tenp_qty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.qty_totaltxtbox.Location = new System.Drawing.Point(104, 45);
-            this.qty_totaltxtbox.Name = "qty_totaltxtbox";
-            this.qty_totaltxtbox.ReadOnly = true;
-            this.qty_totaltxtbox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.qty_totaltxtbox.Size = new System.Drawing.Size(58, 20);
-            this.qty_totaltxtbox.TabIndex = 7;
-            this.qty_totaltxtbox.TextChanged += new System.EventHandler(this.qty_totaltxtbox_TextChanged);
+            this.tenp_qty.Location = new System.Drawing.Point(104, 45);
+            this.tenp_qty.Name = "tenp_qty";
+            this.tenp_qty.ReadOnly = true;
+            this.tenp_qty.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.tenp_qty.Size = new System.Drawing.Size(58, 20);
+            this.tenp_qty.TabIndex = 7;
+            this.tenp_qty.TextChanged += new System.EventHandler(this.qty_totaltxtbox_TextChanged);
             // 
-            // itemnametxtbox
+            // temp_name
             // 
-            this.itemnametxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.temp_name.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.itemnametxtbox.Location = new System.Drawing.Point(103, 19);
-            this.itemnametxtbox.Name = "itemnametxtbox";
-            this.itemnametxtbox.Size = new System.Drawing.Size(224, 20);
-            this.itemnametxtbox.TabIndex = 6;
-            this.itemnametxtbox.TextChanged += new System.EventHandler(this.itemnametxtbox_TextChanged);
+            this.temp_name.Location = new System.Drawing.Point(103, 19);
+            this.temp_name.Name = "temp_name";
+            this.temp_name.Size = new System.Drawing.Size(224, 20);
+            this.temp_name.TabIndex = 6;
+            this.temp_name.TextChanged += new System.EventHandler(this.itemnametxtbox_TextChanged);
             // 
             // label1
             // 
@@ -275,25 +275,25 @@
             this.label1.Text = "Name of an item:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox10
+            // total_price
             // 
-            this.textBox10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.total_price.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox10.Location = new System.Drawing.Point(120, 67);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(206, 20);
-            this.textBox10.TabIndex = 8;
-            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
+            this.total_price.Location = new System.Drawing.Point(120, 67);
+            this.total_price.Name = "total_price";
+            this.total_price.Size = new System.Drawing.Size(206, 20);
+            this.total_price.TabIndex = 8;
+            this.total_price.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
-            // disconted_txtbox
+            // total_discount
             // 
-            this.disconted_txtbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.total_discount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.disconted_txtbox.Location = new System.Drawing.Point(120, 19);
-            this.disconted_txtbox.Name = "disconted_txtbox";
-            this.disconted_txtbox.Size = new System.Drawing.Size(207, 20);
-            this.disconted_txtbox.TabIndex = 6;
-            this.disconted_txtbox.TextChanged += new System.EventHandler(this.disconted_txtbox_TextChanged);
+            this.total_discount.Location = new System.Drawing.Point(120, 19);
+            this.total_discount.Name = "total_discount";
+            this.total_discount.Size = new System.Drawing.Size(207, 20);
+            this.total_discount.TabIndex = 6;
+            this.total_discount.TextChanged += new System.EventHandler(this.disconted_txtbox_TextChanged);
             // 
             // label32
             // 
@@ -373,16 +373,16 @@
             this.label5.Text = "Discount Amount:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox6
+            // cash_rendered
             // 
-            this.textBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cash_rendered.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(3, 32);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(159, 38);
-            this.textBox6.TabIndex = 14;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.cash_rendered.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cash_rendered.Location = new System.Drawing.Point(3, 32);
+            this.cash_rendered.Name = "cash_rendered";
+            this.cash_rendered.Size = new System.Drawing.Size(159, 38);
+            this.cash_rendered.TabIndex = 14;
+            this.cash_rendered.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // label34
             // 
@@ -397,58 +397,58 @@
             this.label34.Text = "Total Discount Given:";
             this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
-            // regularRbtn
+            // with_disc
             // 
-            this.regularRbtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.with_disc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.regularRbtn.AutoSize = true;
-            this.regularRbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.regularRbtn.Location = new System.Drawing.Point(163, 72);
-            this.regularRbtn.Name = "regularRbtn";
-            this.regularRbtn.Size = new System.Drawing.Size(99, 17);
-            this.regularRbtn.TabIndex = 15;
-            this.regularRbtn.TabStop = true;
-            this.regularRbtn.Text = "With Disc. Card";
-            this.regularRbtn.UseVisualStyleBackColor = true;
-            this.regularRbtn.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.with_disc.AutoSize = true;
+            this.with_disc.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.with_disc.Location = new System.Drawing.Point(163, 72);
+            this.with_disc.Name = "with_disc";
+            this.with_disc.Size = new System.Drawing.Size(99, 17);
+            this.with_disc.TabIndex = 15;
+            this.with_disc.TabStop = true;
+            this.with_disc.Text = "With Disc. Card";
+            this.with_disc.UseVisualStyleBackColor = true;
+            this.with_disc.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // radioButton1
+            // senior_citizen
             // 
-            this.radioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.senior_citizen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(163, 46);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(89, 17);
-            this.radioButton1.TabIndex = 14;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Senior Citizen";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.senior_citizen.AutoSize = true;
+            this.senior_citizen.Location = new System.Drawing.Point(163, 46);
+            this.senior_citizen.Name = "senior_citizen";
+            this.senior_citizen.Size = new System.Drawing.Size(89, 17);
+            this.senior_citizen.TabIndex = 14;
+            this.senior_citizen.TabStop = true;
+            this.senior_citizen.Text = "Senior Citizen";
+            this.senior_citizen.UseVisualStyleBackColor = true;
+            this.senior_citizen.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
-            // discounted_totaltxtbox
+            // total_discounted
             // 
-            this.discounted_totaltxtbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.total_discounted.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.discounted_totaltxtbox.Location = new System.Drawing.Point(120, 45);
-            this.discounted_totaltxtbox.Name = "discounted_totaltxtbox";
-            this.discounted_totaltxtbox.Size = new System.Drawing.Size(207, 20);
-            this.discounted_totaltxtbox.TabIndex = 7;
-            this.discounted_totaltxtbox.TextChanged += new System.EventHandler(this.discounted_totaltxtbox_TextChanged);
+            this.total_discounted.Location = new System.Drawing.Point(120, 45);
+            this.total_discounted.Name = "total_discounted";
+            this.total_discounted.Size = new System.Drawing.Size(207, 20);
+            this.total_discounted.TabIndex = 7;
+            this.total_discounted.TextChanged += new System.EventHandler(this.discounted_totaltxtbox_TextChanged);
             // 
-            // noTaxRdbtn
+            // no_discount
             // 
-            this.noTaxRdbtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.no_discount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.noTaxRdbtn.AutoSize = true;
-            this.noTaxRdbtn.Location = new System.Drawing.Point(163, 119);
-            this.noTaxRdbtn.Name = "noTaxRdbtn";
-            this.noTaxRdbtn.Size = new System.Drawing.Size(82, 17);
-            this.noTaxRdbtn.TabIndex = 17;
-            this.noTaxRdbtn.TabStop = true;
-            this.noTaxRdbtn.Text = "No discount";
-            this.noTaxRdbtn.UseVisualStyleBackColor = true;
-            this.noTaxRdbtn.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
+            this.no_discount.AutoSize = true;
+            this.no_discount.Location = new System.Drawing.Point(163, 119);
+            this.no_discount.Name = "no_discount";
+            this.no_discount.Size = new System.Drawing.Size(82, 17);
+            this.no_discount.TabIndex = 17;
+            this.no_discount.TabStop = true;
+            this.no_discount.Text = "No discount";
+            this.no_discount.UseVisualStyleBackColor = true;
+            this.no_discount.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // button19
             // 
@@ -630,25 +630,25 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button5
+            // enter_button
             // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.enter_button.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.Location = new System.Drawing.Point(16, 409);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(162, 112);
-            this.button5.TabIndex = 157;
-            this.button5.Text = "ENTER";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.enter_button.Location = new System.Drawing.Point(16, 409);
+            this.enter_button.Name = "enter_button";
+            this.enter_button.Size = new System.Drawing.Size(162, 112);
+            this.enter_button.TabIndex = 157;
+            this.enter_button.Text = "ENTER";
+            this.enter_button.UseVisualStyleBackColor = true;
+            this.enter_button.Click += new System.EventHandler(this.button5_Click);
             // 
             // groupBox3
             // 
             this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.Controls.Add(this.textBox10);
-            this.groupBox3.Controls.Add(this.discounted_totaltxtbox);
-            this.groupBox3.Controls.Add(this.disconted_txtbox);
+            this.groupBox3.Controls.Add(this.total_price);
+            this.groupBox3.Controls.Add(this.total_discounted);
+            this.groupBox3.Controls.Add(this.total_discount);
             this.groupBox3.Controls.Add(this.label32);
             this.groupBox3.Controls.Add(this.label33);
             this.groupBox3.Controls.Add(this.label34);
@@ -752,19 +752,19 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.noTaxRdbtn);
-            this.groupBox1.Controls.Add(this.EmployeeRdbtn);
-            this.groupBox1.Controls.Add(this.regularRbtn);
-            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.no_discount);
+            this.groupBox1.Controls.Add(this.an_employee);
+            this.groupBox1.Controls.Add(this.with_disc);
+            this.groupBox1.Controls.Add(this.senior_citizen);
             this.groupBox1.Controls.Add(this.button4);
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.discount_totaltxtbox);
-            this.groupBox1.Controls.Add(this.discountedtxtbox);
-            this.groupBox1.Controls.Add(this.pricetextbox);
-            this.groupBox1.Controls.Add(this.qty_totaltxtbox);
-            this.groupBox1.Controls.Add(this.itemnametxtbox);
+            this.groupBox1.Controls.Add(this.temp_discounted);
+            this.groupBox1.Controls.Add(this.tenp_discount);
+            this.groupBox1.Controls.Add(this.temp_price);
+            this.groupBox1.Controls.Add(this.tenp_qty);
+            this.groupBox1.Controls.Add(this.temp_name);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
@@ -1029,10 +1029,10 @@
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.pictureBox6);
-            this.groupBox2.Controls.Add(this.pictureBox5);
-            this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.pictureBox1);
+            this.groupBox2.Controls.Add(this.name20lbl);
+            this.groupBox2.Controls.Add(this.name19lbl);
+            this.groupBox2.Controls.Add(this.name18lbl);
+            this.groupBox2.Controls.Add(this.name17lbl);
             this.groupBox2.Location = new System.Drawing.Point(378, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(501, 522);
@@ -1041,11 +1041,56 @@
             this.groupBox2.Text = "Items Display";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
+            // name20lbl
+            // 
+            this.name20lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.name20lbl.Location = new System.Drawing.Point(398, 397);
+            this.name20lbl.Name = "name20lbl";
+            this.name20lbl.Size = new System.Drawing.Size(91, 88);
+            this.name20lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name20lbl.TabIndex = 224;
+            this.name20lbl.TabStop = false;
+            // 
+            // name19lbl
+            // 
+            this.name19lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.name19lbl.Location = new System.Drawing.Point(301, 397);
+            this.name19lbl.Name = "name19lbl";
+            this.name19lbl.Size = new System.Drawing.Size(91, 88);
+            this.name19lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name19lbl.TabIndex = 223;
+            this.name19lbl.TabStop = false;
+            // 
+            // name18lbl
+            // 
+            this.name18lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.name18lbl.Location = new System.Drawing.Point(205, 398);
+            this.name18lbl.Name = "name18lbl";
+            this.name18lbl.Size = new System.Drawing.Size(91, 88);
+            this.name18lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name18lbl.TabIndex = 222;
+            this.name18lbl.TabStop = false;
+            this.name18lbl.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // name17lbl
+            // 
+            this.name17lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.name17lbl.Location = new System.Drawing.Point(111, 398);
+            this.name17lbl.Name = "name17lbl";
+            this.name17lbl.Size = new System.Drawing.Size(91, 88);
+            this.name17lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name17lbl.TabIndex = 221;
+            this.name17lbl.TabStop = false;
+            // 
             // groupBox4
             // 
             this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox4.Controls.Add(this.textBox6);
+            this.groupBox4.Controls.Add(this.cash_rendered);
             this.groupBox4.Location = new System.Drawing.Point(16, 322);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(333, 81);
@@ -1053,30 +1098,30 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
             // 
-            // pictureBox20
+            // name16lbl
             // 
-            this.pictureBox20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.name16lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox20.Location = new System.Drawing.Point(388, 410);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(91, 88);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 175;
-            this.pictureBox20.TabStop = false;
-            this.pictureBox20.Click += new System.EventHandler(this.pictureBox20_Click);
+            this.name16lbl.Location = new System.Drawing.Point(388, 410);
+            this.name16lbl.Name = "name16lbl";
+            this.name16lbl.Size = new System.Drawing.Size(91, 88);
+            this.name16lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name16lbl.TabIndex = 175;
+            this.name16lbl.TabStop = false;
+            this.name16lbl.Click += new System.EventHandler(this.pictureBox20_Click);
             // 
-            // pictureBox4
+            // name15lbl
             // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.name15lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox4.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_182530;
-            this.pictureBox4.Location = new System.Drawing.Point(775, 288);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(91, 88);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 173;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.name15lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_182530;
+            this.name15lbl.Location = new System.Drawing.Point(775, 288);
+            this.name15lbl.Name = "name15lbl";
+            this.name15lbl.Size = new System.Drawing.Size(91, 88);
+            this.name15lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name15lbl.TabIndex = 173;
+            this.name15lbl.TabStop = false;
+            this.name15lbl.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // name10lbl
             // 
@@ -1104,18 +1149,18 @@
             this.name4lbl.TabStop = false;
             this.name4lbl.Click += new System.EventHandler(this.name4lbl_Click);
             // 
-            // pictureBox15
+            // name14lbl
             // 
-            this.pictureBox15.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.name14lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox15.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181822;
-            this.pictureBox15.Location = new System.Drawing.Point(679, 288);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(93, 88);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 170;
-            this.pictureBox15.TabStop = false;
-            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
+            this.name14lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181822;
+            this.name14lbl.Location = new System.Drawing.Point(679, 288);
+            this.name14lbl.Name = "name14lbl";
+            this.name14lbl.Size = new System.Drawing.Size(93, 88);
+            this.name14lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name14lbl.TabIndex = 170;
+            this.name14lbl.TabStop = false;
+            this.name14lbl.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
             // name9lbl
             // 
@@ -1143,18 +1188,18 @@
             this.name3lbl.TabStop = false;
             this.name3lbl.Click += new System.EventHandler(this.name3lbl_Click);
             // 
-            // pictureBox12
+            // name13lbl
             // 
-            this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.name13lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox12.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181741;
-            this.pictureBox12.Location = new System.Drawing.Point(581, 288);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(93, 88);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 167;
-            this.pictureBox12.TabStop = false;
-            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
+            this.name13lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181741;
+            this.name13lbl.Location = new System.Drawing.Point(581, 288);
+            this.name13lbl.Name = "name13lbl";
+            this.name13lbl.Size = new System.Drawing.Size(93, 88);
+            this.name13lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name13lbl.TabIndex = 167;
+            this.name13lbl.TabStop = false;
+            this.name13lbl.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // name7lbl
             // 
@@ -1182,18 +1227,18 @@
             this.name1lbl.TabStop = false;
             this.name1lbl.Click += new System.EventHandler(this.name1lbl_Click);
             // 
-            // pictureBox9
+            // name12lbl
             // 
-            this.pictureBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.name12lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox9.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181656;
-            this.pictureBox9.Location = new System.Drawing.Point(488, 288);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(92, 88);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 164;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.name12lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181656;
+            this.name12lbl.Location = new System.Drawing.Point(488, 288);
+            this.name12lbl.Name = "name12lbl";
+            this.name12lbl.Size = new System.Drawing.Size(92, 88);
+            this.name12lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name12lbl.TabIndex = 164;
+            this.name12lbl.TabStop = false;
+            this.name12lbl.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // name8lbl
             // 
@@ -1221,18 +1266,18 @@
             this.name5lbl.TabStop = false;
             this.name5lbl.Click += new System.EventHandler(this.name5lbl_Click);
             // 
-            // pictureBox3
+            // name11lbl
             // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.name11lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181555;
-            this.pictureBox3.Location = new System.Drawing.Point(387, 288);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(91, 88);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 161;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.name11lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181555;
+            this.name11lbl.Location = new System.Drawing.Point(387, 288);
+            this.name11lbl.Name = "name11lbl";
+            this.name11lbl.Size = new System.Drawing.Size(91, 88);
+            this.name11lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.name11lbl.TabIndex = 161;
+            this.name11lbl.TabStop = false;
+            this.name11lbl.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // name6lbl
             // 
@@ -1260,51 +1305,6 @@
             this.name2lbl.TabStop = false;
             this.name2lbl.Click += new System.EventHandler(this.name2lbl_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(111, 398);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(91, 88);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 221;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Location = new System.Drawing.Point(205, 398);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(91, 88);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 222;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.Location = new System.Drawing.Point(301, 397);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(91, 88);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 223;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox6.Location = new System.Drawing.Point(398, 397);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(91, 88);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 224;
-            this.pictureBox6.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1325,7 +1325,7 @@
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.enter_button);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.changetxtbox);
@@ -1353,21 +1353,21 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.name16lbl);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.name15lbl);
             this.Controls.Add(this.name10lbl);
             this.Controls.Add(this.name4lbl);
-            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.name14lbl);
             this.Controls.Add(this.name9lbl);
             this.Controls.Add(this.name3lbl);
-            this.Controls.Add(this.pictureBox12);
+            this.Controls.Add(this.name13lbl);
             this.Controls.Add(this.name7lbl);
             this.Controls.Add(this.name1lbl);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.name12lbl);
             this.Controls.Add(this.name8lbl);
             this.Controls.Add(this.name5lbl);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.name11lbl);
             this.Controls.Add(this.name6lbl);
             this.Controls.Add(this.name2lbl);
             this.Controls.Add(this.label3);
@@ -1381,28 +1381,28 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.name20lbl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name19lbl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name18lbl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name17lbl)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name16lbl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name15lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name10lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name4lbl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name14lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name9lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name3lbl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name13lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name7lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name1lbl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name12lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name8lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name5lbl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.name11lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name6lbl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.name2lbl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1410,31 +1410,31 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton EmployeeRdbtn;
+        private System.Windows.Forms.RadioButton an_employee;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox discount_totaltxtbox;
-        private System.Windows.Forms.TextBox discountedtxtbox;
-        private System.Windows.Forms.TextBox pricetextbox;
-        private System.Windows.Forms.TextBox qty_totaltxtbox;
-        private System.Windows.Forms.TextBox itemnametxtbox;
+        private System.Windows.Forms.TextBox temp_discounted;
+        private System.Windows.Forms.TextBox tenp_discount;
+        private System.Windows.Forms.TextBox temp_price;
+        private System.Windows.Forms.TextBox tenp_qty;
+        private System.Windows.Forms.TextBox temp_name;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox disconted_txtbox;
+        private System.Windows.Forms.TextBox total_price;
+        private System.Windows.Forms.TextBox total_discount;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox cash_rendered;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.RadioButton regularRbtn;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox discounted_totaltxtbox;
-        private System.Windows.Forms.RadioButton noTaxRdbtn;
+        private System.Windows.Forms.RadioButton with_disc;
+        private System.Windows.Forms.RadioButton senior_citizen;
+        private System.Windows.Forms.TextBox total_discounted;
+        private System.Windows.Forms.RadioButton no_discount;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button18;
@@ -1450,7 +1450,7 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button enter_button;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.TextBox changetxtbox;
@@ -1478,29 +1478,29 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox name16lbl;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox name15lbl;
         private System.Windows.Forms.PictureBox name10lbl;
         private System.Windows.Forms.PictureBox name4lbl;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox name14lbl;
         private System.Windows.Forms.PictureBox name9lbl;
         private System.Windows.Forms.PictureBox name3lbl;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox name13lbl;
         private System.Windows.Forms.PictureBox name7lbl;
         private System.Windows.Forms.PictureBox name1lbl;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox name12lbl;
         private System.Windows.Forms.PictureBox name8lbl;
         private System.Windows.Forms.PictureBox name5lbl;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox name11lbl;
         private System.Windows.Forms.PictureBox name6lbl;
         private System.Windows.Forms.PictureBox name2lbl;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox name18lbl;
+        private System.Windows.Forms.PictureBox name17lbl;
+        private System.Windows.Forms.PictureBox name20lbl;
+        private System.Windows.Forms.PictureBox name19lbl;
     }
 }
