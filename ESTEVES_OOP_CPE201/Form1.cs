@@ -39,6 +39,53 @@ namespace ESTEVES_OOP_CPE201
             InitializeComponent();
         }
 
+        private void DisablePicBox()
+        {
+            name1lbl.Enabled = false;
+            name2lbl.Enabled = false;
+            name3lbl.Enabled = false;
+            name4lbl.Enabled = false;
+            name5lbl.Enabled = false;
+            name6lbl.Enabled = false;
+            name7lbl.Enabled = false;
+            name8lbl.Enabled = false;
+            name9lbl.Enabled = false;
+            name10lbl.Enabled = false;
+            name11lbl.Enabled = false;
+            name12lbl.Enabled = false;
+            name13lbl.Enabled = false;
+            name14lbl.Enabled = false;
+            name15lbl.Enabled = false;
+            name16lbl.Enabled = false;
+            name17lbl.Enabled = false;
+            name18lbl.Enabled = false;
+            name19lbl.Enabled = false;
+            name20lbl.Enabled = false;
+        }
+
+        private void enablepicbox()
+        {
+            name1lbl.Enabled = true;
+            name2lbl.Enabled = true;
+            name3lbl.Enabled = true;
+            name4lbl.Enabled = true;
+            name5lbl.Enabled = true;
+            name6lbl.Enabled = true;
+            name7lbl.Enabled = true;
+            name8lbl.Enabled = true;
+            name9lbl.Enabled = true;
+            name10lbl.Enabled = true;
+            name11lbl.Enabled = true;
+            name12lbl.Enabled = true;
+            name13lbl.Enabled = true;
+            name14lbl.Enabled = true;
+            name15lbl.Enabled = true;
+            name16lbl.Enabled = true;
+            name17lbl.Enabled = true;
+            name18lbl.Enabled = true;
+            name19lbl.Enabled = true;
+            name20lbl.Enabled = true;
+        }   
         private void Form1_Load(object sender, EventArgs e)
         {
             name16lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
@@ -73,6 +120,13 @@ namespace ESTEVES_OOP_CPE201
             temp_price = 0;
             temp_discount = 0;
             temp_discounted_price = 0;
+            //enable all picture boxes
+            enablepicbox();
+             total_quantity = 0;
+             total_discount = 0;
+             total_discounted_price = 0;
+             cash_rendered = 0;
+             change = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -89,10 +143,13 @@ namespace ESTEVES_OOP_CPE201
             temp_price = 0;
             temp_discount = 0;
             temp_discounted_price = 0;
+            //enable all picture boxes
+            enablepicbox();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             total_quantity += temp_qty;
             total_discount += temp_discount;
             total_discounted_price += temp_discounted_price;
@@ -100,8 +157,19 @@ namespace ESTEVES_OOP_CPE201
             // output
             txtboxtotal_quantity.Text = total_quantity.ToString("F2");
             txtboxtotal_discounted.Text = total_discount.ToString("F2");
-            txtbox_total_discount.Text = total_discounted_price.ToString("F2");  
-
+            txtbox_total_discount.Text = total_discounted_price.ToString("F2");
+            //enable all picture boxes
+            enablepicbox();
+            // reset temp variables 
+            txtbox_itemname.Clear();
+            txtbox_price.Clear();
+            txtbox_discount.Clear();
+            txtbox_qty.Clear();
+            txtbox_discounted.Clear();
+            //quantity reset
+           
+            temp_qty = 0;
+             
         }
 
         private void discount_totaltxtbox_TextChanged(object sender, EventArgs e)
@@ -519,6 +587,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox20_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name16lbl.Enabled = true;
             // input
             temp_name = "1-pc. Chickenjoy w/ Pepsi Float";
             currenty_temp_price = 134;
@@ -540,6 +611,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name15lbl.Enabled = true;
             // input
             temp_name = "1-pc. Burger Steak";
             currenty_temp_price = 69;
@@ -561,6 +635,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name10lbl.Enabled = true;
             // input
             temp_name = "10-pc. Chicken Nuggets";
             currenty_temp_price = 187;
@@ -582,6 +659,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name4lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name4lbl.Enabled = true;
             // input
             temp_name = "6-pc. Chicken Nuggets";
             currenty_temp_price = 106;
@@ -603,6 +683,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name14lbl.Enabled = true;
             // input
             temp_name = "1-pc. Burger Steak w/ Fries and Drink";
             currenty_temp_price = 133;
@@ -624,6 +707,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name9lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name9lbl.Enabled = true;
             // input
             temp_name = "Burger Steak w/ Palabok Family Plan";
             currenty_temp_price = 923;
@@ -645,6 +731,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name3lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name3lbl.Enabled = true;
             // input
             temp_name = "Double Cheesy Yumburger";
             currenty_temp_price = 80;
@@ -666,6 +755,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name13lbl.Enabled = true;
             // input
             temp_name = "Cookies and Cream Sundae";
             currenty_temp_price = 59;
@@ -687,6 +779,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name7lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name7lbl.Enabled = true;
             // input
             temp_name = "Yumburger";
             currenty_temp_price = 42;
@@ -708,6 +803,10 @@ namespace ESTEVES_OOP_CPE201
 
         private void name1lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name1lbl.Enabled = true;
+
             // input
             temp_name = "Cheesy Yumburger";
             currenty_temp_price = 72;
@@ -729,6 +828,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name12lbl.Enabled = true;
             // input
             temp_name = "Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal w/ Drink";
             currenty_temp_price = 139;
@@ -736,6 +838,7 @@ namespace ESTEVES_OOP_CPE201
 
             // process
             temp_price = currenty_temp_price * temp_qty;
+
             temp_discount = temp_price * currentlyapplieddiscount;
             temp_discounted_price = temp_price - temp_discount;
 
@@ -750,6 +853,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name8lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name8lbl.Enabled = true;
             // input
             temp_name = "2 pc - Chickenjoy";
             currenty_temp_price = 169;
@@ -771,6 +877,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name5lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name5lbl.Enabled = true;
             // input
             temp_name = "1 pc - Chickenjoy";
             currenty_temp_price = 85;
@@ -792,6 +901,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name11lbl.Enabled = true;
             // input
             temp_name = "1-pc. Chickenjoy w/ Jolly Spaghetti";
             currenty_temp_price = 135;
@@ -813,6 +925,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name6lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name6lbl.Enabled = true;
             // input
             temp_name = "Chickenjoy, Burger Steak & Half Jolly Spaghetti Super Meal w/ Drink";
             currenty_temp_price = 218;
@@ -834,6 +949,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name2lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name2lbl.Enabled = true;
             // input
             temp_name = "Chickenjoy with Palabok Family Pan";
             currenty_temp_price = 927;
@@ -874,6 +992,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name18lbl.Enabled = true;
             // input
             temp_name = "6-pc. Chicken Nuggets";
             currenty_temp_price = 106;
@@ -895,6 +1016,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name17lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name17lbl.Enabled = true;
             // input
             temp_name = "10-pc. Chicken Nuggets";
             currenty_temp_price = 187;
@@ -916,6 +1040,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name19lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name19lbl.Enabled = true;
             // input
             temp_name = "Iced Mocha Float";
             currenty_temp_price = 80;
@@ -937,6 +1064,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void name20lbl_Click(object sender, EventArgs e)
         {
+            //code to disable all picture boxes except the one that was clicked
+            DisablePicBox();
+            name20lbl.Enabled = true;
             // input
             temp_name = "Iced Mocha";
             currenty_temp_price = 69;
