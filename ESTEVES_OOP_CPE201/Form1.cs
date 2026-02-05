@@ -31,9 +31,9 @@ namespace ESTEVES_OOP_CPE201
         float currentlyapplieddiscount = 0;
 
         float disc_nodisc = 0;
-        float disc_card = 0.20f;
+        float disc_card = 0.10f;
         float disc_senior = 0.30f;
-        float disc_employee = 0.10f;
+        float disc_employee = 0.15f;
         public Form1()
         {
             InitializeComponent();
@@ -41,7 +41,11 @@ namespace ESTEVES_OOP_CPE201
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+            name16lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
+            name17lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
+            name18lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
+            name19lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
+            name20lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181808.png");
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -62,6 +66,13 @@ namespace ESTEVES_OOP_CPE201
             txtbox_discounted.Clear();
             txtboxcash_rendered.Clear();
             changetxtbox.Clear();
+
+            // process
+            temp_name = "";
+            temp_qty = 0;
+            temp_price = 0;
+            temp_discount = 0;
+            temp_discounted_price = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -241,42 +252,42 @@ namespace ESTEVES_OOP_CPE201
 
         private void button19_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 1;
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += ".";
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 0;
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 5;
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 4;
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 3;
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 2;
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 9;
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -286,7 +297,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void button12_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 8;
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -296,7 +307,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void button8_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 7;
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -306,7 +317,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void button7_Click(object sender, EventArgs e)
         {
-
+            txtboxcash_rendered.Text += 6;
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -500,8 +511,8 @@ namespace ESTEVES_OOP_CPE201
         private void pictureBox20_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "Order1";
-            currenty_temp_price = 80;
+            temp_name = "1-pc. Chickenjoy w/ Pepsi Float";
+            currenty_temp_price = 134;
             temp_qty += 1;
 
             // process
@@ -521,8 +532,8 @@ namespace ESTEVES_OOP_CPE201
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "1-pc. Chickenjoy w/ Pepsi Float";
-            currenty_temp_price = 134;
+            temp_name = "1-pc. Burger Steak";
+            currenty_temp_price = 69;
             temp_qty += 1;
 
             // process
@@ -584,8 +595,8 @@ namespace ESTEVES_OOP_CPE201
         private void pictureBox15_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "Iced Mocha Float";
-            currenty_temp_price = 80;
+            temp_name = "1-pc. Burger Steak w/ Fries and Drink";
+            currenty_temp_price = 133;
             temp_qty += 1;
 
             // process
@@ -605,8 +616,8 @@ namespace ESTEVES_OOP_CPE201
         private void name9lbl_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "Iced Mocha";
-            currenty_temp_price = 69;
+            temp_name = "Burger Steak w/ Palabok Family Plan";
+            currenty_temp_price = 923;
             temp_qty += 1;
 
             // process
@@ -711,7 +722,7 @@ namespace ESTEVES_OOP_CPE201
         {
             // input
             temp_name = "Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal w/ Drink";
-            currenty_temp_price = 80;
+            currenty_temp_price = 139;
             temp_qty += 1;
 
             // process
@@ -855,8 +866,8 @@ namespace ESTEVES_OOP_CPE201
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "Order1";
-            currenty_temp_price = 80;
+            temp_name = "6-pc. Chicken Nuggets";
+            currenty_temp_price = 106;
             temp_qty += 1;
 
             // process
@@ -876,8 +887,8 @@ namespace ESTEVES_OOP_CPE201
         private void name17lbl_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "Order1";
-            currenty_temp_price = 80;
+            temp_name = "10-pc. Chicken Nuggets";
+            currenty_temp_price = 187;
             temp_qty += 1;
 
             // process
@@ -897,7 +908,7 @@ namespace ESTEVES_OOP_CPE201
         private void name19lbl_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "Order1";
+            temp_name = "Iced Mocha Float";
             currenty_temp_price = 80;
             temp_qty += 1;
 
@@ -918,8 +929,8 @@ namespace ESTEVES_OOP_CPE201
         private void name20lbl_Click(object sender, EventArgs e)
         {
             // input
-            temp_name = "Order1";
-            currenty_temp_price = 80;
+            temp_name = "Iced Mocha";
+            currenty_temp_price = 69;
             temp_qty += 1;
 
             // process

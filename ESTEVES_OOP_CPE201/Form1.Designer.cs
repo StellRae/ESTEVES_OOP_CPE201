@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.an_employee = new System.Windows.Forms.RadioButton();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -1117,7 +1118,7 @@
             // 
             this.name15lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.name15lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_182530;
+            this.name15lbl.Image = ((System.Drawing.Image)(resources.GetObject("name15lbl.Image")));
             this.name15lbl.Location = new System.Drawing.Point(775, 288);
             this.name15lbl.Name = "name15lbl";
             this.name15lbl.Size = new System.Drawing.Size(91, 88);
@@ -1156,7 +1157,7 @@
             // 
             this.name14lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.name14lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181822;
+            this.name14lbl.Image = ((System.Drawing.Image)(resources.GetObject("name14lbl.Image")));
             this.name14lbl.Location = new System.Drawing.Point(679, 288);
             this.name14lbl.Name = "name14lbl";
             this.name14lbl.Size = new System.Drawing.Size(93, 88);
@@ -1169,7 +1170,7 @@
             // 
             this.name9lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.name9lbl.Image = global::ESTEVES_OOP_CPE201.Properties.Resources.Screenshot_2026_01_28_181808;
+            this.name9lbl.Image = ((System.Drawing.Image)(resources.GetObject("name9lbl.Image")));
             this.name9lbl.Location = new System.Drawing.Point(681, 157);
             this.name9lbl.Name = "name9lbl";
             this.name9lbl.Size = new System.Drawing.Size(93, 98);
