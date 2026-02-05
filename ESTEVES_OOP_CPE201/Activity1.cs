@@ -69,7 +69,7 @@ namespace ESTEVES_OOP_CPE201
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             itemnameTxtbox.Text = "1 pc - Chickenjoy";
-            priceTxtbox.Text = "₱ 135.00";
+            priceTxtbox.Text = "₱ 85.00";
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)

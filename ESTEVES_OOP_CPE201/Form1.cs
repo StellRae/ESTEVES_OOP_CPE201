@@ -499,51 +499,6 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox20_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name4lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name9lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name3lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name7lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name1lbl_Click(object sender, EventArgs e)
-        {
             // input
             temp_name = "Order1";
             currenty_temp_price = 80;
@@ -553,44 +508,329 @@ namespace ESTEVES_OOP_CPE201
             temp_price = currenty_temp_price * temp_qty;
             temp_discount = temp_price * currentlyapplieddiscount;
             temp_discounted_price = temp_price - temp_discount;
-            
+
 
             // output
             txtbox_itemname.Text = temp_name;
             txtbox_price.Text = temp_price.ToString("F2");
-            txtbox_qty. Text = temp_qty.ToString("F2");
-            txtbox_discount. Text = temp_discount.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "1-pc. Chickenjoy w/ Pepsi Float";
+            currenty_temp_price = 134;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "10-pc. Chicken Nuggets";
+            currenty_temp_price = 187;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name4lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "6-pc. Chicken Nuggets";
+            currenty_temp_price = 106;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Iced Mocha Float";
+            currenty_temp_price = 80;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name9lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Iced Mocha";
+            currenty_temp_price = 69;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name3lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Double Cheesy Yumburger";
+            currenty_temp_price = 80;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Cookies and Cream Sundae";
+            currenty_temp_price = 59;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name7lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Yumburger";
+            currenty_temp_price = 42;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name1lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Cheesy Yumburger";
+            currenty_temp_price = 72;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
             txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal w/ Drink";
+            currenty_temp_price = 80;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void name8lbl_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "2 pc - Chickenjoy";
+            currenty_temp_price = 169;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void name5lbl_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "1 pc - Chickenjoy";
+            currenty_temp_price = 85;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "1-pc. Chickenjoy w/ Jolly Spaghetti";
+            currenty_temp_price = 135;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void name6lbl_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "Chickenjoy, Burger Steak & Half Jolly Spaghetti Super Meal w/ Drink";
+            currenty_temp_price = 218;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void name2lbl_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "Chickenjoy with Palabok Family Pan";
+            currenty_temp_price = 927;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
@@ -614,7 +854,86 @@ namespace ESTEVES_OOP_CPE201
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "Order1";
+            currenty_temp_price = 80;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name17lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Order1";
+            currenty_temp_price = 80;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name19lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Order1";
+            currenty_temp_price = 80;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+        }
+
+        private void name20lbl_Click(object sender, EventArgs e)
+        {
+            // input
+            temp_name = "Order1";
+            currenty_temp_price = 80;
+            temp_qty += 1;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
     }
 }

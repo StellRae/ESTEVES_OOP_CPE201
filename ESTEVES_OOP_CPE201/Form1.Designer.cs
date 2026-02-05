@@ -784,9 +784,9 @@
             this.label21.AutoSize = true;
             this.label21.Location = new System.Drawing.Point(578, 511);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(35, 13);
+            this.label21.Size = new System.Drawing.Size(48, 13);
             this.label21.TabIndex = 197;
-            this.label21.Text = "Name";
+            this.label21.Text = "Order 18";
             this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // label22
@@ -796,9 +796,9 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(486, 511);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(35, 13);
+            this.label22.Size = new System.Drawing.Size(48, 13);
             this.label22.TabIndex = 196;
-            this.label22.Text = "Name";
+            this.label22.Text = "Order 17";
             this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // label23
@@ -809,9 +809,9 @@
             this.label23.Location = new System.Drawing.Point(389, 511);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(35, 13);
+            this.label23.Size = new System.Drawing.Size(48, 13);
             this.label23.TabIndex = 195;
-            this.label23.Text = "Name";
+            this.label23.Text = "Order 16";
             this.label23.Click += new System.EventHandler(this.label23_Click);
             // 
             // label24
@@ -821,9 +821,9 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(771, 511);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(35, 13);
+            this.label24.Size = new System.Drawing.Size(48, 13);
             this.label24.TabIndex = 194;
-            this.label24.Text = "Name";
+            this.label24.Text = "Order 20";
             this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // label25
@@ -834,9 +834,9 @@
             this.label25.Location = new System.Drawing.Point(677, 511);
             this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(35, 13);
+            this.label25.Size = new System.Drawing.Size(48, 13);
             this.label25.TabIndex = 193;
-            this.label25.Text = "Name";
+            this.label25.Text = "Order 19";
             this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label16
@@ -846,9 +846,9 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(578, 394);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(35, 13);
+            this.label16.Size = new System.Drawing.Size(48, 13);
             this.label16.TabIndex = 192;
-            this.label16.Text = "Name";
+            this.label16.Text = "Order 13";
             this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // label17
@@ -858,9 +858,9 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(486, 394);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(35, 13);
+            this.label17.Size = new System.Drawing.Size(48, 13);
             this.label17.TabIndex = 191;
-            this.label17.Text = "Name";
+            this.label17.Text = "Order 12";
             this.label17.Click += new System.EventHandler(this.label17_Click);
             // 
             // label18
@@ -871,9 +871,9 @@
             this.label18.Location = new System.Drawing.Point(389, 394);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(35, 13);
+            this.label18.Size = new System.Drawing.Size(48, 13);
             this.label18.TabIndex = 190;
-            this.label18.Text = "Name";
+            this.label18.Text = "Order 11";
             this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label19
@@ -883,9 +883,9 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(771, 394);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(35, 13);
+            this.label19.Size = new System.Drawing.Size(48, 13);
             this.label19.TabIndex = 189;
-            this.label19.Text = "Name";
+            this.label19.Text = "Order 15";
             this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label20
@@ -896,9 +896,9 @@
             this.label20.Location = new System.Drawing.Point(677, 394);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(35, 13);
+            this.label20.Size = new System.Drawing.Size(48, 13);
             this.label20.TabIndex = 188;
-            this.label20.Text = "Name";
+            this.label20.Text = "Order 14";
             this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label7
@@ -908,9 +908,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(578, 272);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.Size = new System.Drawing.Size(42, 13);
             this.label7.TabIndex = 187;
-            this.label7.Text = "Name";
+            this.label7.Text = "Order 8";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label12
@@ -920,9 +920,9 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(486, 272);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(35, 13);
+            this.label12.Size = new System.Drawing.Size(42, 13);
             this.label12.TabIndex = 186;
-            this.label12.Text = "Name";
+            this.label12.Text = "Order 7";
             this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
@@ -933,9 +933,9 @@
             this.label13.Location = new System.Drawing.Point(389, 272);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(35, 13);
+            this.label13.Size = new System.Drawing.Size(42, 13);
             this.label13.TabIndex = 185;
-            this.label13.Text = "Name";
+            this.label13.Text = "Order 6";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
@@ -945,9 +945,9 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(771, 272);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(35, 13);
+            this.label14.Size = new System.Drawing.Size(48, 13);
             this.label14.TabIndex = 184;
-            this.label14.Text = "Name";
+            this.label14.Text = "Order 10";
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label15
@@ -958,9 +958,9 @@
             this.label15.Location = new System.Drawing.Point(677, 272);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 13);
+            this.label15.Size = new System.Drawing.Size(42, 13);
             this.label15.TabIndex = 183;
-            this.label15.Text = "Name";
+            this.label15.Text = "Order 9";
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label9
@@ -970,9 +970,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(579, 141);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(42, 13);
             this.label9.TabIndex = 182;
-            this.label9.Text = "Name";
+            this.label9.Text = "Order 3";
             this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
@@ -982,9 +982,9 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(487, 141);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(35, 13);
+            this.label10.Size = new System.Drawing.Size(42, 13);
             this.label10.TabIndex = 181;
-            this.label10.Text = "Name";
+            this.label10.Text = "Order 2";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
@@ -995,9 +995,9 @@
             this.label11.Location = new System.Drawing.Point(390, 141);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(35, 13);
+            this.label11.Size = new System.Drawing.Size(42, 13);
             this.label11.TabIndex = 180;
-            this.label11.Text = "Name";
+            this.label11.Text = "Order 1";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label8
@@ -1007,9 +1007,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(772, 141);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(42, 13);
             this.label8.TabIndex = 174;
-            this.label8.Text = "Name";
+            this.label8.Text = "Order 5";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label3
@@ -1020,9 +1020,9 @@
             this.label3.Location = new System.Drawing.Point(678, 141);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 154;
-            this.label3.Text = "Name";
+            this.label3.Text = "Order 4";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // groupBox2
@@ -1051,6 +1051,7 @@
             this.name20lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.name20lbl.TabIndex = 224;
             this.name20lbl.TabStop = false;
+            this.name20lbl.Click += new System.EventHandler(this.name20lbl_Click);
             // 
             // name19lbl
             // 
@@ -1062,6 +1063,7 @@
             this.name19lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.name19lbl.TabIndex = 223;
             this.name19lbl.TabStop = false;
+            this.name19lbl.Click += new System.EventHandler(this.name19lbl_Click);
             // 
             // name18lbl
             // 
@@ -1085,6 +1087,7 @@
             this.name17lbl.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.name17lbl.TabIndex = 221;
             this.name17lbl.TabStop = false;
+            this.name17lbl.Click += new System.EventHandler(this.name17lbl_Click);
             // 
             // groupBox4
             // 
