@@ -12,6 +12,26 @@ namespace ESTEVES_OOP_CPE201
 {
     public partial class Form1 : Form
     {
+
+        //var
+        string temp_name = "";
+        float temp_qty = 0;
+        float temp_price = 0;
+        float temp_discount = 0;
+        float temp_discounted_price = 0;
+
+        float currenty_temp_price = 0;
+        float total_quantity = 0;
+        float total_discount = 0;
+        float total_discounted_price = 0;
+
+        //input
+        float currentlyapplieddiscount = 0;
+
+        float disc_nodisc = 0;
+        float disc_card = 0.20f;
+        float disc_senior = 0.30f;
+        float disc_employee = 0.10f;
         public Form1()
         {
             InitializeComponent();
@@ -19,32 +39,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //codes for disabling the textbox
-            temp_name.Enabled = false;
-            temp_price.Enabled = false;  
-            tenp_discount.Enabled = false;
-            tenp_qty.Enabled = false;   
-            temp_discounted.Enabled = false;
-            total_discount.Enabled = false;
-            changetxtbox.Enabled = false;
-            total_discounted.Enabled = false;
-            //codes for inserting picture or image inside the label tool
-            name16lbl. Enabled = false;
-            name17lbl.Enabled = false;
-            name18lbl.Enabled = false;
-            name19lbl.Enabled = false;
-            name20lbl.Enabled = false;
-            //
-            name1lbl.Text = "";
-            name2lbl.Text = "";
-            name3lbl.Text = "";
-            name4lbl.Text = "";
-            name5lbl.Text = "";
-            name6lbl.Text = "";
-            name7lbl.Text = "";
-            name8lbl.Text = "";
-            name9lbl.Text = "";
-            name10lbl.Text = "";
+           
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -59,22 +54,23 @@ namespace ESTEVES_OOP_CPE201
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            //input
+            txtbox_itemname.Clear();
+            txtbox_price.Clear();
+            txtbox_discount.Clear();
+            txtbox_qty.Clear();
+            txtbox_discounted.Clear();
+            // process
+            temp_name = "";
+            temp_qty = 0;
+            temp_price = 0;
+            temp_discount = 0;
+            temp_discounted_price = 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //code for calculating change
-            int qty;
-            double discount_amt, price, total_price, discounted_amt, cash_rendered, change;
-            qty = Convert.ToInt32(tenp_qty.Text);
-            discount_amt = Convert.ToDouble(tenp_discount.Text);
-            discounted_amt = Convert.ToDouble(total_discounted.Text);
-            cash_rendered = Convert.ToDouble(changetxtbox.Text);
-            //
-            tenp_qty += qty;
-            temp_discounted += discount_amt;
-            disc += discounted_amt;
+            
 
         }
 
@@ -115,7 +111,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void disconted_txtbox_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label32_Click(object sender, EventArgs e)
@@ -160,42 +156,42 @@ namespace ESTEVES_OOP_CPE201
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            //code for calculating discount
-            int qty;
-            double price, discount_amt, dicounted_amt;
-            //code for getting value from textbox
-            qty = Convert.ToInt32(tenp_qty.Text);
-            price = Convert.ToDouble(temp_price.Text);
-            //code for calculating discount
-            discount_amt = (price * 0.12) * qty;
-            dicounted_amt = (price * qty) - discount_amt;
-            //code for displaying the result to textbox
-            tenp_discount.Text = discount_amt.ToString("₱ 500.00");
-            total_discounted.Text = dicounted_amt.ToString("₱ 40.00");
-            //code for unchecking the other radio button
-            senior_citizen.Checked = false;
-            an_employee.Checked = false;
-            no_discount.Checked = false;
+            //input
+            currentlyapplieddiscount = disc_card;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            //code for calculating discount
-            int qty;
-            double price, discount_amt, dicounted_amt;
-            //code for getting value from textbox
-            qty = Convert.ToInt32(tenp_qty.Text);
-            price = Convert.ToDouble(temp_price.Text);
-            //code for calculating discount
-            discount_amt = (price * 0.12) * qty;
-            dicounted_amt = (price * qty) - discount_amt;
-            //code for displaying the result to textbox
-            tenp_discount.Text = discount_amt.ToString("₱ 0.00");
-            total_discounted.Text = dicounted_amt.ToString("₱ 0.00");
-            //code for unchecking the other radio button
-            with_disc.Checked = false;
-            an_employee.Checked = false;
-            no_discount.Checked = false;
+            //input
+            currentlyapplieddiscount = disc_senior;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+
         }
 
         private void discounted_totaltxtbox_TextChanged(object sender, EventArgs e)
@@ -205,23 +201,23 @@ namespace ESTEVES_OOP_CPE201
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            //code for calculating discount
-            int qty;
-            double price, discount_amt, dicounted_amt;
-            //code for getting value from textbox
-            qty = Convert.ToInt32(tenp_qty.Text);
-            price = Convert.ToDouble(temp_price.Text);
-            //code for calculating discount
-            discount_amt = (price * 0.12) * qty;
-            dicounted_amt = (price * qty) - discount_amt;
-            //code for displaying the result to textbox
-            tenp_discount.Text = discount_amt.ToString("₱ 500.00");
-            total_discounted.Text = dicounted_amt.ToString("₱ 40.00");
-            //code for unchecking the other radio button
-            senior_citizen.Checked = false;
-            with_disc.Checked = false;
-            an_employee.Checked = false;
+            //input
+            currentlyapplieddiscount = disc_nodisc;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
+        
 
         private void button19_Click(object sender, EventArgs e)
         {
@@ -525,7 +521,23 @@ namespace ESTEVES_OOP_CPE201
 
         private void name1lbl_Click(object sender, EventArgs e)
         {
+            // input
+            temp_name = "Order1";
+            currenty_temp_price = 80;
+            temp_qty += 1;
 
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+            
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty. Text = temp_qty.ToString("F2");
+            txtbox_discount. Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -560,22 +572,21 @@ namespace ESTEVES_OOP_CPE201
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            //code for calculating discount
-            int qty;
-            double price, discount_amt, dicounted_amt;
-            //code for getting value from textbox
-            qty = Convert.ToInt32(tenp_qty.Text);
-            price = Convert.ToDouble(temp_price.Text);
-            //code for calculating discount
-            discount_amt = (price * 0.12) * qty;
-            dicounted_amt = (price * qty) - discount_amt;
-            //code for displaying the result to textbox
-            tenp_discount.Text = discount_amt.ToString("₱ 500.00");
-            total_discounted.Text = dicounted_amt.ToString("₱ 40.00");
-            //code for unchecking the other radio button
-            senior_citizen.Checked = false;
-            with_disc.Checked = false;
-            no_discount.Checked = false;
+            //input
+            currentlyapplieddiscount = disc_employee;
+
+            // process
+            temp_price = currenty_temp_price * temp_qty;
+            temp_discount = temp_price * currentlyapplieddiscount;
+            temp_discounted_price = temp_price - temp_discount;
+
+
+            // output
+            txtbox_itemname.Text = temp_name;
+            txtbox_price.Text = temp_price.ToString("F2");
+            txtbox_qty.Text = temp_qty.ToString("F2");
+            txtbox_discount.Text = temp_discount.ToString("F2");
+            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
