@@ -88,11 +88,11 @@ namespace ESTEVES_OOP_CPE201
         }   
         private void Form1_Load(object sender, EventArgs e)
         {
-            name16lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
-            name17lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
-            name18lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
-            name19lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
-            name20lbl.Image = Image.FromFile("C:\\Users\\Carl\\OneDrive\\Desktop\\TRY\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181808.png");
+            name16lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-02-04 183409.png");
+            name17lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
+            name18lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
+            name19lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
+            name20lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -158,18 +158,36 @@ namespace ESTEVES_OOP_CPE201
             txtboxtotal_quantity.Text = total_quantity.ToString("F2");
             txtboxtotal_discounted.Text = total_discount.ToString("F2");
             txtbox_total_discount.Text = total_discounted_price.ToString("F2");
+
+            
+            
+
             //enable all picture boxes
             enablepicbox();
+            
             // reset temp variables 
             txtbox_itemname.Clear();
             txtbox_price.Clear();
             txtbox_discount.Clear();
             txtbox_qty.Clear();
             txtbox_discounted.Clear();
+
             //quantity reset
            
             temp_qty = 0;
-             
+
+            cash_rendered = float.Parse(txtboxcash_rendered.Text);
+            change = cash_rendered - total_discounted_price;
+
+            if (cash_rendered < total_discounted_price)
+            {
+                MessageBox.Show("Insufficient Cash");
+                return;
+            }
+
+            // change textbox
+            changetxtbox.Text = change.ToString("F2");
+
         }
 
         private void discount_totaltxtbox_TextChanged(object sender, EventArgs e)
@@ -394,20 +412,19 @@ namespace ESTEVES_OOP_CPE201
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //
-            changetxtbox.Text = change.ToString("F2");
+            cash_rendered = float.Parse(txtboxcash_rendered.Text);
+            change = cash_rendered - total_discounted_price;
+
             if (cash_rendered < total_discounted_price)
             {
                 MessageBox.Show("Insufficient Cash");
                 return;
             }
+            
             //
             changetxtbox.Text = change.ToString("F2");
 
-            cash_rendered = float.Parse(txtboxcash_rendered.Text);
-            change = cash_rendered - total_discounted_price;
-            
-           
+
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
