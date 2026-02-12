@@ -1,6 +1,6 @@
 ﻿namespace ESTEVES_OOP_CPE201
 {
-    partial class Form2
+    partial class Activity4
     {
         /// <summary>
         /// Required designer variable.

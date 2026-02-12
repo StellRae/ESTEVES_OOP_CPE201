@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Form3 : Form
+    public partial class Quiz : Form
     {
 
 
-        public Form3()
+        public Quiz()
         {
             InitializeComponent();
         }
@@ -325,7 +325,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void lab6_TextChanged(object sender, EventArgs e)
         {
-            if (lec5.Text != "" && lab5.Text != "")
+            if (lec6.Text != "" && lab6.Text != "")
             {
                 double Templec = Convert.ToInt32(lec6.Text);
                 double Templab = Convert.ToInt32(lab6.Text);

@@ -1,6 +1,6 @@
 ﻿namespace ESTEVES_OOP_CPE201
 {
-    partial class Form3
+    partial class Quiz
     {
         /// <summary>
         /// Required designer variable.

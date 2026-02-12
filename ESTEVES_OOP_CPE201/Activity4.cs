@@ -4,9 +4,9 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Form2 : Form
+    public partial class Activity4 : Form
     {
-        public Form2()
+        public Activity4()
         {
             InitializeComponent();
         }
