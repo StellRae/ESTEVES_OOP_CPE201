@@ -32,7 +32,6 @@ namespace ESTEVES_OOP_CPE201
             //clear all textboxes under student information group box
             name.Clear();
             program.Items.Clear();
-            date.Value = DateTime.Now;
             studentnum.Clear();
             yrlvl.Items.Clear();
             scholar.Items.Clear();
@@ -40,15 +39,15 @@ namespace ESTEVES_OOP_CPE201
         }
         private void clead_sched_Click(object sender, EventArgs e)
         {
-            
+
             //clear all textboxes under schedule of course(s) group box
-            course_code.Text = "";
-            course_code2.Text = "";
-            course_code3.Text = "";
-            course_code4.Text = "";
-            course_code5.Text = "";
-            course_code6.Text = "";
-            course_code7.Text = "";
+            course_code.Clear();
+            course_code2.Clear();
+            course_code3.Clear();
+            course_code4.Clear();
+            course_code5.Clear();
+            course_code6.Clear();
+            course_code7.Clear();
             Sec.Clear();
             Sec2.Clear();
             Sec3.Clear();
