@@ -29,6 +29,18 @@ namespace ESTEVES_OOP_CPE201
 
         private void clear_studentinfo_Click(object sender, EventArgs e)
         {
+            //clear all textboxes under student information group box
+            name.Clear();
+            program.Items.Clear();
+            date.Value = DateTime.Now;
+            studentnum.Clear();
+            yrlvl.Items.Clear();
+            scholar.Items.Clear();
+
+        }
+        private void clead_sched_Click(object sender, EventArgs e)
+        {
+            
             //clear all textboxes under schedule of course(s) group box
             course_code.Text = "";
             course_code2.Text = "";
@@ -96,19 +108,7 @@ namespace ESTEVES_OOP_CPE201
             total_cred.Clear();
         }
 
-        private void clead_sched_Click(object sender, EventArgs e)
-        {
-            //clear all textboxes under student information group box
-            name.Clear();
-            program.Items.Clear();
-            date.Value = DateTime.Now;
-            studentnum.Clear();
-            yrlvl.Items.Clear();
-            scholar.Items.Clear();
-
-
-
-        }
+        
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
@@ -451,13 +451,16 @@ namespace ESTEVES_OOP_CPE201
             double tuition_fee = Convert.ToInt32(total_cred.Text) * 1500;
             total_tuition.Text = tuition_fee.ToString("C");
 
+            
+            //comp lab fee
+            double total_labunit = Convert.ToDouble(lab.Text) + Convert.ToDouble(lab2.Text) + Convert.ToDouble(lab3.Text) + Convert.ToDouble(lab4.Text) + Convert.ToDouble(lab5.Text) + Convert.ToDouble(lab6.Text) + Convert.ToDouble(lab7.Text);
+            Comlabfee = total_labunit * 2500;
             // total misc
+
             double totalMisc = Comlabfee + Sapfee + Ciscolabfee + Exambookletfee;
             total_misc.Text = totalMisc.ToString();
             other.Text = totalMisc.ToString();
-
-            //comp lab fee
-            Comlabfee = Convert.ToDouble(lab.Text) + Convert.ToDouble(lab2.Text) + Convert.ToDouble(lab3.Text) + Convert.ToDouble(lab4.Text) + Convert.ToDouble(lab5.Text) + Convert.ToDouble(lab6.Text) + Convert.ToDouble(lab7.Text) * 2500;
+            com_lab.Text = Comlabfee.ToString();
 
             //
             double tuition_fee_total = tuition_fee + totalMisc;
