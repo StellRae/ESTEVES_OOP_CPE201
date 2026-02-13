@@ -20,7 +20,7 @@ namespace ESTEVES_OOP_CPE201
         }
 
         //global variable
-        double Comlabfee = 0;
+        double Comlabfee = 2500;
         double Sapfee = 2000;
         double Ciscolabfee = 4500;
         double Exambookletfee = 450;
@@ -445,14 +445,28 @@ namespace ESTEVES_OOP_CPE201
 
         private void compute_Click(object sender, EventArgs e)
         {
+
+            //local variables
+            double totalcred = Convert.ToInt32(total_cred.Text);
+            double temp_lab1 = Convert.ToInt32(lab.Text) ;
+            double temp_lab2 = Convert.ToInt32(lab2.Text); 
+            double temp_lab3 = Convert.ToInt32(lab3.Text); 
+            double temp_lab4 = Convert.ToInt32(lab4.Text);  
+            double temp_lab5 = Convert.ToInt32(lab5.Text); 
+            double temp_lab6 = Convert.ToInt32(lab6.Text);
+            double temp_lab7 = Convert.ToInt32(lab7.Text); 
+
+
+
+
+
             //total tuition
-            double total_lec_units = Convert.ToInt32(cred.Text) + Convert.ToInt32(cred2.Text) + Convert.ToInt32(cred3.Text) + Convert.ToInt32(cred4.Text) + Convert.ToInt32(cred5.Text) + Convert.ToInt32(cred6.Text) + Convert.ToInt32(cred7.Text);
-            double tuition_fee = Convert.ToInt32(total_cred.Text) * 1500;
+            double tuition_fee = totalcred * 1500;
             total_tuition.Text = tuition_fee.ToString("C");
 
             
             //comp lab fee
-            double total_labunit = Convert.ToDouble(lab.Text) + Convert.ToDouble(lab2.Text) + Convert.ToDouble(lab3.Text) + Convert.ToDouble(lab4.Text) + Convert.ToDouble(lab5.Text) + Convert.ToDouble(lab6.Text) + Convert.ToDouble(lab7.Text);
+            double total_labunit =  temp_lab1 + temp_lab2 + temp_lab3 + temp_lab4 + temp_lab5 + temp_lab6 + temp_lab7;
             Comlabfee = total_labunit * 2500;
             // total misc
 
