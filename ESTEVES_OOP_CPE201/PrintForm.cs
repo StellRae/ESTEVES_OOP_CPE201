@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Form2 : Form
+    public partial class PrintForm : Form
     {
-        public Form2()
+        public PrintForm()
         {
             InitializeComponent();
+            priDisplaListBox.Items.AddRange(priDisplaListBox.Items);
+        }
+
+        private void PrintForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
