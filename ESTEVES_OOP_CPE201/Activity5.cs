@@ -163,15 +163,8 @@ namespace ESTEVES_OOP_CPE201
 
         private void New_btn_Click(object sender, EventArgs e)
         {
-            // reset numeric state and UI
-            total_amount = 0;
-            total_qty = 0;
-
-            totalbill_txtbox.Clear();
-            discounted_txtbox.Clear();
-            cashgiven_txtbox.Clear();
-            change_txtbox.Clear();
-            totalqty_txtbox.Clear();
+    
+           
 
             //remove selected rad btn
             radioButton1.Checked = false;
