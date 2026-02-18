@@ -111,7 +111,12 @@
             this.civilstat_txtbox = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.picpathTxtbox = new System.Windows.Forms.TextBox();
+            this.PAYSLIP_VIEW_DETAILS = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.PAYSLIP_VIEW_DETAILS.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -771,8 +776,9 @@
             // 
             // payslip_viewlistBox
             // 
+            this.payslip_viewlistBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.payslip_viewlistBox.FormattingEnabled = true;
-            this.payslip_viewlistBox.Location = new System.Drawing.Point(770, 48);
+            this.payslip_viewlistBox.Location = new System.Drawing.Point(6, 35);
             this.payslip_viewlistBox.Name = "payslip_viewlistBox";
             this.payslip_viewlistBox.Size = new System.Drawing.Size(357, 576);
             this.payslip_viewlistBox.TabIndex = 85;
@@ -825,7 +831,42 @@
             this.picpathTxtbox.Size = new System.Drawing.Size(111, 20);
             this.picpathTxtbox.TabIndex = 90;
             // 
-            // Assg2
+            // PAYSLIP_VIEW_DETAILS
+            // 
+            this.PAYSLIP_VIEW_DETAILS.Controls.Add(this.payslip_viewlistBox);
+            this.PAYSLIP_VIEW_DETAILS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PAYSLIP_VIEW_DETAILS.Location = new System.Drawing.Point(770, 13);
+            this.PAYSLIP_VIEW_DETAILS.Name = "PAYSLIP_VIEW_DETAILS";
+            this.PAYSLIP_VIEW_DETAILS.Size = new System.Drawing.Size(366, 616);
+            this.PAYSLIP_VIEW_DETAILS.TabIndex = 91;
+            this.PAYSLIP_VIEW_DETAILS.TabStop = false;
+            this.PAYSLIP_VIEW_DETAILS.Text = "PAYSLIP VIEW DETAILS";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(6, 13);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(527, 181);
+            this.groupBox1.TabIndex = 92;
+            this.groupBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(6, 197);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(376, 403);
+            this.groupBox2.TabIndex = 94;
+            this.groupBox2.TabStop = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Location = new System.Drawing.Point(388, 197);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(376, 403);
+            this.groupBox3.TabIndex = 95;
+            this.groupBox3.TabStop = false;
+            // 
+            // Activity6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -835,7 +876,6 @@
             this.Controls.Add(this.civilstat_txtbox);
             this.Controls.Add(this.other_txtbox);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.payslip_viewlistBox);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -912,10 +952,15 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.employeenum_txtbox);
             this.Controls.Add(this.label1);
-            this.Name = "Assg2";
+            this.Controls.Add(this.PAYSLIP_VIEW_DETAILS);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox3);
+            this.Name = "Activity6";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Assg2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.PAYSLIP_VIEW_DETAILS.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1006,5 +1051,9 @@
         private System.Windows.Forms.TextBox civilstat_txtbox;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox picpathTxtbox;
+        private System.Windows.Forms.GroupBox PAYSLIP_VIEW_DETAILS;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
