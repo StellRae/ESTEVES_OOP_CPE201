@@ -110,6 +110,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.civilstat_txtbox = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.picpathTxtbox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -606,6 +607,7 @@
             this.pagibigcontrib_txtbox.Name = "pagibigcontrib_txtbox";
             this.pagibigcontrib_txtbox.Size = new System.Drawing.Size(156, 20);
             this.pagibigcontrib_txtbox.TabIndex = 51;
+            this.pagibigcontrib_txtbox.TextChanged += new System.EventHandler(this.pagibigcontrib_txtbox_TextChanged);
             // 
             // label38
             // 
@@ -816,11 +818,19 @@
             this.comboBox1.Size = new System.Drawing.Size(188, 21);
             this.comboBox1.TabIndex = 89;
             // 
+            // picpathTxtbox
+            // 
+            this.picpathTxtbox.Location = new System.Drawing.Point(604, 133);
+            this.picpathTxtbox.Name = "picpathTxtbox";
+            this.picpathTxtbox.Size = new System.Drawing.Size(111, 20);
+            this.picpathTxtbox.TabIndex = 90;
+            // 
             // Assg2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1139, 641);
+            this.Controls.Add(this.picpathTxtbox);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.civilstat_txtbox);
             this.Controls.Add(this.other_txtbox);
@@ -995,5 +1005,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.TextBox civilstat_txtbox;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox picpathTxtbox;
     }
 }

@@ -82,6 +82,11 @@ namespace ESTEVES_OOP_CPE201
             gross_txtbox.Text = gross_income.ToString("n");
         }
 
+        private void pagibigcontrib_txtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
@@ -348,12 +353,7 @@ namespace ESTEVES_OOP_CPE201
             comboBox1.Items.Add("Other 2");
             comboBox1.Items.Add("Other 3");
             comboBox1.Items.Add("Other 4");
-
-           
-
-
-
-
+            picpathTxtbox.Clear();
         }
     }
 }

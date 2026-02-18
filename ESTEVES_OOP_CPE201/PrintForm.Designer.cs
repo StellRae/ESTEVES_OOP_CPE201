@@ -38,6 +38,7 @@
             this.priDisplaListBox.Name = "priDisplaListBox";
             this.priDisplaListBox.Size = new System.Drawing.Size(327, 420);
             this.priDisplaListBox.TabIndex = 0;
+            this.priDisplaListBox.SelectedIndexChanged += new System.EventHandler(this.priDisplaListBox_SelectedIndexChanged);
             // 
             // PrintForm
             // 

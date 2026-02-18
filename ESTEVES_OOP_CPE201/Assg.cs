@@ -24,22 +24,31 @@ namespace ESTEVES_OOP_CPE201
 
         private void Assg_Load(object sender, EventArgs e)
         {
+            //disable textboxes
+            price_txtbox.Enabled = false;
+            discounted_txtbox.Enabled = false;
+            change_txtbox.Enabled = false;
+            totalbill_txtbox.Enabled = false;
+            discount_txtbox.Enabled = false;
+            totalqty_txtbox.Enabled = false;
+
+
             //insert images
-            name6lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-02-04 183409.png");
-            name7lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
-            name8lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
-            name9lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
-            name10lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
-            name11lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181808.png");
-            name12lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181754.png");
-            name13lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181741.png");
-            name14lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181725.png");
-            name15lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181712.png");
-            name16lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181656.png");
-            name17lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181638.png");
-            name18lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181622.png");
-            name19lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181555.png");
-            name20lbl.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
+            name6lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-02-04 183409.png");
+            name7lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
+            name8lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
+            name9lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
+            name10lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
+            name11lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181808.png");
+            name12lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181754.png");
+            name13lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181741.png");
+            name14lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181725.png");
+            name15lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181712.png");
+            name16lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181656.png");
+            name17lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181638.png");
+            name18lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181622.png");
+            name19lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181555.png");
+            name20lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
 
             //disable checkboxes
             A_checkbx1.Enabled = false;
@@ -63,7 +72,7 @@ namespace ESTEVES_OOP_CPE201
             //disable other radio button
             radioButton2.Checked = false;
             //Insert image to pic box
-            displaypicbox.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
+            displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
 
             //enable checkboxes
             A_checkbx1.Enabled = true;
@@ -95,7 +104,7 @@ namespace ESTEVES_OOP_CPE201
             //disable other radio button
             radioButton2.Checked = false;
             //Insert image to pic box
-            displaypicbox.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
+            displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
 
             //enable checkboxes
             B_checkbx1.Enabled = true;
@@ -121,25 +130,15 @@ namespace ESTEVES_OOP_CPE201
 
         private void Calc_btn_Click(object sender, EventArgs e)
         {
-            // Validate user input for cash given
-            if (!double.TryParse(cashgiven_txtbox.Text,
-                                 NumberStyles.Number | NumberStyles.AllowLeadingSign,
-                                 CultureInfo.CurrentCulture,
-                                 out double cash_given))
-            {
-                MessageBox.Show("Please enter a valid numeric value for Cash Given.", "Invalid input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                cashgiven_txtbox.Focus();
-                return;
-            }
+         double cash_given, change, total_paid;
+            cash_given = double.Parse(cashgiven_txtbox.Text);
+            total_paid = double.Parse(totalbill_txtbox.Text);
+            change = cash_given - total_paid;
 
-            // Use internal numeric total as source of truth
-            double total_paid = total_amount;
-            double change = cash_given - total_paid;
-
-            change_txtbox.Text = change.ToString("N2", CultureInfo.CurrentCulture);
-            display_listbox.Items.Add("Total Bills: " + total_paid.ToString("N2", CultureInfo.CurrentCulture));
-            display_listbox.Items.Add("Cash Given: " + cash_given.ToString("N2", CultureInfo.CurrentCulture));
-            display_listbox.Items.Add("Change: " + change.ToString("N2", CultureInfo.CurrentCulture));
+            change_txtbox.Text = change.ToString("n");
+            display_listbox.Items.Add("Total Bills: " + totalbill_txtbox.Text);
+            display_listbox.Items.Add("Cash Given: " + cashgiven_txtbox.Text);
+            display_listbox.Items.Add("Change: " + change_txtbox.Text);
             display_listbox.Items.Add("Total No. of Items: " + totalqty_txtbox.Text);
         }
 
@@ -167,6 +166,7 @@ namespace ESTEVES_OOP_CPE201
             // reset numeric state and UI
             total_amount = 0;
             total_qty = 0;
+
             totalbill_txtbox.Clear();
             discounted_txtbox.Clear();
             cashgiven_txtbox.Clear();
@@ -178,7 +178,7 @@ namespace ESTEVES_OOP_CPE201
             radioButton2.Checked = false;
 
             //default image inside picbox
-            displaypicbox.Image = Image.FromFile("C:\\Users\\Carl\\Downloads\\final\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
+            displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\cat.jfif");
 
             //
             A_checkbx1.Enabled = false;
@@ -192,9 +192,11 @@ namespace ESTEVES_OOP_CPE201
             B_checkbx4.Enabled = false;
             B_checkbx5.Enabled = false;
 
-            //
+            qty_txtbox.TextChanged -= qty_txtbox_TextChanged;
             price_txtbox.Clear();
             qty_txtbox.Clear();
+            qty_txtbox.TextChanged += qty_txtbox_TextChanged;
+
             checkBox1.Checked = false;
             checkBox2.Checked = false;
             checkBox3.Checked = false;
@@ -225,22 +227,24 @@ namespace ESTEVES_OOP_CPE201
 
         private void qty_txtbox_TextChanged(object sender, EventArgs e)
         {
-            // parse values safely to avoid FormatException
-            double price = 0, discount = 0, discounted = 0;
-            int qty = 0;
+           
+            double price, discount, discounted;
+            int qty;
 
-            double.TryParse(price_txtbox.Text, NumberStyles.Number, CultureInfo.CurrentCulture, out price);
-            double.TryParse(discount_txtbox.Text, NumberStyles.Number, CultureInfo.CurrentCulture, out discount);
-            int.TryParse(qty_txtbox.Text, NumberStyles.Integer, CultureInfo.CurrentCulture, out qty);
+            //
+            price = double.Parse(price_txtbox.Text);
+            discount = double.Parse(discount_txtbox.Text);
+            qty = int.Parse(qty_txtbox.Text);
 
+            //
             discounted = (price * qty) - discount;
-            total_qty = qty;
+            total_qty += qty;
             totalqty_txtbox.Text = qty.ToString();
-
-            // keep existing accumulation behavior (minimal change)
+            
+            //
             total_amount += discounted;
-            totalbill_txtbox.Text = total_amount.ToString("N2", CultureInfo.CurrentCulture);
-            discounted_txtbox.Text = discounted.ToString("N2", CultureInfo.CurrentCulture);
+            totalbill_txtbox.Text = total_amount.ToString("n");
+            discounted_txtbox.Text = discounted.ToString("n");
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

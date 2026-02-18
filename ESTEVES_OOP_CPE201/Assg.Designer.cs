@@ -159,7 +159,7 @@
             this.displaypicbox.Location = new System.Drawing.Point(245, 393);
             this.displaypicbox.Name = "displaypicbox";
             this.displaypicbox.Size = new System.Drawing.Size(186, 169);
-            this.displaypicbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.displaypicbox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.displaypicbox.TabIndex = 323;
             this.displaypicbox.TabStop = false;
             // 
@@ -497,7 +497,7 @@
             // 
             // discounted_txtbox
             // 
-            this.discounted_txtbox.Location = new System.Drawing.Point(162, 242);
+            this.discounted_txtbox.Location = new System.Drawing.Point(162, 249);
             this.discounted_txtbox.Name = "discounted_txtbox";
             this.discounted_txtbox.Size = new System.Drawing.Size(100, 20);
             this.discounted_txtbox.TabIndex = 292;
