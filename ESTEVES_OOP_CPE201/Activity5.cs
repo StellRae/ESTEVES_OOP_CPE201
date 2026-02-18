@@ -51,16 +51,16 @@ namespace ESTEVES_OOP_CPE201
             name20lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
 
             //disable checkboxes
-            A_checkbx1.Enabled = false;
-            A_checkbx2.Enabled = false;
-            A_checkbx3.Enabled = false;
-            A_checkbx4.Enabled = false;
-            A_checkbx5.Enabled = false;
-            B_checkbx1.Enabled = false;
-            B_checkbx2.Enabled = false;
-            B_checkbx3.Enabled = false;
-            B_checkbx4.Enabled = false;
-            B_checkbx5.Enabled = false;
+            A_checkbx1.Checked = false;
+            A_checkbx2.Checked = false;
+            A_checkbx3.Checked = false;
+            A_checkbx4.Checked = false;
+            A_checkbx5.Checked = false;
+            B_checkbx1.Checked = false;
+            B_checkbx2.Checked = false;
+            B_checkbx3.Checked = false;
+            B_checkbx4.Checked = false;
+            B_checkbx5.Checked = false;
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -75,18 +75,18 @@ namespace ESTEVES_OOP_CPE201
             displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
 
             //enable checkboxes
-            A_checkbx1.Enabled = true;
-            A_checkbx2.Enabled = true;
-            A_checkbx3.Enabled = true;
-            A_checkbx4.Enabled = true;
-            A_checkbx5.Enabled = true;
+            A_checkbx1.Checked = true;
+            A_checkbx2.Checked = true;
+            A_checkbx3.Checked = true;
+            A_checkbx4.Checked = true;
+            A_checkbx5.Checked = true;
 
             //disable B group
-            B_checkbx1.Enabled = false;
-            B_checkbx2.Enabled = false;
-            B_checkbx3.Enabled = false;
-            B_checkbx4.Enabled = false;
-            B_checkbx5.Enabled = false;
+            B_checkbx1.Checked = false;
+            B_checkbx2.Checked = false;
+            B_checkbx3.Checked = false;
+            B_checkbx4.Checked = false;
+            B_checkbx5.Checked = false;
 
             //display data to textboxes
             price_txtbox.Text = "1250.00";
@@ -107,18 +107,18 @@ namespace ESTEVES_OOP_CPE201
             displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
 
             //enable checkboxes
-            B_checkbx1.Enabled = true;
-            B_checkbx2.Enabled = true;
-            B_checkbx3.Enabled = true;
-            B_checkbx4.Enabled = true;
-            B_checkbx5.Enabled = true;
+            B_checkbx1.Checked = true;
+            B_checkbx2.Checked = true;
+            B_checkbx3.Checked = true;
+            B_checkbx4.Checked = true;
+            B_checkbx5.Checked = true;
 
             //disable A group
-            A_checkbx1.Enabled = false;
-            A_checkbx2.Enabled = false;
-            A_checkbx3.Enabled = false;
-            A_checkbx4.Enabled = false;
-            A_checkbx5.Enabled = false;
+            A_checkbx1.Checked = false;
+            A_checkbx2.Checked = false;
+            A_checkbx3.Checked = false;
+            A_checkbx4.Checked = false;
+            A_checkbx5.Checked = false;
 
             //display data to textboxes
             price_txtbox.Text = "1500.00";
@@ -181,16 +181,16 @@ namespace ESTEVES_OOP_CPE201
             displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\cat.jfif");
 
             //
-            A_checkbx1.Enabled = false;
-            A_checkbx2.Enabled = false;
-            A_checkbx3.Enabled = false;
-            A_checkbx4.Enabled = false;
-            A_checkbx5.Enabled = false;
-            B_checkbx1.Enabled = false;
-            B_checkbx2.Enabled = false;
-            B_checkbx3.Enabled = false;
-            B_checkbx4.Enabled = false;
-            B_checkbx5.Enabled = false;
+            A_checkbx1.Checked = false;
+            A_checkbx2.Checked = false;
+            A_checkbx3.Checked = false;
+            A_checkbx4.Checked = false;
+            A_checkbx5.Checked = false;
+            B_checkbx1.Checked = false;
+            B_checkbx2.Checked = false;
+            B_checkbx3.Checked = false;
+            B_checkbx4.Checked = false;
+            B_checkbx5.Checked = false;
 
             qty_txtbox.TextChanged -= qty_txtbox_TextChanged;
             price_txtbox.Clear();
