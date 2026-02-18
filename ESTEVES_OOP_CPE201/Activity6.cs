@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Assg2 : Form
+    public partial class Activity6 : Form
     {
         private string picpath;
         private Double basic_net_income = 0.00,
@@ -257,7 +257,7 @@ namespace ESTEVES_OOP_CPE201
 
         }
 
-        public Assg2()
+        public Activity6()
         {
             InitializeComponent();
         }

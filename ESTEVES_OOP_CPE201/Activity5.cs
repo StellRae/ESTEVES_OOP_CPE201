@@ -11,9 +11,9 @@ using System.Globalization;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Assg : Form
+    public partial class Activity5 : Form
     {
-        public Assg()
+        public Activity5()
         {
             InitializeComponent();
         }

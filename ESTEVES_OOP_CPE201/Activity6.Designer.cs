@@ -1,6 +1,6 @@
 ﻿namespace ESTEVES_OOP_CPE201
 {
-    partial class Assg2
+    partial class Activity6
     {
         /// <summary>
         /// Required designer variable.

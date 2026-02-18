@@ -58,17 +58,17 @@
     <Compile Include="Activity2.Designer.cs">
       <DependentUpon>Activity2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Assg.cs">
+    <Compile Include="Activity5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assg.Designer.cs">
-      <DependentUpon>Assg.cs</DependentUpon>
+    <Compile Include="Activity5.Designer.cs">
+      <DependentUpon>Activity5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Assg2.cs">
+    <Compile Include="Activity6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assg2.Designer.cs">
-      <DependentUpon>Assg2.cs</DependentUpon>
+    <Compile Include="Activity6.Designer.cs">
+      <DependentUpon>Activity6.cs</DependentUpon>
     </Compile>
     <Compile Include="PrintForm.cs">
       <SubType>Form</SubType>
@@ -120,11 +120,11 @@
     <EmbeddedResource Include="Activity2.resx">
       <DependentUpon>Activity2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Assg.resx">
-      <DependentUpon>Assg.cs</DependentUpon>
+    <EmbeddedResource Include="Activity5.resx">
+      <DependentUpon>Activity5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Assg2.resx">
-      <DependentUpon>Assg2.cs</DependentUpon>
+    <EmbeddedResource Include="Activity6.resx">
+      <DependentUpon>Activity6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintForm.resx">
       <DependentUpon>PrintForm.cs</DependentUpon>
