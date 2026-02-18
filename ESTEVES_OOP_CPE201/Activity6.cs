@@ -353,7 +353,7 @@ namespace ESTEVES_OOP_CPE201
             comboBox1.Items.Add("Other 2");
             comboBox1.Items.Add("Other 3");
             comboBox1.Items.Add("Other 4");
-            picpathTxtbox.Clear();
+            picpathTxtbox.Hide();
         }
     }
 }
