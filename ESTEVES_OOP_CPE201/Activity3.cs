@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -88,11 +89,12 @@ namespace ESTEVES_OOP_CPE201
         }   
         private void Form1_Load(object sender, EventArgs e)
         {
+            /*
             name16lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-02-04 183409.png");
             name17lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
             name18lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
             name19lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
-            name20lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
+            name20lbl.Image = Image.FromFile("C:\\Users\\Ali\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");*/
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -149,8 +151,9 @@ namespace ESTEVES_OOP_CPE201
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            total_quantity += temp_qty;
+            try
+            {
+                total_quantity += temp_qty;
             total_discount += temp_discount;
             total_discounted_price += temp_discounted_price;
 
@@ -174,19 +177,15 @@ namespace ESTEVES_OOP_CPE201
 
             //quantity reset
            
-            temp_qty = 0;
+                temp_qty = 0;
 
-            cash_rendered = float.Parse(txtboxcash_rendered.Text);
-            change = cash_rendered - total_discounted_price;
-
-            if (cash_rendered < total_discounted_price)
-            {
-                MessageBox.Show("Insufficient Cash");
-                return;
+                cash_rendered = float.Parse(txtboxcash_rendered.Text);
+                change = cash_rendered - total_discounted_price;
+                changetxtbox.Text = Convert.ToString(change);
             }
-
-            // change textbox
-            changetxtbox.Text = change.ToString("F2");
+         catch {
+                MessageBox.Show("Input Values");
+            }
 
         }
 
@@ -292,22 +291,28 @@ namespace ESTEVES_OOP_CPE201
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            //input
-            currentlyapplieddiscount = disc_senior;
+            try
+            {
+                //input
+                currentlyapplieddiscount = disc_senior;
 
-            // process
-            temp_price = currenty_temp_price * temp_qty;
-            temp_discount = temp_price * currentlyapplieddiscount;
-            temp_discounted_price = temp_price - temp_discount;
+                // process
+                temp_price = currenty_temp_price * temp_qty;
+                temp_discount = temp_price * currentlyapplieddiscount;
+                temp_discounted_price = temp_price - temp_discount;
 
 
-            // output
-            txtbox_itemname.Text = temp_name;
-            txtbox_price.Text = temp_price.ToString("F2");
-            txtbox_qty.Text = temp_qty.ToString("F2");
-            txtbox_discount.Text = temp_discount.ToString("F2");
-            txtbox_discounted.Text = temp_discounted_price.ToString("F2");
-
+                // output
+                txtbox_itemname.Text = temp_name;
+                txtbox_price.Text = temp_price.ToString("F2");
+                txtbox_qty.Text = temp_qty.ToString("F2");
+                txtbox_discount.Text = temp_discount.ToString("F2");
+                txtbox_discounted.Text = temp_discounted_price.ToString("F2");
+            }
+                catch {
+                MessageBox.Show("No Order");
+            } 
+            
         }
 
         private void discounted_totaltxtbox_TextChanged(object sender, EventArgs e)

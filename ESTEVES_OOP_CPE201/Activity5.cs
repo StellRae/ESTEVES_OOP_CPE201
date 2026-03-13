@@ -34,22 +34,27 @@ namespace ESTEVES_OOP_CPE201
 
 
             //insert images
-            name6lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-02-04 183409.png");
-            name7lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
-            name8lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
-            name9lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
-            name10lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
-            name11lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181808.png");
-            name12lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181754.png");
-            name13lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181741.png");
-            name14lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181725.png");
-            name15lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181712.png");
-            name16lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181656.png");
-            name17lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181638.png");
-            name18lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181622.png");
-            name19lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181555.png");
-            name20lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
-
+            try
+            {
+                name6lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-02-04 183409.png");
+                name7lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 182530.png");
+                name8lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181900.png");
+                name9lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181849.png");
+                name10lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181822.png");
+                name11lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181808.png");
+                name12lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181754.png");
+                name13lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181741.png");
+                name14lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181725.png");
+                name15lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181712.png");
+                name16lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181656.png");
+                name17lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181638.png");
+                name18lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181622.png");
+                name19lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181555.png");
+                name20lbl.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
+            }
+            catch {
+                MessageBox.Show("No Images in Resources");
+            }
             //disable checkboxes
             A_checkbx1.Checked = false;
             A_checkbx2.Checked = false;
@@ -71,9 +76,16 @@ namespace ESTEVES_OOP_CPE201
             this.BackColor = Color.LightCyan;
             //disable other radio button
             radioButton2.Checked = false;
-            //Insert image to pic box
-            displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
 
+            try
+            {
+                //Insert image to pic box
+                displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
+            }
+            catch
+            {
+                MessageBox.Show("No Images in Resources");
+            }
             //enable checkboxes
             A_checkbx1.Checked = true;
             A_checkbx2.Checked = true;
@@ -104,8 +116,14 @@ namespace ESTEVES_OOP_CPE201
             //disable other radio button
             radioButton2.Checked = false;
             //Insert image to pic box
-            displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
-
+            try
+            {
+                displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\Screenshot 2026-01-28 181537.png");
+            }
+            catch
+            {
+                MessageBox.Show("No Images in Resources");
+            }
             //enable checkboxes
             B_checkbx1.Checked = true;
             B_checkbx2.Checked = true;
@@ -130,16 +148,22 @@ namespace ESTEVES_OOP_CPE201
 
         private void Calc_btn_Click(object sender, EventArgs e)
         {
-         double cash_given, change, total_paid;
-            cash_given = double.Parse(cashgiven_txtbox.Text);
-            total_paid = double.Parse(totalbill_txtbox.Text);
-            change = cash_given - total_paid;
+            try
+            {
+                double cash_given, change, total_paid;
+                cash_given = double.Parse(cashgiven_txtbox.Text);
+                total_paid = double.Parse(totalbill_txtbox.Text);
+                change = cash_given - total_paid;
 
-            change_txtbox.Text = change.ToString("n");
-            display_listbox.Items.Add("Total Bills: " + totalbill_txtbox.Text);
-            display_listbox.Items.Add("Cash Given: " + cashgiven_txtbox.Text);
-            display_listbox.Items.Add("Change: " + change_txtbox.Text);
-            display_listbox.Items.Add("Total No. of Items: " + totalqty_txtbox.Text);
+                change_txtbox.Text = change.ToString("n");
+                display_listbox.Items.Add("Total Bills: " + totalbill_txtbox.Text);
+                display_listbox.Items.Add("Cash Given: " + cashgiven_txtbox.Text);
+                display_listbox.Items.Add("Change: " + change_txtbox.Text);
+                display_listbox.Items.Add("Total No. of Items: " + totalqty_txtbox.Text);
+            }
+            catch {
+                MessageBox.Show("Invalid Values");
+            }
         }
 
         private void Print_btn_Click(object sender, EventArgs e)
@@ -157,8 +181,15 @@ namespace ESTEVES_OOP_CPE201
 
         private void Remove_btn_Click(object sender, EventArgs e)
         {
-        
+            try
+            {
                 display_listbox.Items.RemoveAt(display_listbox.SelectedIndex);
+            }
+            catch {
+                MessageBox.Show("No Selected Items in Listbox", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning
+                    
+                    );
+            }
         }
 
         private void New_btn_Click(object sender, EventArgs e)
@@ -170,9 +201,14 @@ namespace ESTEVES_OOP_CPE201
             radioButton1.Checked = false;
             radioButton2.Checked = false;
 
-            //default image inside picbox
-            displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\cat.jfif");
-
+            try {
+                //default image inside picbox
+                displaypicbox.Image = Image.FromFile("C:\\Users\\C203-13\\Documents\\ESTEVES\\ESTEVES_OOP_CPE201\\Resources\\cat.jfif");
+            }
+            catch
+            {
+                MessageBox.Show("No Images in Resources");
+            }
             //
             A_checkbx1.Checked = false;
             A_checkbx2.Checked = false;
@@ -211,7 +247,7 @@ namespace ESTEVES_OOP_CPE201
             checkBox19.Checked = false;
             checkBox20.Checked = false;
             display_listbox.Items.Clear();
-        }
+            }
 
         private void Exit_btn_Click(object sender, EventArgs e)
         {
@@ -224,20 +260,26 @@ namespace ESTEVES_OOP_CPE201
             double price, discount, discounted;
             int qty;
 
-            //
-            price = double.Parse(price_txtbox.Text);
-            discount = double.Parse(discount_txtbox.Text);
-            qty = int.Parse(qty_txtbox.Text);
+            try
+            {
+                //
+                price = double.Parse(price_txtbox.Text);
+                discount = double.Parse(discount_txtbox.Text);
+                qty = int.Parse(qty_txtbox.Text);
 
-            //
-            discounted = (price * qty) - discount;
-            total_qty += qty;
-            totalqty_txtbox.Text = qty.ToString();
-            
-            //
-            total_amount += discounted;
-            totalbill_txtbox.Text = total_amount.ToString("n");
-            discounted_txtbox.Text = discounted.ToString("n");
+                //
+                discounted = (price * qty) - discount;
+                total_qty += qty;
+                totalqty_txtbox.Text = qty.ToString();
+
+                //
+                total_amount += discounted;
+                totalbill_txtbox.Text = total_amount.ToString("n");
+                discounted_txtbox.Text = discounted.ToString("n");
+            }
+            catch {
+                MessageBox.Show("Please Check Orders");
+            }
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

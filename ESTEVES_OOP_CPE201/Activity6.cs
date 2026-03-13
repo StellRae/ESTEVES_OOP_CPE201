@@ -56,30 +56,50 @@ namespace ESTEVES_OOP_CPE201
 
         private void basichour_txtbox_TextChanged(object sender, EventArgs e)
         {
-            basic_numhrs = Double.Parse(basichour_txtbox.Text);
-            basic_rate = Convert.ToDouble(basicrate_txtbox.Text);
-            basic_net_income = basic_numhrs * basic_rate;
-            basicincome_txtbox.Text = basic_net_income.ToString("n");
+            try {
+                basic_numhrs = Double.Parse(basichour_txtbox.Text);
+                basic_rate = Convert.ToDouble(basicrate_txtbox.Text);
+                basic_net_income = basic_numhrs * basic_rate;
+                basicincome_txtbox.Text = basic_net_income.ToString("n");
+            }
+            catch
+            {
+                MessageBox.Show("Please Enter Rate Per Hour");
+            }
         }
 
         private void honorhour_txtbox_TextChanged(object sender, EventArgs e)
         {
-            hono_numhrs = Convert.ToDouble(honorhour_txtbox.Text);
-            hono_rate = Convert.ToDouble(honorrate_txtbox.Text);
-            hono_netincome = hono_numhrs * hono_rate;
-            honortotal_txtbox.Text = hono_netincome.ToString("n");
+            try
+            {
+                hono_numhrs = Convert.ToDouble(honorhour_txtbox.Text);
+                hono_rate = Convert.ToDouble(honorrate_txtbox.Text);
+                hono_netincome = hono_numhrs * hono_rate;
+                honortotal_txtbox.Text = hono_netincome.ToString("n");
+            }
+            catch
+            {
+                MessageBox.Show("Please Enter Rate Per Hour");
+            }
 
 
         }
 
         private void otherhour_txtbox_TextChanged(object sender, EventArgs e)
         {
-            other_numhrs = Convert.ToDouble(otherhour_txtbox.Text);
-            other_rate = Convert.ToDouble(otherrate_txtbox.Text);
-            other_netincome = other_numhrs * other_rate;
-            othertotal_txtbox.Text = other_netincome.ToString("n");
-            gross_income = basic_net_income + hono_netincome + other_netincome;
-            gross_txtbox.Text = gross_income.ToString("n");
+            try
+            {
+                other_numhrs = Convert.ToDouble(otherhour_txtbox.Text);
+                other_rate = Convert.ToDouble(otherrate_txtbox.Text);
+                other_netincome = other_numhrs * other_rate;
+                othertotal_txtbox.Text = other_netincome.ToString("n");
+                gross_income = basic_net_income + hono_netincome + other_netincome;
+                gross_txtbox.Text = gross_income.ToString("n");
+            }
+            catch
+            {
+                MessageBox.Show("Please Enter Rate Per Hour");
+            }
         }
 
         private void pagibigcontrib_txtbox_TextChanged(object sender, EventArgs e)
@@ -89,85 +109,105 @@ namespace ESTEVES_OOP_CPE201
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog1 = new OpenFileDialog();
-            openFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
-            openFileDialog1.Title = "Select Employee Picture";
-            openFileDialog1.ShowDialog();
-            picpath = openFileDialog1.FileName;
-            pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
+            try
+            {
+                OpenFileDialog openFileDialog1 = new OpenFileDialog();
+                openFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
+                openFileDialog1.Title = "Select Employee Picture";
+                openFileDialog1.ShowDialog();
+                picpath = openFileDialog1.FileName;
+                pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
+            }
+            catch {
+                MessageBox.Show("No Image Uploaded");
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            employeenum_txtbox.Clear();
-            firstname_txtbox.Clear();
-            middlename__txtbox.Clear();
-            surname_txtbox.Clear();
-            designation_txtbox.Clear();
-            civilstat_txtbox.Clear();
-            dependent_txtbox.Clear();
-            employeestat_txtbox.Clear();
-            department_txtbox.Clear();
-            basichour_txtbox.Clear();
-            basicrate_txtbox.Clear();
-            basicincome_txtbox.Clear();
-            honorhour_txtbox.Clear();
-            honorrate_txtbox.Clear();
-            honortotal_txtbox.Clear();
-            otherhour_txtbox.Clear();
-            otherrate_txtbox.Clear();
-            othertotal_txtbox.Clear();
-            ssscontrib_txtbox.Clear();
-            pagibigcontrib_txtbox.Clear();
-            philhealth_txtbox.Clear();
-            tax_txtbox.Clear();
-            sssloan_txtbox.Clear();
-            pagibig_txtbox.Clear();
-            othefacdeposit_txtbox.Clear();
-            otherfacloan_txtbox.Clear();
-            othersalary_txtbox.Clear();
-            other_txtbox.Clear();
-            totaldeduc_txtbox.Clear();
-            gross_txtbox.Clear();
-            net_txtbox.Clear();
+            try
+            {
+                employeenum_txtbox.Clear();
+                firstname_txtbox.Clear();
+                middlename__txtbox.Clear();
+                surname_txtbox.Clear();
+                designation_txtbox.Clear();
+                civilstat_txtbox.Clear();
+                dependent_txtbox.Clear();
+                employeestat_txtbox.Clear();
+                department_txtbox.Clear();
+                basichour_txtbox.Clear();
+                basicrate_txtbox.Clear();
+                basicincome_txtbox.Clear();
+                honorhour_txtbox.Clear();
+                honorrate_txtbox.Clear();
+                honortotal_txtbox.Clear();
+                otherhour_txtbox.Clear();
+                otherrate_txtbox.Clear();
+                othertotal_txtbox.Clear();
+                ssscontrib_txtbox.Clear();
+                pagibigcontrib_txtbox.Clear();
+                philhealth_txtbox.Clear();
+                tax_txtbox.Clear();
+                sssloan_txtbox.Clear();
+                pagibig_txtbox.Clear();
+                othefacdeposit_txtbox.Clear();
+                otherfacloan_txtbox.Clear();
+                othersalary_txtbox.Clear();
+                other_txtbox.Clear();
+                totaldeduc_txtbox.Clear();
+                gross_txtbox.Clear();
+                net_txtbox.Clear();
+            }
+            catch
+            {
+                MessageBox.Show("Invalid Value");
+            }
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //codes for clearing the textboxes
-            employeenum_txtbox.Clear();
-            firstname_txtbox.Clear();
-            middlename__txtbox.Clear();
-            surname_txtbox.Clear();
-            designation_txtbox.Clear();
-            civilstat_txtbox.Clear();
-            dependent_txtbox.Clear();
-            employeestat_txtbox.Clear();
-            department_txtbox.Clear();
-            basichour_txtbox.Clear();
-            basicrate_txtbox.Clear();
-            basicincome_txtbox.Clear();
-            honorhour_txtbox.Clear();
-            honorrate_txtbox.Clear();
-            honortotal_txtbox.Clear();
-            otherhour_txtbox.Clear();
-            otherrate_txtbox.Clear();
-            othertotal_txtbox.Clear();
-            ssscontrib_txtbox.Clear();
-            pagibigcontrib_txtbox.Clear();
-            philhealth_txtbox.Clear();
-            tax_txtbox.Clear();
-            sssloan_txtbox.Clear();
-            pagibig_txtbox.Clear();
-            othefacdeposit_txtbox.Clear();
-            otherfacloan_txtbox.Clear();
-            othersalary_txtbox.Clear();
-            other_txtbox.Clear();
-            totaldeduc_txtbox.Clear();
-            gross_txtbox.Clear();
-            net_txtbox.Clear();
 
+            try
+            {
+                //codes for clearing the textboxes
+                employeenum_txtbox.Clear();
+                firstname_txtbox.Clear();
+                middlename__txtbox.Clear();
+                surname_txtbox.Clear();
+                designation_txtbox.Clear();
+                civilstat_txtbox.Clear();
+                dependent_txtbox.Clear();
+                employeestat_txtbox.Clear();
+                department_txtbox.Clear();
+                basichour_txtbox.Clear();
+                basicrate_txtbox.Clear();
+                basicincome_txtbox.Clear();
+                honorhour_txtbox.Clear();
+                honorrate_txtbox.Clear();
+                honortotal_txtbox.Clear();
+                otherhour_txtbox.Clear();
+                otherrate_txtbox.Clear();
+                othertotal_txtbox.Clear();
+                ssscontrib_txtbox.Clear();
+                pagibigcontrib_txtbox.Clear();
+                philhealth_txtbox.Clear();
+                tax_txtbox.Clear();
+                sssloan_txtbox.Clear();
+                pagibig_txtbox.Clear();
+                othefacdeposit_txtbox.Clear();
+                otherfacloan_txtbox.Clear();
+                othersalary_txtbox.Clear();
+                other_txtbox.Clear();
+                totaldeduc_txtbox.Clear();
+                gross_txtbox.Clear();
+                net_txtbox.Clear();
+            }
+            catch
+            {
+                MessageBox.Show("Invalid Value");
+            }
 
         }
 
@@ -233,6 +273,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             //code for putting data from textboxes to variables
             sss_contrib = Convert.ToDouble(ssscontrib_txtbox.Text);
             pagibig_contrib = Convert.ToDouble(pagibigcontrib_txtbox.Text);

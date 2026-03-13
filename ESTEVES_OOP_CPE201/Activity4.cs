@@ -77,8 +77,15 @@ namespace ESTEVES_OOP_CPE201
 
         private void button3_Click(object sender, EventArgs e)
         {
-            openFileDialog1.ShowDialog();
-            Picture_Path.Image = Image.FromFile(openFileDialog1.FileName);
+            try
+            {
+                openFileDialog1.ShowDialog();
+                Picture_Path.Image = Image.FromFile(openFileDialog1.FileName);
+            }
+            catch
+            {
+                MessageBox.Show("No Image Uploaded");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
