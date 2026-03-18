@@ -135,42 +135,42 @@ namespace Activity_Midterm1
             if (gross_income <= 20000)
             {
                 sss_contrib = 240.00;
-                pagibig_contrib = 100.00;
+                pagibig_contrib = 200.00;
                 philhealth_contrib = 300.00;
                 incometax_contrib = 0.00;
             }
             else if (gross_income > 25000 && gross_income <= 30000)
             {
                 sss_contrib = 730.50;
-                pagibig_contrib = 100.00;
+                pagibig_contrib = 200.00;
                 philhealth_contrib = 480.00;
                 incometax_contrib = 0.00;
             }
             else if (gross_income > 35000 && gross_income <= 40000)
             {
                 sss_contrib = 1095.00;
-                pagibig_contrib = 100.00;
+                pagibig_contrib = 200.00;
                 philhealth_contrib = 900.00;
                 incometax_contrib = gross_income * .20 - 2500.00;
             }
             else if (gross_income > 45000 && gross_income <= 50000)
             {
                 sss_contrib = 1463.70;
-                pagibig_contrib = 100.00;
+                pagibig_contrib = 200.00;
                 philhealth_contrib = 1400.00;
                 incometax_contrib = gross_income * .25 - 10833.33;
             }
             else if (gross_income > 55000 && gross_income <= 60000)
             {
                 sss_contrib = 2193.60;
-                pagibig_contrib = 100.00;
+                pagibig_contrib = 200.00;
                 philhealth_contrib = 2000.00;
                 incometax_contrib = gross_income * .30 - 40833.33;
             }
             else
             {
                 sss_contrib = 2193.60;
-                pagibig_contrib = 100.00;
+                pagibig_contrib = 200.00;
                 philhealth_contrib = 2000.00;
                 incometax_contrib = gross_income * .32 - 125000.00;
             }
