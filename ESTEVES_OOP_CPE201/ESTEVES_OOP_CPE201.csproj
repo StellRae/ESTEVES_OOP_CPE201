@@ -76,6 +76,18 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Activity_Midterm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activity_Midterm1.Designer.cs">
+      <DependentUpon>Activity_Midterm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="payslip_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payslip_report.Designer.cs">
+      <DependentUpon>payslip_report.cs</DependentUpon>
+    </Compile>
     <Compile Include="PrintForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +146,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activity_Midterm1.resx">
+      <DependentUpon>Activity_Midterm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payslip_report.resx">
+      <DependentUpon>payslip_report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PrintForm.resx">
       <DependentUpon>PrintForm.cs</DependentUpon>
