@@ -16,5 +16,15 @@ namespace ESTEVES_OOP_CPE201
         {
             InitializeComponent();
         }
+
+        private void payslip_report_Load(object sender, EventArgs e)
+        {
+            Companytxtbox.Text = "Lyceum of the Philippines University Cavite";
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

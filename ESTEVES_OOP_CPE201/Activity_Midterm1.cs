@@ -32,6 +32,11 @@ namespace Activity_Midterm1
             philhealth_contrib = 0.00,
             incometax_contrib = 0.00;
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Form1_Load_1(object sender, EventArgs e)
         {
         
@@ -40,7 +45,7 @@ namespace Activity_Midterm1
             SnameTxtBox.Enabled = false;
             CivStatTxtBox.Enabled = false;
             EmpStatTxtBox.Enabled = false;
-            DesigTxtBox.Enabled = false;
+            //DesigTxtBox.Enabled = false;
             DepTxtBox.Enabled = false;
             IncCutTxtBox.Enabled = false;
             IncCut2TxtBox.Enabled = false;
