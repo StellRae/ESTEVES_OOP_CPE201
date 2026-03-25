@@ -30,11 +30,15 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.Companytxtbox = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.name_txt = new System.Windows.Forms.TextBox();
+            this.code_txt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -47,59 +51,55 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.tardy_txtnontax = new System.Windows.Forms.TextBox();
+            this.sub_txtnontax = new System.Windows.Forms.TextBox();
+            this.honoradjust_txtnontax = new System.Windows.Forms.TextBox();
+            this.honor_txtnontax = new System.Windows.Forms.TextBox();
+            this.over_txtnontax = new System.Windows.Forms.TextBox();
+            this.basic_txtnontax = new System.Windows.Forms.TextBox();
+            this.sss_wisp_txt = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.phil_txt = new System.Windows.Forms.TextBox();
+            this.hdmf_txt = new System.Windows.Forms.TextBox();
+            this.sss_txt = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.withholding_txt = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.over_differential5 = new System.Windows.Forms.TextBox();
+            this.over_differential4 = new System.Windows.Forms.TextBox();
+            this.over_differential3 = new System.Windows.Forms.TextBox();
+            this.over_differential2 = new System.Windows.Forms.TextBox();
+            this.over_differential1 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.earnings_txt = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
+            this.tardy_txttax = new System.Windows.Forms.TextBox();
+            this.sub_txttax = new System.Windows.Forms.TextBox();
+            this.honoradjust_txttax = new System.Windows.Forms.TextBox();
+            this.honor_txttax = new System.Windows.Forms.TextBox();
+            this.over_txttax = new System.Windows.Forms.TextBox();
+            this.basic_txttax = new System.Windows.Forms.TextBox();
+            this.tardy_txtday = new System.Windows.Forms.TextBox();
+            this.sub_txtday = new System.Windows.Forms.TextBox();
+            this.honoradjust_txtday = new System.Windows.Forms.TextBox();
+            this.honor_txtday = new System.Windows.Forms.TextBox();
+            this.over_txtday = new System.Windows.Forms.TextBox();
+            this.basic_txtday = new System.Windows.Forms.TextBox();
+            this.deduction_txt = new System.Windows.Forms.TextBox();
+            this.overtime_txt = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.net_pay_txt = new System.Windows.Forms.TextBox();
+            this.total_deductions_txt = new System.Windows.Forms.TextBox();
+            this.gross_txt = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
-            this.Companytxtbox = new System.Windows.Forms.TextBox();
+            this.Department_txt = new System.Windows.Forms.TextBox();
+            this.cut_off = new System.Windows.Forms.TextBox();
+            this.pay_period = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -114,13 +114,13 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.pay_period);
+            this.groupBox1.Controls.Add(this.cut_off);
+            this.groupBox1.Controls.Add(this.Department_txt);
             this.groupBox1.Controls.Add(this.Companytxtbox);
-            this.groupBox1.Controls.Add(this.label32);
-            this.groupBox1.Controls.Add(this.label31);
-            this.groupBox1.Controls.Add(this.label30);
             this.groupBox1.Controls.Add(this.label29);
-            this.groupBox1.Controls.Add(this.textBox33);
-            this.groupBox1.Controls.Add(this.textBox32);
+            this.groupBox1.Controls.Add(this.name_txt);
+            this.groupBox1.Controls.Add(this.code_txt);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -134,32 +134,47 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label2
+            // Companytxtbox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 65);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Employee Code:";
+            this.Companytxtbox.Location = new System.Drawing.Point(115, 24);
+            this.Companytxtbox.Name = "Companytxtbox";
+            this.Companytxtbox.Size = new System.Drawing.Size(289, 20);
+            this.Companytxtbox.TabIndex = 76;
+            this.Companytxtbox.TextChanged += new System.EventHandler(this.Companytxtbox_TextChanged);
             // 
-            // label3
+            // label29
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 96);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Employee Name:";
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(431, 63);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(43, 13);
+            this.label29.TabIndex = 72;
+            this.label29.Text = "Cut-Off:";
             // 
-            // label4
+            // name_txt
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(432, 27);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Department:";
+            this.name_txt.Location = new System.Drawing.Point(115, 93);
+            this.name_txt.Name = "name_txt";
+            this.name_txt.Size = new System.Drawing.Size(289, 20);
+            this.name_txt.TabIndex = 71;
+            this.name_txt.TextChanged += new System.EventHandler(this.textBox33_TextChanged);
+            // 
+            // code_txt
+            // 
+            this.code_txt.Location = new System.Drawing.Point(115, 62);
+            this.code_txt.Name = "code_txt";
+            this.code_txt.Size = new System.Drawing.Size(289, 20);
+            this.code_txt.TabIndex = 70;
+            this.code_txt.TextChanged += new System.EventHandler(this.textBox32_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(432, 96);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(61, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Pay Period:";
             // 
             // label5
             // 
@@ -170,14 +185,32 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Cut-Off:";
             // 
-            // label6
+            // label4
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(432, 96);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Pay Period:";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(432, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Department:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(16, 96);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(87, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Employee Name:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(16, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(84, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Employee Code:";
             // 
             // label7
             // 
@@ -254,7 +287,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(124, 197);
+            this.label16.Location = new System.Drawing.Point(152, 197);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(47, 13);
             this.label16.TabIndex = 21;
@@ -287,54 +320,54 @@
             this.label18.TabIndex = 35;
             this.label18.Text = "Non-Taxable";
             // 
-            // textBox13
+            // tardy_txtnontax
             // 
-            this.textBox13.Location = new System.Drawing.Point(346, 346);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(101, 20);
-            this.textBox13.TabIndex = 34;
+            this.tardy_txtnontax.Location = new System.Drawing.Point(348, 346);
+            this.tardy_txtnontax.Name = "tardy_txtnontax";
+            this.tardy_txtnontax.Size = new System.Drawing.Size(101, 20);
+            this.tardy_txtnontax.TabIndex = 34;
             // 
-            // textBox14
+            // sub_txtnontax
             // 
-            this.textBox14.Location = new System.Drawing.Point(346, 321);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(101, 20);
-            this.textBox14.TabIndex = 33;
+            this.sub_txtnontax.Location = new System.Drawing.Point(348, 321);
+            this.sub_txtnontax.Name = "sub_txtnontax";
+            this.sub_txtnontax.Size = new System.Drawing.Size(101, 20);
+            this.sub_txtnontax.TabIndex = 33;
             // 
-            // textBox15
+            // honoradjust_txtnontax
             // 
-            this.textBox15.Location = new System.Drawing.Point(346, 297);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(101, 20);
-            this.textBox15.TabIndex = 32;
+            this.honoradjust_txtnontax.Location = new System.Drawing.Point(348, 297);
+            this.honoradjust_txtnontax.Name = "honoradjust_txtnontax";
+            this.honoradjust_txtnontax.Size = new System.Drawing.Size(101, 20);
+            this.honoradjust_txtnontax.TabIndex = 32;
             // 
-            // textBox16
+            // honor_txtnontax
             // 
-            this.textBox16.Location = new System.Drawing.Point(346, 271);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(101, 20);
-            this.textBox16.TabIndex = 31;
+            this.honor_txtnontax.Location = new System.Drawing.Point(348, 271);
+            this.honor_txtnontax.Name = "honor_txtnontax";
+            this.honor_txtnontax.Size = new System.Drawing.Size(101, 20);
+            this.honor_txtnontax.TabIndex = 31;
             // 
-            // textBox17
+            // over_txtnontax
             // 
-            this.textBox17.Location = new System.Drawing.Point(346, 246);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(101, 20);
-            this.textBox17.TabIndex = 30;
+            this.over_txtnontax.Location = new System.Drawing.Point(348, 246);
+            this.over_txtnontax.Name = "over_txtnontax";
+            this.over_txtnontax.Size = new System.Drawing.Size(101, 20);
+            this.over_txtnontax.TabIndex = 30;
             // 
-            // textBox18
+            // basic_txtnontax
             // 
-            this.textBox18.Location = new System.Drawing.Point(346, 222);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(101, 20);
-            this.textBox18.TabIndex = 29;
+            this.basic_txtnontax.Location = new System.Drawing.Point(348, 222);
+            this.basic_txtnontax.Name = "basic_txtnontax";
+            this.basic_txtnontax.Size = new System.Drawing.Size(101, 20);
+            this.basic_txtnontax.TabIndex = 29;
             // 
-            // textBox19
+            // sss_wisp_txt
             // 
-            this.textBox19.Location = new System.Drawing.Point(590, 317);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(106, 20);
-            this.textBox19.TabIndex = 45;
+            this.sss_wisp_txt.Location = new System.Drawing.Point(590, 317);
+            this.sss_wisp_txt.Name = "sss_wisp_txt";
+            this.sss_wisp_txt.Size = new System.Drawing.Size(106, 20);
+            this.sss_wisp_txt.TabIndex = 45;
             // 
             // label19
             // 
@@ -354,26 +387,26 @@
             this.label20.TabIndex = 43;
             this.label20.Text = "Philhealth - Contribution";
             // 
-            // textBox20
+            // phil_txt
             // 
-            this.textBox20.Location = new System.Drawing.Point(590, 293);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(106, 20);
-            this.textBox20.TabIndex = 42;
+            this.phil_txt.Location = new System.Drawing.Point(590, 293);
+            this.phil_txt.Name = "phil_txt";
+            this.phil_txt.Size = new System.Drawing.Size(106, 20);
+            this.phil_txt.TabIndex = 42;
             // 
-            // textBox21
+            // hdmf_txt
             // 
-            this.textBox21.Location = new System.Drawing.Point(590, 267);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(106, 20);
-            this.textBox21.TabIndex = 41;
+            this.hdmf_txt.Location = new System.Drawing.Point(590, 267);
+            this.hdmf_txt.Name = "hdmf_txt";
+            this.hdmf_txt.Size = new System.Drawing.Size(106, 20);
+            this.hdmf_txt.TabIndex = 41;
             // 
-            // textBox22
+            // sss_txt
             // 
-            this.textBox22.Location = new System.Drawing.Point(590, 242);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(106, 20);
-            this.textBox22.TabIndex = 40;
+            this.sss_txt.Location = new System.Drawing.Point(590, 242);
+            this.sss_txt.Name = "sss_txt";
+            this.sss_txt.Size = new System.Drawing.Size(106, 20);
+            this.sss_txt.TabIndex = 40;
             // 
             // label21
             // 
@@ -389,9 +422,9 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(709, 440);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(97, 13);
+            this.label22.Size = new System.Drawing.Size(104, 13);
             this.label22.TabIndex = 38;
-            this.label22.Text = "GROS EARNINGS";
+            this.label22.Text = "GROSS EARNINGS";
             // 
             // label23
             // 
@@ -402,12 +435,12 @@
             this.label23.TabIndex = 37;
             this.label23.Text = "Withholding Tax";
             // 
-            // textBox23
+            // withholding_txt
             // 
-            this.textBox23.Location = new System.Drawing.Point(590, 218);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(106, 20);
-            this.textBox23.TabIndex = 36;
+            this.withholding_txt.Location = new System.Drawing.Point(590, 218);
+            this.withholding_txt.Name = "withholding_txt";
+            this.withholding_txt.Size = new System.Drawing.Size(106, 20);
+            this.withholding_txt.TabIndex = 36;
             // 
             // label24
             // 
@@ -418,40 +451,40 @@
             this.label24.TabIndex = 46;
             this.label24.Text = "Amount";
             // 
-            // textBox24
+            // over_differential5
             // 
-            this.textBox24.Location = new System.Drawing.Point(712, 313);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(205, 20);
-            this.textBox24.TabIndex = 51;
+            this.over_differential5.Location = new System.Drawing.Point(712, 313);
+            this.over_differential5.Name = "over_differential5";
+            this.over_differential5.Size = new System.Drawing.Size(205, 20);
+            this.over_differential5.TabIndex = 51;
             // 
-            // textBox25
+            // over_differential4
             // 
-            this.textBox25.Location = new System.Drawing.Point(712, 289);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(205, 20);
-            this.textBox25.TabIndex = 50;
+            this.over_differential4.Location = new System.Drawing.Point(712, 289);
+            this.over_differential4.Name = "over_differential4";
+            this.over_differential4.Size = new System.Drawing.Size(205, 20);
+            this.over_differential4.TabIndex = 50;
             // 
-            // textBox26
+            // over_differential3
             // 
-            this.textBox26.Location = new System.Drawing.Point(712, 263);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(205, 20);
-            this.textBox26.TabIndex = 49;
+            this.over_differential3.Location = new System.Drawing.Point(712, 263);
+            this.over_differential3.Name = "over_differential3";
+            this.over_differential3.Size = new System.Drawing.Size(205, 20);
+            this.over_differential3.TabIndex = 49;
             // 
-            // textBox27
+            // over_differential2
             // 
-            this.textBox27.Location = new System.Drawing.Point(712, 238);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(205, 20);
-            this.textBox27.TabIndex = 48;
+            this.over_differential2.Location = new System.Drawing.Point(712, 238);
+            this.over_differential2.Name = "over_differential2";
+            this.over_differential2.Size = new System.Drawing.Size(205, 20);
+            this.over_differential2.TabIndex = 48;
             // 
-            // textBox28
+            // over_differential1
             // 
-            this.textBox28.Location = new System.Drawing.Point(712, 214);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(205, 20);
-            this.textBox28.TabIndex = 47;
+            this.over_differential1.Location = new System.Drawing.Point(712, 214);
+            this.over_differential1.Name = "over_differential1";
+            this.over_differential1.Size = new System.Drawing.Size(205, 20);
+            this.over_differential1.TabIndex = 47;
             // 
             // label25
             // 
@@ -462,12 +495,12 @@
             this.label25.TabIndex = 52;
             this.label25.Text = "EARNINGS";
             // 
-            // textBox29
+            // earnings_txt
             // 
-            this.textBox29.Location = new System.Drawing.Point(109, 405);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(166, 20);
-            this.textBox29.TabIndex = 53;
+            this.earnings_txt.Location = new System.Drawing.Point(109, 405);
+            this.earnings_txt.Name = "earnings_txt";
+            this.earnings_txt.Size = new System.Drawing.Size(166, 20);
+            this.earnings_txt.TabIndex = 53;
             // 
             // label26
             // 
@@ -487,153 +520,104 @@
             this.label27.TabIndex = 55;
             this.label27.Text = "OVERTIME";
             // 
-            // textBox1
+            // tardy_txttax
             // 
-            this.textBox1.Location = new System.Drawing.Point(216, 345);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(101, 20);
-            this.textBox1.TabIndex = 61;
+            this.tardy_txttax.Location = new System.Drawing.Point(241, 345);
+            this.tardy_txttax.Name = "tardy_txttax";
+            this.tardy_txttax.Size = new System.Drawing.Size(101, 20);
+            this.tardy_txttax.TabIndex = 61;
             // 
-            // textBox2
+            // sub_txttax
             // 
-            this.textBox2.Location = new System.Drawing.Point(216, 320);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(101, 20);
-            this.textBox2.TabIndex = 60;
+            this.sub_txttax.Location = new System.Drawing.Point(241, 320);
+            this.sub_txttax.Name = "sub_txttax";
+            this.sub_txttax.Size = new System.Drawing.Size(101, 20);
+            this.sub_txttax.TabIndex = 60;
             // 
-            // textBox3
+            // honoradjust_txttax
             // 
-            this.textBox3.Location = new System.Drawing.Point(216, 296);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(101, 20);
-            this.textBox3.TabIndex = 59;
+            this.honoradjust_txttax.Location = new System.Drawing.Point(241, 296);
+            this.honoradjust_txttax.Name = "honoradjust_txttax";
+            this.honoradjust_txttax.Size = new System.Drawing.Size(101, 20);
+            this.honoradjust_txttax.TabIndex = 59;
             // 
-            // textBox4
+            // honor_txttax
             // 
-            this.textBox4.Location = new System.Drawing.Point(216, 270);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(101, 20);
-            this.textBox4.TabIndex = 58;
+            this.honor_txttax.Location = new System.Drawing.Point(241, 270);
+            this.honor_txttax.Name = "honor_txttax";
+            this.honor_txttax.Size = new System.Drawing.Size(101, 20);
+            this.honor_txttax.TabIndex = 58;
             // 
-            // textBox5
+            // over_txttax
             // 
-            this.textBox5.Location = new System.Drawing.Point(216, 245);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(101, 20);
-            this.textBox5.TabIndex = 57;
+            this.over_txttax.Location = new System.Drawing.Point(241, 245);
+            this.over_txttax.Name = "over_txttax";
+            this.over_txttax.Size = new System.Drawing.Size(101, 20);
+            this.over_txttax.TabIndex = 57;
             // 
-            // textBox6
+            // basic_txttax
             // 
-            this.textBox6.Location = new System.Drawing.Point(216, 221);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(101, 20);
-            this.textBox6.TabIndex = 56;
+            this.basic_txttax.Location = new System.Drawing.Point(241, 221);
+            this.basic_txttax.Name = "basic_txttax";
+            this.basic_txttax.Size = new System.Drawing.Size(101, 20);
+            this.basic_txttax.TabIndex = 56;
             // 
-            // textBox7
+            // tardy_txtday
             // 
-            this.textBox7.Location = new System.Drawing.Point(102, 346);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(101, 20);
-            this.textBox7.TabIndex = 67;
+            this.tardy_txtday.Location = new System.Drawing.Point(127, 346);
+            this.tardy_txtday.Name = "tardy_txtday";
+            this.tardy_txtday.Size = new System.Drawing.Size(101, 20);
+            this.tardy_txtday.TabIndex = 67;
             // 
-            // textBox8
+            // sub_txtday
             // 
-            this.textBox8.Location = new System.Drawing.Point(102, 321);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(101, 20);
-            this.textBox8.TabIndex = 66;
+            this.sub_txtday.Location = new System.Drawing.Point(127, 321);
+            this.sub_txtday.Name = "sub_txtday";
+            this.sub_txtday.Size = new System.Drawing.Size(101, 20);
+            this.sub_txtday.TabIndex = 66;
             // 
-            // textBox9
+            // honoradjust_txtday
             // 
-            this.textBox9.Location = new System.Drawing.Point(102, 297);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(101, 20);
-            this.textBox9.TabIndex = 65;
+            this.honoradjust_txtday.Location = new System.Drawing.Point(127, 297);
+            this.honoradjust_txtday.Name = "honoradjust_txtday";
+            this.honoradjust_txtday.Size = new System.Drawing.Size(101, 20);
+            this.honoradjust_txtday.TabIndex = 65;
             // 
-            // textBox10
+            // honor_txtday
             // 
-            this.textBox10.Location = new System.Drawing.Point(102, 271);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(101, 20);
-            this.textBox10.TabIndex = 64;
+            this.honor_txtday.Location = new System.Drawing.Point(127, 271);
+            this.honor_txtday.Name = "honor_txtday";
+            this.honor_txtday.Size = new System.Drawing.Size(101, 20);
+            this.honor_txtday.TabIndex = 64;
             // 
-            // textBox11
+            // over_txtday
             // 
-            this.textBox11.Location = new System.Drawing.Point(102, 246);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(101, 20);
-            this.textBox11.TabIndex = 63;
+            this.over_txtday.Location = new System.Drawing.Point(127, 246);
+            this.over_txtday.Name = "over_txtday";
+            this.over_txtday.Size = new System.Drawing.Size(101, 20);
+            this.over_txtday.TabIndex = 63;
             // 
-            // textBox12
+            // basic_txtday
             // 
-            this.textBox12.Location = new System.Drawing.Point(102, 222);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(101, 20);
-            this.textBox12.TabIndex = 62;
+            this.basic_txtday.Location = new System.Drawing.Point(127, 222);
+            this.basic_txtday.Name = "basic_txtday";
+            this.basic_txtday.Size = new System.Drawing.Size(101, 20);
+            this.basic_txtday.TabIndex = 62;
+            this.basic_txtday.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
             // 
-            // textBox30
+            // deduction_txt
             // 
-            this.textBox30.Location = new System.Drawing.Point(471, 398);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(166, 20);
-            this.textBox30.TabIndex = 68;
+            this.deduction_txt.Location = new System.Drawing.Point(471, 398);
+            this.deduction_txt.Name = "deduction_txt";
+            this.deduction_txt.Size = new System.Drawing.Size(166, 20);
+            this.deduction_txt.TabIndex = 68;
             // 
-            // textBox31
+            // overtime_txt
             // 
-            this.textBox31.Location = new System.Drawing.Point(778, 398);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(166, 20);
-            this.textBox31.TabIndex = 69;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Location = new System.Drawing.Point(115, 62);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(289, 20);
-            this.textBox32.TabIndex = 70;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Location = new System.Drawing.Point(115, 93);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(289, 20);
-            this.textBox33.TabIndex = 71;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(431, 63);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(43, 13);
-            this.label29.TabIndex = 72;
-            this.label29.Text = "Cut-Off:";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(563, 27);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(286, 13);
-            this.label30.TabIndex = 73;
-            this.label30.Text = "College of Engineering, Computer, Studies and Architecture";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(563, 62);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(122, 13);
-            this.label31.TabIndex = 74;
-            this.label31.Text = "Mar 16 To Mar 31, 2025";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(562, 96);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(122, 13);
-            this.label32.TabIndex = 75;
-            this.label32.Text = "Mar 16 To Mar 31, 2025";
+            this.overtime_txt.Location = new System.Drawing.Point(778, 398);
+            this.overtime_txt.Name = "overtime_txt";
+            this.overtime_txt.Size = new System.Drawing.Size(166, 20);
+            this.overtime_txt.TabIndex = 69;
             // 
             // label33
             // 
@@ -653,26 +637,26 @@
             this.label34.TabIndex = 71;
             this.label34.Text = "NET PAY";
             // 
-            // textBox34
+            // net_pay_txt
             // 
-            this.textBox34.Location = new System.Drawing.Point(811, 497);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(106, 20);
-            this.textBox34.TabIndex = 74;
+            this.net_pay_txt.Location = new System.Drawing.Point(811, 497);
+            this.net_pay_txt.Name = "net_pay_txt";
+            this.net_pay_txt.Size = new System.Drawing.Size(106, 20);
+            this.net_pay_txt.TabIndex = 74;
             // 
-            // textBox35
+            // total_deductions_txt
             // 
-            this.textBox35.Location = new System.Drawing.Point(811, 468);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(106, 20);
-            this.textBox35.TabIndex = 73;
+            this.total_deductions_txt.Location = new System.Drawing.Point(811, 468);
+            this.total_deductions_txt.Name = "total_deductions_txt";
+            this.total_deductions_txt.Size = new System.Drawing.Size(106, 20);
+            this.total_deductions_txt.TabIndex = 73;
             // 
-            // textBox36
+            // gross_txt
             // 
-            this.textBox36.Location = new System.Drawing.Point(811, 433);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(106, 20);
-            this.textBox36.TabIndex = 72;
+            this.gross_txt.Location = new System.Drawing.Point(811, 433);
+            this.gross_txt.Name = "gross_txt";
+            this.gross_txt.Size = new System.Drawing.Size(106, 20);
+            this.gross_txt.TabIndex = 72;
             // 
             // label35
             // 
@@ -683,12 +667,26 @@
             this.label35.TabIndex = 75;
             this.label35.Text = "HDMF - Contribution";
             // 
-            // Companytxtbox
+            // Department_txt
             // 
-            this.Companytxtbox.Location = new System.Drawing.Point(115, 24);
-            this.Companytxtbox.Name = "Companytxtbox";
-            this.Companytxtbox.Size = new System.Drawing.Size(289, 20);
-            this.Companytxtbox.TabIndex = 76;
+            this.Department_txt.Location = new System.Drawing.Point(550, 24);
+            this.Department_txt.Name = "Department_txt";
+            this.Department_txt.Size = new System.Drawing.Size(289, 20);
+            this.Department_txt.TabIndex = 77;
+            // 
+            // cut_off
+            // 
+            this.cut_off.Location = new System.Drawing.Point(550, 60);
+            this.cut_off.Name = "cut_off";
+            this.cut_off.Size = new System.Drawing.Size(289, 20);
+            this.cut_off.TabIndex = 78;
+            // 
+            // pay_period
+            // 
+            this.pay_period.Location = new System.Drawing.Point(550, 96);
+            this.pay_period.Name = "pay_period";
+            this.pay_period.Size = new System.Drawing.Size(289, 20);
+            this.pay_period.TabIndex = 79;
             // 
             // payslip_report
             // 
@@ -696,52 +694,52 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(951, 526);
             this.Controls.Add(this.label35);
-            this.Controls.Add(this.textBox34);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox36);
+            this.Controls.Add(this.net_pay_txt);
+            this.Controls.Add(this.total_deductions_txt);
+            this.Controls.Add(this.gross_txt);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.label33);
-            this.Controls.Add(this.textBox31);
-            this.Controls.Add(this.textBox30);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.overtime_txt);
+            this.Controls.Add(this.deduction_txt);
+            this.Controls.Add(this.tardy_txtday);
+            this.Controls.Add(this.sub_txtday);
+            this.Controls.Add(this.honoradjust_txtday);
+            this.Controls.Add(this.honor_txtday);
+            this.Controls.Add(this.over_txtday);
+            this.Controls.Add(this.basic_txtday);
+            this.Controls.Add(this.tardy_txttax);
+            this.Controls.Add(this.sub_txttax);
+            this.Controls.Add(this.honoradjust_txttax);
+            this.Controls.Add(this.honor_txttax);
+            this.Controls.Add(this.over_txttax);
+            this.Controls.Add(this.basic_txttax);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label26);
-            this.Controls.Add(this.textBox29);
+            this.Controls.Add(this.earnings_txt);
             this.Controls.Add(this.label25);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox28);
+            this.Controls.Add(this.over_differential5);
+            this.Controls.Add(this.over_differential4);
+            this.Controls.Add(this.over_differential3);
+            this.Controls.Add(this.over_differential2);
+            this.Controls.Add(this.over_differential1);
             this.Controls.Add(this.label24);
-            this.Controls.Add(this.textBox19);
+            this.Controls.Add(this.sss_wisp_txt);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.textBox20);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox22);
+            this.Controls.Add(this.phil_txt);
+            this.Controls.Add(this.hdmf_txt);
+            this.Controls.Add(this.sss_txt);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label23);
-            this.Controls.Add(this.textBox23);
+            this.Controls.Add(this.withholding_txt);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.tardy_txtnontax);
+            this.Controls.Add(this.sub_txtnontax);
+            this.Controls.Add(this.honoradjust_txtnontax);
+            this.Controls.Add(this.honor_txtnontax);
+            this.Controls.Add(this.over_txtnontax);
+            this.Controls.Add(this.basic_txtnontax);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label11);
@@ -766,77 +764,77 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.TextBox Companytxtbox;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.GroupBox groupBox1;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label2;
+        public System.Windows.Forms.Label label6;
+        public System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label7;
+        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Label label10;
+        public System.Windows.Forms.Label label12;
+        public System.Windows.Forms.Label label13;
+        public System.Windows.Forms.Label label11;
+        public System.Windows.Forms.Label label14;
+        public System.Windows.Forms.Label label15;
+        public System.Windows.Forms.Label label16;
+        public System.Windows.Forms.Label label8;
+        public System.Windows.Forms.Label label17;
+        public System.Windows.Forms.Label label18;
+        public System.Windows.Forms.TextBox tardy_txtnontax;
+        public System.Windows.Forms.TextBox sub_txtnontax;
+        public System.Windows.Forms.TextBox honoradjust_txtnontax;
+        public System.Windows.Forms.TextBox honor_txtnontax;
+        public System.Windows.Forms.TextBox over_txtnontax;
+        public System.Windows.Forms.TextBox basic_txtnontax;
+        public System.Windows.Forms.TextBox sss_wisp_txt;
+        public System.Windows.Forms.Label label19;
+        public System.Windows.Forms.Label label20;
+        public System.Windows.Forms.TextBox phil_txt;
+        public System.Windows.Forms.TextBox hdmf_txt;
+        public System.Windows.Forms.TextBox sss_txt;
+        public System.Windows.Forms.Label label21;
+        public System.Windows.Forms.Label label22;
+        public System.Windows.Forms.Label label23;
+        public System.Windows.Forms.TextBox withholding_txt;
+        public System.Windows.Forms.Label label24;
+        public System.Windows.Forms.TextBox over_differential5;
+        public System.Windows.Forms.TextBox over_differential4;
+        public System.Windows.Forms.TextBox over_differential3;
+        public System.Windows.Forms.TextBox over_differential2;
+        public System.Windows.Forms.TextBox over_differential1;
+        public System.Windows.Forms.Label label25;
+        public System.Windows.Forms.TextBox earnings_txt;
+        public System.Windows.Forms.Label label26;
+        public System.Windows.Forms.Label label29;
+        public System.Windows.Forms.TextBox name_txt;
+        public System.Windows.Forms.TextBox code_txt;
+        public System.Windows.Forms.Label label27;
+        public System.Windows.Forms.TextBox tardy_txttax;
+        public System.Windows.Forms.TextBox sub_txttax;
+        public System.Windows.Forms.TextBox honoradjust_txttax;
+        public System.Windows.Forms.TextBox honor_txttax;
+        public System.Windows.Forms.TextBox over_txttax;
+        public System.Windows.Forms.TextBox basic_txttax;
+        public System.Windows.Forms.TextBox tardy_txtday;
+        public System.Windows.Forms.TextBox sub_txtday;
+        public System.Windows.Forms.TextBox honoradjust_txtday;
+        public System.Windows.Forms.TextBox honor_txtday;
+        public System.Windows.Forms.TextBox over_txtday;
+        public System.Windows.Forms.TextBox basic_txtday;
+        public System.Windows.Forms.TextBox deduction_txt;
+        public System.Windows.Forms.TextBox overtime_txt;
+        public System.Windows.Forms.Label label33;
+        public System.Windows.Forms.Label label34;
+        public System.Windows.Forms.TextBox net_pay_txt;
+        public System.Windows.Forms.TextBox total_deductions_txt;
+        public System.Windows.Forms.TextBox gross_txt;
+        public System.Windows.Forms.Label label35;
+        public System.Windows.Forms.TextBox Companytxtbox;
+        public System.Windows.Forms.TextBox Department_txt;
+        public System.Windows.Forms.TextBox pay_period;
+        public System.Windows.Forms.TextBox cut_off;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESTEVES_OOP_CPE201;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -40,13 +41,8 @@ namespace Activity_Midterm1
         private void Form1_Load_1(object sender, EventArgs e)
         {
         
-            FnameTxtBox.Enabled = false;
-            MnameTxtBox.Enabled = false;
-            SnameTxtBox.Enabled = false;
-            CivStatTxtBox.Enabled = false;
-            EmpStatTxtBox.Enabled = false;
-            //DesigTxtBox.Enabled = false;
-            DepTxtBox.Enabled = false;
+            
+            
             IncCutTxtBox.Enabled = false;
             IncCut2TxtBox.Enabled = false;
             IncCut3TxtBox.Enabled = false;
@@ -63,8 +59,31 @@ namespace Activity_Midterm1
 
         private void SaveBtn_Click_1(object sender, EventArgs e)
         {
+            payslip_report payslip_Report = new payslip_report();
+            payslip_Report.Show();
+
+            payslip_Report.code_txt.Text = EmpNameTxtBox.Text;
+            payslip_Report.name_txt.Text = FnameTxtBox.Text + " " + MnameTxtBox.Text + " " + SnameTxtBox.Text;
+            payslip_Report.Department_txt.Text = DepTxtBox.Text;
+            payslip_Report.basic_txtday.Text = IncCutTxtBox.Text;
+            payslip_Report.over_txtday.Text = IncCut2TxtBox.Text;
+            payslip_Report.honor_txtday.Text = IncCut3TxtBox.Text;
+            payslip_Report.honoradjust_txtday.Text = " " + "0";
+            payslip_Report.sub_txtday.Text = " " + "0";
+            payslip_Report.tardy_txtday.Text = " " + "0";
+            payslip_Report.withholding_txt.Text = IncTaxTxtBox.Text;
+            payslip_Report.sss_txt.Text = SSSConTxtBox.Text;
+            payslip_Report.phil_txt.Text = PhilHealthConTxtBox.Text;
+            payslip_Report.sss_wisp_txt.Text = "750";
+            payslip_Report.hdmf_txt.Text = PagibigConTxtBox.Text;
+            payslip_Report.withholding_txt.Text = IncTaxTxtBox.Text;
+            payslip_Report.cut_off.Text = PaydateTxtBox.Text;
+            payslip_Report.pay_period.Text = PaydateTxtBox.Text;
+
 
         }
+
+        
 
         private void NewBtn_Click_1(object sender, EventArgs e)
         {

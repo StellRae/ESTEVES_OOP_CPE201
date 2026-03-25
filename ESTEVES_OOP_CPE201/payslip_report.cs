@@ -26,5 +26,25 @@ namespace ESTEVES_OOP_CPE201
         {
 
         }
+
+        private void Companytxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void textBox32_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void textBox33_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

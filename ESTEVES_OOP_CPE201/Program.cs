@@ -17,7 +17,7 @@ namespace ESTEVES_OOP_CPE201
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // instantiate the Form1 class from the Activity_Midterm1 namespace
-            Application.Run(new payslip_report());
+            Application.Run(new Activity_Midterm1.Form1());
         }
     }
 }
