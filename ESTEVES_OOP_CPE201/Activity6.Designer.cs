@@ -127,6 +127,7 @@
             this.label1.Size = new System.Drawing.Size(96, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Employee Number:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // employeenum_txtbox
             // 
@@ -134,6 +135,7 @@
             this.employeenum_txtbox.Name = "employeenum_txtbox";
             this.employeenum_txtbox.Size = new System.Drawing.Size(100, 20);
             this.employeenum_txtbox.TabIndex = 1;
+            this.employeenum_txtbox.TextChanged += new System.EventHandler(this.employeenum_txtbox_TextChanged);
             // 
             // firstname_txtbox
             // 
@@ -141,6 +143,7 @@
             this.firstname_txtbox.Name = "firstname_txtbox";
             this.firstname_txtbox.Size = new System.Drawing.Size(100, 20);
             this.firstname_txtbox.TabIndex = 3;
+            this.firstname_txtbox.TextChanged += new System.EventHandler(this.firstname_txtbox_TextChanged);
             // 
             // label2
             // 
@@ -150,6 +153,7 @@
             this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "First Name:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // middlename__txtbox
             // 
@@ -157,6 +161,7 @@
             this.middlename__txtbox.Name = "middlename__txtbox";
             this.middlename__txtbox.Size = new System.Drawing.Size(100, 20);
             this.middlename__txtbox.TabIndex = 5;
+            this.middlename__txtbox.TextChanged += new System.EventHandler(this.middlename__txtbox_TextChanged);
             // 
             // label3
             // 
@@ -166,6 +171,7 @@
             this.label3.Size = new System.Drawing.Size(72, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Middle Name:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // designation_txtbox
             // 
@@ -173,6 +179,7 @@
             this.designation_txtbox.Name = "designation_txtbox";
             this.designation_txtbox.Size = new System.Drawing.Size(100, 20);
             this.designation_txtbox.TabIndex = 11;
+            this.designation_txtbox.TextChanged += new System.EventHandler(this.designation_txtbox_TextChanged);
             // 
             // label4
             // 
@@ -182,6 +189,7 @@
             this.label4.Size = new System.Drawing.Size(66, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "Designation:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -191,6 +199,7 @@
             this.label5.Size = new System.Drawing.Size(62, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Civil Status:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // surname_txtbox
             // 
@@ -198,6 +207,7 @@
             this.surname_txtbox.Name = "surname_txtbox";
             this.surname_txtbox.Size = new System.Drawing.Size(100, 20);
             this.surname_txtbox.TabIndex = 7;
+            this.surname_txtbox.TextChanged += new System.EventHandler(this.surname_txtbox_TextChanged);
             // 
             // label6
             // 
@@ -207,6 +217,7 @@
             this.label6.Size = new System.Drawing.Size(52, 13);
             this.label6.TabIndex = 6;
             this.label6.Text = "Surname:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // basicincome_txtbox
             // 
@@ -242,6 +253,7 @@
             this.label8.Size = new System.Drawing.Size(108, 13);
             this.label8.TabIndex = 14;
             this.label8.Text = "No. of Hours/Cut Off:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // basicrate_txtbox
             // 
@@ -260,6 +272,7 @@
             this.label9.Size = new System.Drawing.Size(61, 13);
             this.label9.TabIndex = 12;
             this.label9.Text = "Rate/Hour:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -269,6 +282,7 @@
             this.label10.Size = new System.Drawing.Size(112, 13);
             this.label10.TabIndex = 22;
             this.label10.Text = "Total Honorarium Pay:";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // honorhour_txtbox
             // 
@@ -292,6 +306,7 @@
             this.othertotal_txtbox.Name = "othertotal_txtbox";
             this.othertotal_txtbox.Size = new System.Drawing.Size(172, 20);
             this.othertotal_txtbox.TabIndex = 29;
+            this.othertotal_txtbox.TextChanged += new System.EventHandler(this.othertotal_txtbox_TextChanged);
             // 
             // label13
             // 
@@ -301,6 +316,7 @@
             this.label13.Size = new System.Drawing.Size(122, 13);
             this.label13.TabIndex = 28;
             this.label13.Text = "Total Other Income Pay:";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // otherhour_txtbox
             // 
@@ -318,6 +334,7 @@
             this.label14.Size = new System.Drawing.Size(106, 13);
             this.label14.TabIndex = 26;
             this.label14.Text = "No. of Hours/Cut off:";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // otherrate_txtbox
             // 
@@ -325,6 +342,7 @@
             this.otherrate_txtbox.Name = "otherrate_txtbox";
             this.otherrate_txtbox.Size = new System.Drawing.Size(173, 20);
             this.otherrate_txtbox.TabIndex = 25;
+            this.otherrate_txtbox.TextChanged += new System.EventHandler(this.otherrate_txtbox_TextChanged);
             // 
             // label15
             // 
@@ -334,6 +352,7 @@
             this.label15.Size = new System.Drawing.Size(61, 13);
             this.label15.TabIndex = 24;
             this.label15.Text = "Rate/Hour:";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // label16
             // 
@@ -380,6 +399,7 @@
             this.label18.Size = new System.Drawing.Size(75, 15);
             this.label18.TabIndex = 30;
             this.label18.Text = "BASIC PAY";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
             // 
             // label19
             // 
@@ -390,6 +410,7 @@
             this.label19.Size = new System.Drawing.Size(101, 15);
             this.label19.TabIndex = 31;
             this.label19.Text = "HONORARIUM";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
             // 
             // label20
             // 
@@ -400,6 +421,7 @@
             this.label20.Size = new System.Drawing.Size(61, 13);
             this.label20.TabIndex = 32;
             this.label20.Text = "Rate/Hour:";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label12
             // 
@@ -409,6 +431,7 @@
             this.label12.Size = new System.Drawing.Size(108, 13);
             this.label12.TabIndex = 33;
             this.label12.Text = "No. of Hours/Cut Off:";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label11
             // 
@@ -419,6 +442,7 @@
             this.label11.Size = new System.Drawing.Size(116, 15);
             this.label11.TabIndex = 34;
             this.label11.Text = "OTHER INCOME:";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label21
             // 
@@ -429,6 +453,7 @@
             this.label21.Size = new System.Drawing.Size(134, 15);
             this.label21.TabIndex = 35;
             this.label21.Text = "INCOME SUMMARY";
+            this.label21.Click += new System.EventHandler(this.label21_Click);
             // 
             // department_txtbox
             // 
@@ -436,6 +461,7 @@
             this.department_txtbox.Name = "department_txtbox";
             this.department_txtbox.Size = new System.Drawing.Size(100, 20);
             this.department_txtbox.TabIndex = 43;
+            this.department_txtbox.TextChanged += new System.EventHandler(this.department_txtbox_TextChanged);
             // 
             // label24
             // 
@@ -445,6 +471,7 @@
             this.label24.Size = new System.Drawing.Size(65, 13);
             this.label24.TabIndex = 42;
             this.label24.Text = "Department:";
+            this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // employeestat_txtbox
             // 
@@ -452,6 +479,7 @@
             this.employeestat_txtbox.Name = "employeestat_txtbox";
             this.employeestat_txtbox.Size = new System.Drawing.Size(100, 20);
             this.employeestat_txtbox.TabIndex = 41;
+            this.employeestat_txtbox.TextChanged += new System.EventHandler(this.employeestat_txtbox_TextChanged);
             // 
             // label25
             // 
@@ -461,6 +489,7 @@
             this.label25.Size = new System.Drawing.Size(89, 13);
             this.label25.TabIndex = 40;
             this.label25.Text = "Employee Status:";
+            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label26
             // 
@@ -470,6 +499,7 @@
             this.label26.Size = new System.Drawing.Size(49, 13);
             this.label26.TabIndex = 38;
             this.label26.Text = "Paydate:";
+            this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
             // dependent_txtbox
             // 
@@ -477,6 +507,7 @@
             this.dependent_txtbox.Name = "dependent_txtbox";
             this.dependent_txtbox.Size = new System.Drawing.Size(100, 20);
             this.dependent_txtbox.TabIndex = 37;
+            this.dependent_txtbox.TextChanged += new System.EventHandler(this.dependent_txtbox_TextChanged);
             // 
             // label27
             // 
@@ -486,6 +517,7 @@
             this.label27.Size = new System.Drawing.Size(126, 13);
             this.label27.TabIndex = 36;
             this.label27.Text = "Number of Dependent(s):";
+            this.label27.Click += new System.EventHandler(this.label27_Click);
             // 
             // pictureBox1
             // 
@@ -496,6 +528,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
@@ -526,6 +559,7 @@
             this.label28.Size = new System.Drawing.Size(80, 13);
             this.label28.TabIndex = 69;
             this.label28.Text = "PAGIBIG Loan:";
+            this.label28.Click += new System.EventHandler(this.label28_Click);
             // 
             // label29
             // 
@@ -536,6 +570,7 @@
             this.label29.Size = new System.Drawing.Size(58, 13);
             this.label29.TabIndex = 68;
             this.label29.Text = "SSS Loan:";
+            this.label29.Click += new System.EventHandler(this.label29_Click);
             // 
             // label30
             // 
@@ -546,6 +581,7 @@
             this.label30.Size = new System.Drawing.Size(142, 15);
             this.label30.TabIndex = 67;
             this.label30.Text = "OTHER DEDUCTION:";
+            this.label30.Click += new System.EventHandler(this.label30_Click);
             // 
             // label31
             // 
@@ -556,6 +592,7 @@
             this.label31.Size = new System.Drawing.Size(169, 15);
             this.label31.TabIndex = 66;
             this.label31.Text = "REGULAR DEDUCTIONS:";
+            this.label31.Click += new System.EventHandler(this.label31_Click);
             // 
             // totaldeduc_txtbox
             // 
@@ -582,6 +619,7 @@
             this.othefacdeposit_txtbox.Name = "othefacdeposit_txtbox";
             this.othefacdeposit_txtbox.Size = new System.Drawing.Size(136, 20);
             this.othefacdeposit_txtbox.TabIndex = 55;
+            this.othefacdeposit_txtbox.TextChanged += new System.EventHandler(this.othefacdeposit_txtbox_TextChanged);
             // 
             // label37
             // 
@@ -591,6 +629,7 @@
             this.label37.Size = new System.Drawing.Size(124, 13);
             this.label37.TabIndex = 54;
             this.label37.Text = "Faculty Savings Deposit:";
+            this.label37.Click += new System.EventHandler(this.label37_Click);
             // 
             // pagibig_txtbox
             // 
@@ -598,6 +637,7 @@
             this.pagibig_txtbox.Name = "pagibig_txtbox";
             this.pagibig_txtbox.Size = new System.Drawing.Size(188, 20);
             this.pagibig_txtbox.TabIndex = 53;
+            this.pagibig_txtbox.TextChanged += new System.EventHandler(this.pagibig_txtbox_TextChanged);
             // 
             // sssloan_txtbox
             // 
@@ -605,6 +645,7 @@
             this.sssloan_txtbox.Name = "sssloan_txtbox";
             this.sssloan_txtbox.Size = new System.Drawing.Size(188, 20);
             this.sssloan_txtbox.TabIndex = 52;
+            this.sssloan_txtbox.TextChanged += new System.EventHandler(this.sssloan_txtbox_TextChanged);
             // 
             // pagibigcontrib_txtbox
             // 
@@ -622,6 +663,7 @@
             this.label38.Size = new System.Drawing.Size(104, 13);
             this.label38.TabIndex = 50;
             this.label38.Text = "Pagibig Contribution:";
+            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // philhealth_txtbox
             // 
@@ -629,6 +671,7 @@
             this.philhealth_txtbox.Name = "philhealth_txtbox";
             this.philhealth_txtbox.Size = new System.Drawing.Size(188, 20);
             this.philhealth_txtbox.TabIndex = 49;
+            this.philhealth_txtbox.TextChanged += new System.EventHandler(this.philhealth_txtbox_TextChanged);
             // 
             // label39
             // 
@@ -638,6 +681,7 @@
             this.label39.Size = new System.Drawing.Size(117, 13);
             this.label39.TabIndex = 48;
             this.label39.Text = "PhilHealth Contribution:";
+            this.label39.Click += new System.EventHandler(this.label39_Click);
             // 
             // ssscontrib_txtbox
             // 
@@ -645,6 +689,7 @@
             this.ssscontrib_txtbox.Name = "ssscontrib_txtbox";
             this.ssscontrib_txtbox.Size = new System.Drawing.Size(188, 20);
             this.ssscontrib_txtbox.TabIndex = 47;
+            this.ssscontrib_txtbox.TextChanged += new System.EventHandler(this.ssscontrib_txtbox_TextChanged);
             // 
             // label40
             // 
@@ -655,6 +700,7 @@
             this.label40.Size = new System.Drawing.Size(90, 13);
             this.label40.TabIndex = 46;
             this.label40.Text = "SSS Contribution:";
+            this.label40.Click += new System.EventHandler(this.label40_Click);
             // 
             // label22
             // 
@@ -664,6 +710,7 @@
             this.label22.Size = new System.Drawing.Size(66, 13);
             this.label22.TabIndex = 76;
             this.label22.Text = "Salary Loan:";
+            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // label32
             // 
@@ -674,6 +721,7 @@
             this.label32.Size = new System.Drawing.Size(112, 13);
             this.label32.TabIndex = 75;
             this.label32.Text = "Faculty Savings Loan:";
+            this.label32.Click += new System.EventHandler(this.label32_Click);
             // 
             // label34
             // 
@@ -683,6 +731,7 @@
             this.label34.Size = new System.Drawing.Size(41, 13);
             this.label34.TabIndex = 73;
             this.label34.Text = "Others:";
+            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // othersalary_txtbox
             // 
@@ -690,6 +739,7 @@
             this.othersalary_txtbox.Name = "othersalary_txtbox";
             this.othersalary_txtbox.Size = new System.Drawing.Size(188, 20);
             this.othersalary_txtbox.TabIndex = 72;
+            this.othersalary_txtbox.TextChanged += new System.EventHandler(this.othersalary_txtbox_TextChanged);
             // 
             // otherfacloan_txtbox
             // 
@@ -697,6 +747,7 @@
             this.otherfacloan_txtbox.Name = "otherfacloan_txtbox";
             this.otherfacloan_txtbox.Size = new System.Drawing.Size(136, 20);
             this.otherfacloan_txtbox.TabIndex = 71;
+            this.otherfacloan_txtbox.TextChanged += new System.EventHandler(this.otherfacloan_txtbox_TextChanged);
             // 
             // tax_txtbox
             // 
@@ -704,6 +755,7 @@
             this.tax_txtbox.Name = "tax_txtbox";
             this.tax_txtbox.Size = new System.Drawing.Size(136, 20);
             this.tax_txtbox.TabIndex = 78;
+            this.tax_txtbox.TextChanged += new System.EventHandler(this.tax_txtbox_TextChanged);
             // 
             // label33
             // 
@@ -713,6 +765,7 @@
             this.label33.Size = new System.Drawing.Size(28, 13);
             this.label33.TabIndex = 77;
             this.label33.Text = "Tax:";
+            this.label33.Click += new System.EventHandler(this.label33_Click_1);
             // 
             // button2
             // 
@@ -782,6 +835,7 @@
             this.payslip_viewlistBox.Name = "payslip_viewlistBox";
             this.payslip_viewlistBox.Size = new System.Drawing.Size(357, 576);
             this.payslip_viewlistBox.TabIndex = 85;
+            this.payslip_viewlistBox.SelectedIndexChanged += new System.EventHandler(this.payslip_viewlistBox_SelectedIndexChanged);
             // 
             // honortotal_txtbox
             // 
@@ -789,6 +843,7 @@
             this.honortotal_txtbox.Name = "honortotal_txtbox";
             this.honortotal_txtbox.Size = new System.Drawing.Size(188, 20);
             this.honortotal_txtbox.TabIndex = 23;
+            this.honortotal_txtbox.TextChanged += new System.EventHandler(this.honortotal_txtbox_TextChanged);
             // 
             // dateTimePicker1
             // 
@@ -797,6 +852,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker1.TabIndex = 86;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // other_txtbox
             // 
@@ -804,10 +860,12 @@
             this.other_txtbox.Name = "other_txtbox";
             this.other_txtbox.Size = new System.Drawing.Size(188, 20);
             this.other_txtbox.TabIndex = 87;
+            this.other_txtbox.TextChanged += new System.EventHandler(this.other_txtbox_TextChanged);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // civilstat_txtbox
             // 
@@ -815,6 +873,7 @@
             this.civilstat_txtbox.Name = "civilstat_txtbox";
             this.civilstat_txtbox.Size = new System.Drawing.Size(100, 20);
             this.civilstat_txtbox.TabIndex = 88;
+            this.civilstat_txtbox.TextChanged += new System.EventHandler(this.civilstat_txtbox_TextChanged);
             // 
             // comboBox1
             // 
@@ -823,6 +882,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(188, 21);
             this.comboBox1.TabIndex = 89;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // picpathTxtbox
             // 
@@ -830,6 +890,7 @@
             this.picpathTxtbox.Name = "picpathTxtbox";
             this.picpathTxtbox.Size = new System.Drawing.Size(111, 20);
             this.picpathTxtbox.TabIndex = 90;
+            this.picpathTxtbox.TextChanged += new System.EventHandler(this.picpathTxtbox_TextChanged);
             // 
             // PAYSLIP_VIEW_DETAILS
             // 
@@ -841,6 +902,7 @@
             this.PAYSLIP_VIEW_DETAILS.TabIndex = 91;
             this.PAYSLIP_VIEW_DETAILS.TabStop = false;
             this.PAYSLIP_VIEW_DETAILS.Text = "PAYSLIP VIEW DETAILS";
+            this.PAYSLIP_VIEW_DETAILS.Enter += new System.EventHandler(this.PAYSLIP_VIEW_DETAILS_Enter);
             // 
             // groupBox1
             // 
@@ -849,6 +911,7 @@
             this.groupBox1.Size = new System.Drawing.Size(527, 181);
             this.groupBox1.TabIndex = 92;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // groupBox2
             // 
@@ -857,6 +920,7 @@
             this.groupBox2.Size = new System.Drawing.Size(376, 403);
             this.groupBox2.TabIndex = 94;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // groupBox3
             // 
@@ -865,6 +929,7 @@
             this.groupBox3.Size = new System.Drawing.Size(376, 403);
             this.groupBox3.TabIndex = 95;
             this.groupBox3.TabStop = false;
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // Activity6
             // 

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Activity6 : Form
+    public partial class EXAMPLE_5 : Form
     {
         private string picpath;
         private Double basic_net_income = 0.00,
@@ -38,36 +38,33 @@ namespace ESTEVES_OOP_CPE201
             total_contrib = 0.00,
             total_loan = 0.00;
 
-        private void button7_Click(object sender, EventArgs e)
+        public EXAMPLE_5()
         {
-            this.Close();
-
+            InitializeComponent();
         }
 
-        private void honorrate_txtbox_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void basicrate_txtbox_TextChanged(object sender, EventArgs e)
-        {
-           
         }
 
         private void basichour_txtbox_TextChanged(object sender, EventArgs e)
         {
-            try {
+            try
+            {
                 basic_numhrs = Double.Parse(basichour_txtbox.Text);
                 basic_rate = Convert.ToDouble(basicrate_txtbox.Text);
                 basic_net_income = basic_numhrs * basic_rate;
                 basicincome_txtbox.Text = basic_net_income.ToString("n");
             }
-            catch
+            catch (FormatException)
             {
-                MessageBox.Show("Please Enter Rate Per Hour");
+                MessageBox.Show("Please enter a valid number for Basic Hours and  Rate.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                basichour_txtbox.Clear();
+                basicrate_txtbox.Clear();
+                basicincome_txtbox.Clear();
             }
         }
-
         private void honorhour_txtbox_TextChanged(object sender, EventArgs e)
         {
             try
@@ -81,377 +78,81 @@ namespace ESTEVES_OOP_CPE201
             {
                 MessageBox.Show("Please Enter Rate Per Hour");
             }
-
-
         }
 
         private void otherhour_txtbox_TextChanged(object sender, EventArgs e)
         {
+            
             try
             {
+                double philhealth_contrib = 0.00;
+
                 other_numhrs = Convert.ToDouble(otherhour_txtbox.Text);
                 other_rate = Convert.ToDouble(otherrate_txtbox.Text);
                 other_netincome = other_numhrs * other_rate;
                 othertotal_txtbox.Text = other_netincome.ToString("n");
                 gross_income = basic_net_income + hono_netincome + other_netincome;
                 gross_txtbox.Text = gross_income.ToString("n");
+
+                if (gross_income < 10000)
+                {
+                    philhealth_contrib = 137.50;
+                }
+                else
+                {
+                    double philhealth_employshare = 137.50;
+                    for (int x = 10000; x <= 40000; x += 1000)
+                    {
+                        if (gross_income >= x && gross_income < x + 1000 || gross_income > x + 1000)
+                        {
+                            philhealth_contrib = philhealth_employshare;
+                        }
+                        philhealth_employshare += 13.75;    
+                    }
+                }
+                philhealth_txtbox.Text = philhealth_contrib.ToString("N");
             }
+
             catch
             {
                 MessageBox.Show("Please Enter Rate Per Hour");
             }
-        }
-
-        private void pagibigcontrib_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void employeenum_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void firstname_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void middlename__txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void designation_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void surname_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void othertotal_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label14_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void otherrate_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label18_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label19_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label20_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label12_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label21_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void department_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label24_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void employeestat_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label25_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label26_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dependent_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label27_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label28_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label29_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label30_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label31_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void othefacdeposit_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label37_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pagibig_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sssloan_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label38_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void philhealth_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label39_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ssscontrib_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label40_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label22_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label32_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label34_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void othersalary_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void otherfacloan_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tax_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label33_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void payslip_viewlistBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void honortotal_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void other_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void civilstat_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void picpathTxtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void PAYSLIP_VIEW_DETAILS_Enter(object sender, EventArgs e)
-        {
 
+            
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
-        }
+            //code for putting data from textboxes to variables
+            sss_contrib = Convert.ToDouble(ssscontrib_txtbox.Text);
+            pagibig_contrib = Convert.ToDouble(pagibigcontrib_txtbox.Text);
+            philhealth_contrib = Convert.ToDouble(philhealth_txtbox.Text);
+            tax_contrib = Convert.ToDouble(tax_txtbox.Text);
+            sss_loan = Convert.ToDouble(sssloan_txtbox.Text);
+            pagibig_loan = Convert.ToDouble(pagibig_txtbox.Text);
+            salary_loan = Convert.ToDouble(otherfacloan_txtbox.Text);
+            faculty_sav_loan = Convert.ToDouble(otherfacloan_txtbox.Text);
+            salary_savings = Convert.ToDouble(othersalary_txtbox.Text);
+            other_deduction = Convert.ToDouble(other_txtbox.Text);
+            //formula to compute the desired data to be computed 
+            total_contrib = sss_contrib + pagibig_contrib + philhealth_contrib + tax_contrib;
+            total_loan = sss_loan + pagibig_loan + salary_loan + faculty_sav_loan + salary_savings + other_deduction;
+            total_deduction = total_contrib + total_loan;
 
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
+            //code to convert numeric data to string and displayed inside the textboxes
+            totaldeduc_txtbox.Text = total_deduction.ToString("n");
+            net_income = gross_income - total_deduction;
+            net_txtbox.Text = net_income.ToString("n");
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
             try
             {
-                OpenFileDialog openFileDialog1 = new OpenFileDialog();
-                openFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif";
-                openFileDialog1.Title = "Select Employee Picture";
-                openFileDialog1.ShowDialog();
-                picpath = openFileDialog1.FileName;
-                pictureBox1.Image = Image.FromFile(openFileDialog1.FileName);
-            }
-            catch {
-                MessageBox.Show("No Image Uploaded");
-            }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            try
-            {
+                //codes for clearing the textboxes
                 employeenum_txtbox.Clear();
                 firstname_txtbox.Clear();
                 middlename__txtbox.Clear();
@@ -488,15 +189,12 @@ namespace ESTEVES_OOP_CPE201
             {
                 MessageBox.Show("Invalid Value");
             }
-
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
             try
             {
-                //codes for clearing the textboxes
                 employeenum_txtbox.Clear();
                 firstname_txtbox.Clear();
                 middlename__txtbox.Clear();
@@ -562,10 +260,10 @@ namespace ESTEVES_OOP_CPE201
             payslip_viewlistBox.Items.Add("---------------------------------------------------------------------------------------------------------");
             payslip_viewlistBox.Items.Add("BP Num of Hrs: " + " " + basichour_txtbox.Text);
             payslip_viewlistBox.Items.Add("BP Rate: " + " " + basicrate_txtbox.Text);
-            payslip_viewlistBox.Items.Add("BP Net Income: " + " " + basicincome_txtbox.Text);   
-                payslip_viewlistBox.Items.Add("HI Num of Hrs: " + " " + honorhour_txtbox.Text);
+            payslip_viewlistBox.Items.Add("BP Net Income: " + " " + basicincome_txtbox.Text);
+            payslip_viewlistBox.Items.Add("HI Num of Hrs: " + " " + honorhour_txtbox.Text);
             payslip_viewlistBox.Items.Add("HI Rate: " + " " + honorrate_txtbox.Text);
-            payslip_viewlistBox.Items.Add("Honorarium Income: " + " " +honortotal_txtbox);
+            payslip_viewlistBox.Items.Add("Honorarium Income: " + " " + honortotal_txtbox);
             payslip_viewlistBox.Items.Add("OTI Num of Hrs: " + " " + otherhour_txtbox.Text);
             payslip_viewlistBox.Items.Add("OTI Rate: " + " " + otherrate_txtbox.Text);
             payslip_viewlistBox.Items.Add("Other Income: " + " " + othertotal_txtbox);
@@ -585,122 +283,21 @@ namespace ESTEVES_OOP_CPE201
             payslip_viewlistBox.Items.Add("Gross Income: " + " " + gross_txtbox.Text);
             payslip_viewlistBox.Items.Add("Net Income: " + " " + net_txtbox.Text);
 
-
-
-
-
-
-
-
-
-
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-
-            //code for putting data from textboxes to variables
-            sss_contrib = Convert.ToDouble(ssscontrib_txtbox.Text);
-            pagibig_contrib = Convert.ToDouble(pagibigcontrib_txtbox.Text);
-            philhealth_contrib = Convert.ToDouble(philhealth_txtbox.Text);
-            tax_contrib = Convert.ToDouble(tax_txtbox.Text);
-            sss_loan = Convert.ToDouble(sssloan_txtbox.Text);
-            pagibig_loan = Convert.ToDouble(pagibig_txtbox.Text);
-            salary_loan = Convert.ToDouble(otherfacloan_txtbox.Text);
-            faculty_sav_loan = Convert.ToDouble(otherfacloan_txtbox.Text);
-            salary_savings = Convert.ToDouble(othersalary_txtbox.Text);
-            other_deduction = Convert.ToDouble(other_txtbox.Text);
-            //formula to compute the desired data to be computed 
-            total_contrib = sss_contrib + pagibig_contrib + philhealth_contrib + tax_contrib;
-            total_loan = sss_loan + pagibig_loan + salary_loan + faculty_sav_loan + salary_savings + other_deduction;
-            total_deduction = total_contrib + total_loan;
-
-            //code to convert numeric data to string and displayed inside the textboxes
-            totaldeduc_txtbox.Text = total_deduction.ToString("n");
-            net_income = gross_income - total_deduction;
-            net_txtbox.Text = net_income.ToString("n");
-
-
+            this.Close();
         }
 
-        public Activity6()
-        {
-            InitializeComponent();
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label17_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox17_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox16_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label23_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label36_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label35_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label33_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox19_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox25_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox26_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Assg2_Load(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
             //code for disabling all textboxes
             basicincome_txtbox.Enabled = false;
             honortotal_txtbox.Enabled = false;
             othertotal_txtbox.Enabled = false;
             net_txtbox.Enabled = false;
-            gross_txtbox.Enabled = false;   
+            gross_txtbox.Enabled = false;
             totaldeduc_txtbox.Enabled = false;
             ssscontrib_txtbox.Text = "0.00";
             pagibigcontrib_txtbox.Text = "0.00";
