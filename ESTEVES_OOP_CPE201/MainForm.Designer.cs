@@ -73,8 +73,8 @@
             this.acToolStripMenuItem});
             this.menuToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(49, 25);
-            this.menuToolStripMenuItem.Text = "File";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(131, 25);
+            this.menuToolStripMenuItem.Text = "COMPILATION";
             // 
             // activity1ToolStripMenuItem
             // 
@@ -213,6 +213,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

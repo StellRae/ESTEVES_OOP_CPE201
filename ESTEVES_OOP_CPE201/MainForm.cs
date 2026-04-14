@@ -20,7 +20,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void activity1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void acToolStripMenuItem_Click(object sender, EventArgs e)
@@ -109,6 +109,11 @@ namespace ESTEVES_OOP_CPE201
             Form2 f = new Form2();
             f.MdiParent = this;
             f.Show();
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
