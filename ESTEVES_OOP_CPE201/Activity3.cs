@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Form1 : Form
+    public partial class Activity3 : Form
     {
 
         //var
@@ -35,7 +35,7 @@ namespace ESTEVES_OOP_CPE201
         float disc_card = 0.10f;
         float disc_senior = 0.30f;
         float disc_employee = 0.15f;
-        public Form1()
+        public Activity3()
         {
             InitializeComponent();
         }

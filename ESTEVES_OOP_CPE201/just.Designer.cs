@@ -1,6 +1,6 @@
 ﻿namespace ESTEVES_OOP_CPE201
 {
-    partial class Activity3
+    partial class just
     {
         /// <summary>
         /// Required designer variable.
@@ -336,6 +336,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Activity3";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Activity3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DisplayPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

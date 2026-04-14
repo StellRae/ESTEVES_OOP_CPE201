@@ -94,6 +94,18 @@
     <Compile Include="EXAMPLE_4.Designer.cs">
       <DependentUpon>EXAMPLE_4.cs</DependentUpon>
     </Compile>
+    <Compile Include="EXAMPLE_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EXAMPLE_6.Designer.cs">
+      <DependentUpon>EXAMPLE_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="payslip_report.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,11 +124,11 @@
     <Compile Include="Receipt.Designer.cs">
       <DependentUpon>Receipt.cs</DependentUpon>
     </Compile>
-    <Compile Include="justdoit.cs">
+    <Compile Include="just.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="justdoit.Designer.cs">
-      <DependentUpon>justdoit.cs</DependentUpon>
+    <Compile Include="just.Designer.cs">
+      <DependentUpon>just.cs</DependentUpon>
     </Compile>
     <Compile Include="Activity3.cs">
       <SubType>Form</SubType>
@@ -156,6 +168,9 @@
     <EmbeddedResource Include="Activity6.resx">
       <DependentUpon>Activity6.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EXAMPLE_6.resx">
+      <DependentUpon>EXAMPLE_6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -168,6 +183,9 @@
     <EmbeddedResource Include="EXAMPLE_4.resx">
       <DependentUpon>EXAMPLE_4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="payslip_report.resx">
       <DependentUpon>payslip_report.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,8 +195,8 @@
     <EmbeddedResource Include="Receipt.resx">
       <DependentUpon>Receipt.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="justdoit.resx">
-      <DependentUpon>justdoit.cs</DependentUpon>
+    <EmbeddedResource Include="just.resx">
+      <DependentUpon>just.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Activity3.resx">
       <DependentUpon>Activity3.cs</DependentUpon>

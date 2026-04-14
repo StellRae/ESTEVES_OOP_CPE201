@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Activity3 : Form
+    public partial class just : Form
     {
-        public Activity3()
+        public just()
         {
             InitializeComponent();
         }
@@ -128,6 +128,11 @@ namespace ESTEVES_OOP_CPE201
         }
 
         private void B_itemnameTxtbox7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Activity3_Load(object sender, EventArgs e)
         {
 
         }

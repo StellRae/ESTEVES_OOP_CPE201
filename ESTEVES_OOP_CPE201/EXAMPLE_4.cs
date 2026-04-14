@@ -115,22 +115,22 @@ namespace ESTEVES_OOP_CPE201
                         }
                         else if (gross_income > 16666.67 && gross_income <= 33333.33)
                         {
-                            tax = ((((gross_income * 24) - 40000) * 0.25) + 300000) / 24;
+                            tax = ((((gross_income * 24) - 400000) * 0.25) + 30000) / 24;
                             tax_txtbox.Text = tax.ToString("n");
                         }
                         else if (gross_income > 33333.33 && gross_income <= 83333.33)
                         {
-                            tax = ((((gross_income * 24) - 80000) * 0.30) + 130000) / 24;
+                            tax = ((((gross_income * 24) - 800000) * 0.30) + 130000) / 24;
                             tax_txtbox.Text = tax.ToString("n");
                         }
                         else if (gross_income > 83333.33 && gross_income <= 333333.33)
                         {
-                            tax = ((((gross_income * 24) - 200000) * 0.32) + 490000) / 24;
+                            tax = ((((gross_income * 24) - 2000000) * 0.32) + 490000) / 24;
                             tax_txtbox.Text = tax.ToString("n");
                         }
                         else
                         {
-                            tax = ((((gross_income * 24) - 800000) * 0.35) + 2410000) / 24;
+                            tax = ((((gross_income * 24) - 8000000) * 0.35) + 2410000) / 24;
                             tax_txtbox.Text = tax.ToString("n");
                         }
                         pagibigcontrib_txtbox.Text = "100.00";
