@@ -20,89 +20,16 @@ namespace ESTEVES_OOP_CPE201
 
         private void activity1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void acToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void activity1ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-
-        private void examplesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
             Activity1 f = new Activity1();
             f.MdiParent = this;
             f.Show();
         }
 
-        private void exampleprelim1ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Activity2 f = new Activity2();
-            f.MdiParent = this;
-            f.Show();
-        }
 
-        private void exampleprelim2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Activity3 f = new Activity3();
-            f.MdiParent = this;
-            f.Show();
-        }
 
-        private void activity4ToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            Activity4 f = new Activity4();
-            f.MdiParent = this;
-            f.Show();
-        }
+     
 
-        private void activity5ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Activity5 f = new Activity5();
-            f.MdiParent = this; 
-            f.Show();
-        }
-
-        private void activity6ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Activity6 f = new Activity6();
-            f.MdiParent = this;
-            f.Show();
-        }
-
-        private void activity1ToolStripMenuItem2_Click(object sender, EventArgs e)
-        {
-            Activity_Midterm1.Form1 f = new Activity_Midterm1.Form1();
-            f.MdiParent = this;
-            f.Show();
-        }
-
-        private void eXAMPLE4ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            EXAMPLE_4 f = new EXAMPLE_4();
-            f.MdiParent = this;
-            f.Show();
-        }
-
-        private void eXAMPLE5ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            EXAMPLE_5 f = new EXAMPLE_5();
-            f.MdiParent = this;
-            f.Show();
-        }
-
-        private void eXAMPLE6ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            EXAMPLE_6 f = new EXAMPLE_6();
-            f.MdiParent = this;
-            f.Show();
-        }
+       
 
         private void eXAMPLE2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -114,6 +41,95 @@ namespace ESTEVES_OOP_CPE201
         private void MainForm_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void aCTIVITY2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Activity2 f = new Activity2();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            Activity3 f = new Activity3();
+            f.MdiParent = this;
+            f.Show();
+        
+    }
+
+        private void aCTIVITY4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Activity4 f = new Activity4();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITYToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Activity5 f = new Activity5();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY6ToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Activity6 f = new Activity6();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY1ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Activity_Midterm1.Form1 f = new Activity_Midterm1.Form1();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            EXAMPLE_4 f = new EXAMPLE_4();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY3ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            EXAMPLE_5 f = new EXAMPLE_5();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY4ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            EXAMPLE_6 f = new EXAMPLE_6();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void lOGOUTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void cASCADINGToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void aCTIVITY5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY7ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Quiz f = new Quiz();
+            f.MdiParent = this;
+            f.Show();
         }
     }
 }

@@ -30,178 +30,198 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.activity1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.prelimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.activity1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.examplesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exampleprelim1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exampleprelim2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.activity4ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.activity5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.activity6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.activity1ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.activity2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXAMPLE4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXAMPLE5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXAMPLE6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXAMPLE2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.mIDTERMSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fINALSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY4ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cASCADEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sETTIGSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lOGOUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cASCADINGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem});
+            this.menuToolStripMenuItem,
+            this.mIDTERMSToolStripMenuItem,
+            this.fINALSToolStripMenuItem,
+            this.cASCADEToolStripMenuItem,
+            this.sETTIGSToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1302, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.activity1ToolStripMenuItem,
+            this.aCTIVITY2ToolStripMenuItem,
+            this.aCTIVITY3ToolStripMenuItem,
+            this.aCTIVITY4ToolStripMenuItem,
+            this.aCTIVITYToolStripMenuItem,
+            this.aCTIVITY6ToolStripMenuItem,
+            this.aCTIVITY7ToolStripMenuItem});
+            this.menuToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(88, 25);
+            this.menuToolStripMenuItem.Text = "PRELIMS";
+            // 
+            // activity1ToolStripMenuItem
+            // 
+            this.activity1ToolStripMenuItem.Name = "activity1ToolStripMenuItem";
+            this.activity1ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.activity1ToolStripMenuItem.Text = "ACTIVITY 1";
+            this.activity1ToolStripMenuItem.Click += new System.EventHandler(this.activity1ToolStripMenuItem_Click);
+            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // menuToolStripMenuItem
+            // mIDTERMSToolStripMenuItem
             // 
-            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.activity1ToolStripMenuItem,
-            this.acToolStripMenuItem});
-            this.menuToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(131, 25);
-            this.menuToolStripMenuItem.Text = "COMPILATION";
+            this.mIDTERMSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aCTIVITY1ToolStripMenuItem1,
+            this.aCTIVITY2ToolStripMenuItem1,
+            this.aCTIVITY3ToolStripMenuItem1,
+            this.aCTIVITY4ToolStripMenuItem1,
+            this.aCTIVITY5ToolStripMenuItem});
+            this.mIDTERMSToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.mIDTERMSToolStripMenuItem.Name = "mIDTERMSToolStripMenuItem";
+            this.mIDTERMSToolStripMenuItem.Size = new System.Drawing.Size(105, 25);
+            this.mIDTERMSToolStripMenuItem.Text = "MIDTERMS";
             // 
-            // activity1ToolStripMenuItem
+            // fINALSToolStripMenuItem
             // 
-            this.activity1ToolStripMenuItem.Name = "activity1ToolStripMenuItem";
-            this.activity1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.activity1ToolStripMenuItem.Text = "Exit";
-            this.activity1ToolStripMenuItem.Click += new System.EventHandler(this.activity1ToolStripMenuItem_Click);
+            this.fINALSToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.fINALSToolStripMenuItem.Name = "fINALSToolStripMenuItem";
+            this.fINALSToolStripMenuItem.Size = new System.Drawing.Size(76, 25);
+            this.fINALSToolStripMenuItem.Text = "FINALS";
             // 
-            // acToolStripMenuItem
+            // aCTIVITY2ToolStripMenuItem
             // 
-            this.acToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.prelimToolStripMenuItem,
-            this.activity1ToolStripMenuItem1});
-            this.acToolStripMenuItem.Name = "acToolStripMenuItem";
-            this.acToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.acToolStripMenuItem.Text = "Activities";
-            this.acToolStripMenuItem.Click += new System.EventHandler(this.acToolStripMenuItem_Click);
+            this.aCTIVITY2ToolStripMenuItem.Name = "aCTIVITY2ToolStripMenuItem";
+            this.aCTIVITY2ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY2ToolStripMenuItem.Text = "ACTIVITY 2";
+            this.aCTIVITY2ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY2ToolStripMenuItem_Click);
             // 
-            // prelimToolStripMenuItem
+            // aCTIVITY3ToolStripMenuItem
             // 
-            this.prelimToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.examplesToolStripMenuItem,
-            this.exampleprelim1ToolStripMenuItem,
-            this.exampleprelim2ToolStripMenuItem,
-            this.activity4ToolStripMenuItem1,
-            this.activity5ToolStripMenuItem,
-            this.activity6ToolStripMenuItem,
-            this.eXAMPLE2ToolStripMenuItem});
-            this.prelimToolStripMenuItem.Name = "prelimToolStripMenuItem";
-            this.prelimToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.prelimToolStripMenuItem.Text = "Prelim";
+            this.aCTIVITY3ToolStripMenuItem.Name = "aCTIVITY3ToolStripMenuItem";
+            this.aCTIVITY3ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY3ToolStripMenuItem.Text = "ACTIVITY 3";
+            this.aCTIVITY3ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY3ToolStripMenuItem_Click);
             // 
-            // activity1ToolStripMenuItem1
+            // aCTIVITY4ToolStripMenuItem
             // 
-            this.activity1ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.activity1ToolStripMenuItem2,
-            this.activity2ToolStripMenuItem,
-            this.eXAMPLE4ToolStripMenuItem,
-            this.eXAMPLE5ToolStripMenuItem,
-            this.eXAMPLE6ToolStripMenuItem});
-            this.activity1ToolStripMenuItem1.Name = "activity1ToolStripMenuItem1";
-            this.activity1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
-            this.activity1ToolStripMenuItem1.Text = "Midterms";
-            this.activity1ToolStripMenuItem1.Click += new System.EventHandler(this.activity1ToolStripMenuItem1_Click);
+            this.aCTIVITY4ToolStripMenuItem.Name = "aCTIVITY4ToolStripMenuItem";
+            this.aCTIVITY4ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY4ToolStripMenuItem.Text = "ACTIVITY 4";
+            this.aCTIVITY4ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY4ToolStripMenuItem_Click);
             // 
-            // examplesToolStripMenuItem
+            // aCTIVITYToolStripMenuItem
             // 
-            this.examplesToolStripMenuItem.Name = "examplesToolStripMenuItem";
-            this.examplesToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.examplesToolStripMenuItem.Text = "Activity 1";
-            this.examplesToolStripMenuItem.Click += new System.EventHandler(this.examplesToolStripMenuItem_Click);
+            this.aCTIVITYToolStripMenuItem.Name = "aCTIVITYToolStripMenuItem";
+            this.aCTIVITYToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITYToolStripMenuItem.Text = "ACTIVITY 5";
+            this.aCTIVITYToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITYToolStripMenuItem_Click);
             // 
-            // exampleprelim1ToolStripMenuItem
+            // aCTIVITY6ToolStripMenuItem
             // 
-            this.exampleprelim1ToolStripMenuItem.Name = "exampleprelim1ToolStripMenuItem";
-            this.exampleprelim1ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.exampleprelim1ToolStripMenuItem.Text = "Activity 2";
-            this.exampleprelim1ToolStripMenuItem.Click += new System.EventHandler(this.exampleprelim1ToolStripMenuItem_Click);
+            this.aCTIVITY6ToolStripMenuItem.Name = "aCTIVITY6ToolStripMenuItem";
+            this.aCTIVITY6ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY6ToolStripMenuItem.Text = "ACTIVITY 6";
+            this.aCTIVITY6ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY6ToolStripMenuItem_Click_1);
             // 
-            // exampleprelim2ToolStripMenuItem
+            // aCTIVITY1ToolStripMenuItem1
             // 
-            this.exampleprelim2ToolStripMenuItem.Name = "exampleprelim2ToolStripMenuItem";
-            this.exampleprelim2ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.exampleprelim2ToolStripMenuItem.Text = "Activity 3";
-            this.exampleprelim2ToolStripMenuItem.Click += new System.EventHandler(this.exampleprelim2ToolStripMenuItem_Click);
+            this.aCTIVITY1ToolStripMenuItem1.Name = "aCTIVITY1ToolStripMenuItem1";
+            this.aCTIVITY1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY1ToolStripMenuItem1.Text = "ACTIVITY 1";
+            this.aCTIVITY1ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY1ToolStripMenuItem1_Click);
             // 
-            // activity4ToolStripMenuItem1
+            // aCTIVITY2ToolStripMenuItem1
             // 
-            this.activity4ToolStripMenuItem1.Name = "activity4ToolStripMenuItem1";
-            this.activity4ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
-            this.activity4ToolStripMenuItem1.Text = "Activity 4";
-            this.activity4ToolStripMenuItem1.Click += new System.EventHandler(this.activity4ToolStripMenuItem1_Click);
+            this.aCTIVITY2ToolStripMenuItem1.Name = "aCTIVITY2ToolStripMenuItem1";
+            this.aCTIVITY2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY2ToolStripMenuItem1.Text = "ACTIVITY 2";
+            this.aCTIVITY2ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY2ToolStripMenuItem1_Click);
             // 
-            // activity5ToolStripMenuItem
+            // aCTIVITY3ToolStripMenuItem1
             // 
-            this.activity5ToolStripMenuItem.Name = "activity5ToolStripMenuItem";
-            this.activity5ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.activity5ToolStripMenuItem.Text = "Activity 5";
-            this.activity5ToolStripMenuItem.Click += new System.EventHandler(this.activity5ToolStripMenuItem_Click);
+            this.aCTIVITY3ToolStripMenuItem1.Name = "aCTIVITY3ToolStripMenuItem1";
+            this.aCTIVITY3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY3ToolStripMenuItem1.Text = "ACTIVITY 3";
+            this.aCTIVITY3ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY3ToolStripMenuItem1_Click);
             // 
-            // activity6ToolStripMenuItem
+            // aCTIVITY4ToolStripMenuItem1
             // 
-            this.activity6ToolStripMenuItem.Name = "activity6ToolStripMenuItem";
-            this.activity6ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.activity6ToolStripMenuItem.Text = "Activity 6";
-            this.activity6ToolStripMenuItem.Click += new System.EventHandler(this.activity6ToolStripMenuItem_Click);
+            this.aCTIVITY4ToolStripMenuItem1.Name = "aCTIVITY4ToolStripMenuItem1";
+            this.aCTIVITY4ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY4ToolStripMenuItem1.Text = "ACTIVITY 4";
+            this.aCTIVITY4ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY4ToolStripMenuItem1_Click);
             // 
-            // activity1ToolStripMenuItem2
+            // aCTIVITY5ToolStripMenuItem
             // 
-            this.activity1ToolStripMenuItem2.Name = "activity1ToolStripMenuItem2";
-            this.activity1ToolStripMenuItem2.Size = new System.Drawing.Size(180, 26);
-            this.activity1ToolStripMenuItem2.Text = "Activity 1";
-            this.activity1ToolStripMenuItem2.Click += new System.EventHandler(this.activity1ToolStripMenuItem2_Click);
+            this.aCTIVITY5ToolStripMenuItem.Name = "aCTIVITY5ToolStripMenuItem";
+            this.aCTIVITY5ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY5ToolStripMenuItem.Text = "ACTIVITY 5";
+            this.aCTIVITY5ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY5ToolStripMenuItem_Click);
             // 
-            // activity2ToolStripMenuItem
+            // cASCADEToolStripMenuItem
             // 
-            this.activity2ToolStripMenuItem.Name = "activity2ToolStripMenuItem";
-            this.activity2ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.activity2ToolStripMenuItem.Text = "Activity 2";
+            this.cASCADEToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cASCADINGToolStripMenuItem});
+            this.cASCADEToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.cASCADEToolStripMenuItem.Name = "cASCADEToolStripMenuItem";
+            this.cASCADEToolStripMenuItem.Size = new System.Drawing.Size(94, 25);
+            this.cASCADEToolStripMenuItem.Text = "CASCADE";
             // 
-            // eXAMPLE4ToolStripMenuItem
+            // sETTIGSToolStripMenuItem
             // 
-            this.eXAMPLE4ToolStripMenuItem.Name = "eXAMPLE4ToolStripMenuItem";
-            this.eXAMPLE4ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.eXAMPLE4ToolStripMenuItem.Text = "EXAMPLE 4";
-            this.eXAMPLE4ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE4ToolStripMenuItem_Click);
+            this.sETTIGSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lOGOUTToolStripMenuItem});
+            this.sETTIGSToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.sETTIGSToolStripMenuItem.Name = "sETTIGSToolStripMenuItem";
+            this.sETTIGSToolStripMenuItem.Size = new System.Drawing.Size(96, 25);
+            this.sETTIGSToolStripMenuItem.Text = "SETTINGS";
             // 
-            // eXAMPLE5ToolStripMenuItem
+            // lOGOUTToolStripMenuItem
             // 
-            this.eXAMPLE5ToolStripMenuItem.Name = "eXAMPLE5ToolStripMenuItem";
-            this.eXAMPLE5ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.eXAMPLE5ToolStripMenuItem.Text = "EXAMPLE 5";
-            this.eXAMPLE5ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE5ToolStripMenuItem_Click);
+            this.lOGOUTToolStripMenuItem.Name = "lOGOUTToolStripMenuItem";
+            this.lOGOUTToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.lOGOUTToolStripMenuItem.Text = "LOGOUT";
+            this.lOGOUTToolStripMenuItem.Click += new System.EventHandler(this.lOGOUTToolStripMenuItem_Click);
             // 
-            // eXAMPLE6ToolStripMenuItem
+            // cASCADINGToolStripMenuItem
             // 
-            this.eXAMPLE6ToolStripMenuItem.Name = "eXAMPLE6ToolStripMenuItem";
-            this.eXAMPLE6ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.eXAMPLE6ToolStripMenuItem.Text = "EXAMPLE 6";
-            this.eXAMPLE6ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE6ToolStripMenuItem_Click);
+            this.cASCADINGToolStripMenuItem.Name = "cASCADINGToolStripMenuItem";
+            this.cASCADINGToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.cASCADINGToolStripMenuItem.Text = "CASCADING";
+            this.cASCADINGToolStripMenuItem.Click += new System.EventHandler(this.cASCADINGToolStripMenuItem_Click);
             // 
-            // eXAMPLE2ToolStripMenuItem
+            // aCTIVITY7ToolStripMenuItem
             // 
-            this.eXAMPLE2ToolStripMenuItem.Name = "eXAMPLE2ToolStripMenuItem";
-            this.eXAMPLE2ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.eXAMPLE2ToolStripMenuItem.Text = "EXAMPLE 2";
-            this.eXAMPLE2ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE2ToolStripMenuItem_Click);
+            this.aCTIVITY7ToolStripMenuItem.Name = "aCTIVITY7ToolStripMenuItem";
+            this.aCTIVITY7ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.aCTIVITY7ToolStripMenuItem.Text = "ACTIVITY 7";
+            this.aCTIVITY7ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY7ToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -226,21 +246,23 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem activity1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem acToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem prelimToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem activity1ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem examplesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exampleprelim1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exampleprelim2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem activity4ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem activity5ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem activity6ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem activity1ToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem activity2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eXAMPLE4ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eXAMPLE5ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eXAMPLE6ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eXAMPLE2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY6ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mIDTERMSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fINALSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY1ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY2ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY3ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY4ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cASCADEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sETTIGSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lOGOUTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cASCADINGToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY7ToolStripMenuItem;
     }
 }
