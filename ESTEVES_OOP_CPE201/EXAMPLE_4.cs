@@ -24,36 +24,22 @@ namespace ESTEVES_OOP_CPE201
             gross_income = 0.00,
             tax = 0.00;
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void honorhour_txtbox_Leave(object sender, EventArgs e)
         {
             try
             {
-
-                //code for putting data from textboxes to variables
-                sss_contrib = Convert.ToDouble(ssscontrib_txtbox.Text);
-                pagibig_contrib = Convert.ToDouble(pagibigcontrib_txtbox.Text);
-                philhealth_contrib = Convert.ToDouble(philhealth_txtbox.Text);
-                tax = Convert.ToDouble(tax_txtbox.Text);
-                total_deduction = sss_contrib + pagibig_contrib + philhealth_contrib + tax;
-
-                net_income = gross_income - total_deduction;
-                net_txtbox.Text = net_income.ToString("C");
-                totaldeduc_txtbox.Text = total_deduction.ToString("C");
-                gross_txtbox.Text = gross_income.ToString("C");
+                hono_numhrs = Convert.ToDouble(honorhour_txtbox.Text);
+                hono_rate = Convert.ToDouble(honorrate_txtbox.Text);
+                hono_netincome = hono_numhrs * hono_rate;
+                honortotal_txtbox.Text = hono_netincome.ToString("n");
             }
-            catch (Exception)
+            catch
             {
                 MessageBox.Show("Error occurs in this area. Please contact your administrator!");
             }
-
         }
 
-        private void otherhour_txtbox_TextChanged(object sender, EventArgs e)
+        private void otherhour_txtbox_Leave(object sender, EventArgs e)
         {
             try
             {
@@ -142,25 +128,9 @@ namespace ESTEVES_OOP_CPE201
                 MessageBox.Show("Error occurs in this area. Please contact your administrator!");
             }
 
-
         }
 
-        private void honorhour_txtbox_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                hono_numhrs = Convert.ToDouble(honorhour_txtbox.Text);
-                hono_rate = Convert.ToDouble(honorrate_txtbox.Text);
-                hono_netincome = hono_numhrs * hono_rate;
-                honortotal_txtbox.Text = hono_netincome.ToString("n");
-             }
-            catch
-            {
-                MessageBox.Show("Error occurs in this area. Please contact your administrator!");
-            }
-        }
-
-        private void basichour_txtbox_TextChanged(object sender, EventArgs e)
+        private void basichour_txtbox_Leave(object sender, EventArgs e)
         {
             try
             {
@@ -176,7 +146,74 @@ namespace ESTEVES_OOP_CPE201
             {
                 MessageBox.Show("Error occurs in this area. Please contact your administrator!");
             }
+
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Clear all textboxes
+            basicincome_txtbox.Clear();
+            basichour_txtbox.Clear();
+            basicrate_txtbox.Clear();
+            honortotal_txtbox.Clear();
+            honorhour_txtbox.Clear();
+            honorrate_txtbox.Clear();
+            othertotal_txtbox.Clear();
+            otherhour_txtbox.Clear();
+            otherrate_txtbox.Clear();
+            net_txtbox.Clear();
+            gross_txtbox.Clear();
+            totaldeduc_txtbox.Clear();
+            ssscontrib_txtbox.Clear();
+            pagibigcontrib_txtbox.Clear();
+            philhealth_txtbox.Clear();
+            tax_txtbox.Clear();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                //code for putting data from textboxes to variables
+                sss_contrib = Convert.ToDouble(ssscontrib_txtbox.Text);
+                pagibig_contrib = Convert.ToDouble(pagibigcontrib_txtbox.Text);
+                philhealth_contrib = Convert.ToDouble(philhealth_txtbox.Text);
+                tax = Convert.ToDouble(tax_txtbox.Text);
+                total_deduction = sss_contrib + pagibig_contrib + philhealth_contrib + tax;
+
+                net_income = gross_income - total_deduction;
+                net_txtbox.Text = net_income.ToString("C");
+                totaldeduc_txtbox.Text = total_deduction.ToString("C");
+                gross_txtbox.Text = gross_income.ToString("C");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error occurs in this area. Please contact your administrator!");
+            }
+
+        }
+
+        private void otherhour_txtbox_TextChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void honorhour_txtbox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void basichour_txtbox_TextChanged(object sender, EventArgs e)
+        {
+
+                    }
 
         private double sss_contrib, pagibig_contrib, philhealth_contrib, total_deduction, net_income;
 

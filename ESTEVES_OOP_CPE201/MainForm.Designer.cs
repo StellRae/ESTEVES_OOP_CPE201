@@ -45,11 +45,13 @@
             this.aCTIVITY3ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aCTIVITY4ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aCTIVITY5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cASCADEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sETTIGSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lOGOUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cASCADINGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aCTIVITY7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wINDOWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cASCADEToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tILEVERTICALToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tILEHORIZONTALToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,8 +61,8 @@
             this.menuToolStripMenuItem,
             this.mIDTERMSToolStripMenuItem,
             this.fINALSToolStripMenuItem,
-            this.cASCADEToolStripMenuItem,
-            this.sETTIGSToolStripMenuItem});
+            this.sETTIGSToolStripMenuItem,
+            this.wINDOWToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1302, 29);
@@ -159,22 +161,22 @@
             // aCTIVITY2ToolStripMenuItem1
             // 
             this.aCTIVITY2ToolStripMenuItem1.Name = "aCTIVITY2ToolStripMenuItem1";
-            this.aCTIVITY2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
-            this.aCTIVITY2ToolStripMenuItem1.Text = "ACTIVITY 2";
+            this.aCTIVITY2ToolStripMenuItem1.Size = new System.Drawing.Size(215, 26);
+            this.aCTIVITY2ToolStripMenuItem1.Text = "ACTIVITY 2 (EX. 4)";
             this.aCTIVITY2ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY2ToolStripMenuItem1_Click);
             // 
             // aCTIVITY3ToolStripMenuItem1
             // 
             this.aCTIVITY3ToolStripMenuItem1.Name = "aCTIVITY3ToolStripMenuItem1";
-            this.aCTIVITY3ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
-            this.aCTIVITY3ToolStripMenuItem1.Text = "ACTIVITY 3";
+            this.aCTIVITY3ToolStripMenuItem1.Size = new System.Drawing.Size(215, 26);
+            this.aCTIVITY3ToolStripMenuItem1.Text = "ACTIVITY 3 (EX. 5)";
             this.aCTIVITY3ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY3ToolStripMenuItem1_Click);
             // 
             // aCTIVITY4ToolStripMenuItem1
             // 
             this.aCTIVITY4ToolStripMenuItem1.Name = "aCTIVITY4ToolStripMenuItem1";
-            this.aCTIVITY4ToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
-            this.aCTIVITY4ToolStripMenuItem1.Text = "ACTIVITY 4";
+            this.aCTIVITY4ToolStripMenuItem1.Size = new System.Drawing.Size(215, 26);
+            this.aCTIVITY4ToolStripMenuItem1.Text = "ACTIVITY 4 (EX. 6)";
             this.aCTIVITY4ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY4ToolStripMenuItem1_Click);
             // 
             // aCTIVITY5ToolStripMenuItem
@@ -183,15 +185,6 @@
             this.aCTIVITY5ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.aCTIVITY5ToolStripMenuItem.Text = "ACTIVITY 5";
             this.aCTIVITY5ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY5ToolStripMenuItem_Click);
-            // 
-            // cASCADEToolStripMenuItem
-            // 
-            this.cASCADEToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cASCADINGToolStripMenuItem});
-            this.cASCADEToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.cASCADEToolStripMenuItem.Name = "cASCADEToolStripMenuItem";
-            this.cASCADEToolStripMenuItem.Size = new System.Drawing.Size(94, 25);
-            this.cASCADEToolStripMenuItem.Text = "CASCADE";
             // 
             // sETTIGSToolStripMenuItem
             // 
@@ -209,19 +202,44 @@
             this.lOGOUTToolStripMenuItem.Text = "LOGOUT";
             this.lOGOUTToolStripMenuItem.Click += new System.EventHandler(this.lOGOUTToolStripMenuItem_Click);
             // 
-            // cASCADINGToolStripMenuItem
-            // 
-            this.cASCADINGToolStripMenuItem.Name = "cASCADINGToolStripMenuItem";
-            this.cASCADINGToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.cASCADINGToolStripMenuItem.Text = "CASCADING";
-            this.cASCADINGToolStripMenuItem.Click += new System.EventHandler(this.cASCADINGToolStripMenuItem_Click);
-            // 
             // aCTIVITY7ToolStripMenuItem
             // 
             this.aCTIVITY7ToolStripMenuItem.Name = "aCTIVITY7ToolStripMenuItem";
             this.aCTIVITY7ToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.aCTIVITY7ToolStripMenuItem.Text = "ACTIVITY 7";
             this.aCTIVITY7ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY7ToolStripMenuItem_Click);
+            // 
+            // wINDOWToolStripMenuItem
+            // 
+            this.wINDOWToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cASCADEToolStripMenuItem1,
+            this.tILEVERTICALToolStripMenuItem,
+            this.tILEHORIZONTALToolStripMenuItem});
+            this.wINDOWToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wINDOWToolStripMenuItem.Name = "wINDOWToolStripMenuItem";
+            this.wINDOWToolStripMenuItem.Size = new System.Drawing.Size(96, 25);
+            this.wINDOWToolStripMenuItem.Text = "WINDOW";
+            // 
+            // cASCADEToolStripMenuItem1
+            // 
+            this.cASCADEToolStripMenuItem1.Name = "cASCADEToolStripMenuItem1";
+            this.cASCADEToolStripMenuItem1.Size = new System.Drawing.Size(216, 26);
+            this.cASCADEToolStripMenuItem1.Text = "CASCADE";
+            this.cASCADEToolStripMenuItem1.Click += new System.EventHandler(this.cASCADEToolStripMenuItem1_Click);
+            // 
+            // tILEVERTICALToolStripMenuItem
+            // 
+            this.tILEVERTICALToolStripMenuItem.Name = "tILEVERTICALToolStripMenuItem";
+            this.tILEVERTICALToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.tILEVERTICALToolStripMenuItem.Text = "TILE VERTICAL";
+            this.tILEVERTICALToolStripMenuItem.Click += new System.EventHandler(this.tILEVERTICALToolStripMenuItem_Click);
+            // 
+            // tILEHORIZONTALToolStripMenuItem
+            // 
+            this.tILEHORIZONTALToolStripMenuItem.Name = "tILEHORIZONTALToolStripMenuItem";
+            this.tILEHORIZONTALToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.tILEHORIZONTALToolStripMenuItem.Text = "TILE HORIZONTAL";
+            this.tILEHORIZONTALToolStripMenuItem.Click += new System.EventHandler(this.tILEHORIZONTALToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -233,6 +251,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
             this.Text = "Form3";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -259,10 +278,12 @@
         private System.Windows.Forms.ToolStripMenuItem aCTIVITY3ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aCTIVITY4ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aCTIVITY5ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cASCADEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sETTIGSToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lOGOUTToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cASCADINGToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aCTIVITY7ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem wINDOWToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cASCADEToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem tILEVERTICALToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tILEHORIZONTALToolStripMenuItem;
     }
 }

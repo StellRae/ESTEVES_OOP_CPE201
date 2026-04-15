@@ -24,20 +24,6 @@ namespace ESTEVES_OOP_CPE201
             f.MdiParent = this;
             f.Show();
         }
-
-
-
-     
-
-       
-
-        private void eXAMPLE2ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form2 f = new Form2();
-            f.MdiParent = this;
-            f.Show();
-        }
-
         private void MainForm_Load(object sender, EventArgs e)
         {
 
@@ -115,7 +101,7 @@ namespace ESTEVES_OOP_CPE201
 
         private void cASCADINGToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.LayoutMdi(MdiLayout.Cascade);
+            
         }
 
         private void aCTIVITY5ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -130,6 +116,26 @@ namespace ESTEVES_OOP_CPE201
             Quiz f = new Quiz();
             f.MdiParent = this;
             f.Show();
+        }
+
+        private void cASCADEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cASCADEToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void tILEVERTICALToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileVertical);
+        }
+
+        private void tILEHORIZONTALToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(MdiLayout.TileHorizontal);
         }
     }
 }

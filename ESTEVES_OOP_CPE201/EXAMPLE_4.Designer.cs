@@ -114,6 +114,7 @@
             this.basichour_txtbox.Size = new System.Drawing.Size(188, 21);
             this.basichour_txtbox.TabIndex = 21;
             this.basichour_txtbox.TextChanged += new System.EventHandler(this.basichour_txtbox_TextChanged);
+            this.basichour_txtbox.Leave += new System.EventHandler(this.basichour_txtbox_Leave);
             // 
             // label8
             // 
@@ -199,6 +200,7 @@
             this.honorhour_txtbox.Size = new System.Drawing.Size(147, 21);
             this.honorhour_txtbox.TabIndex = 35;
             this.honorhour_txtbox.TextChanged += new System.EventHandler(this.honorhour_txtbox_TextChanged);
+            this.honorhour_txtbox.Leave += new System.EventHandler(this.honorhour_txtbox_Leave);
             // 
             // honorrate_txtbox
             // 
@@ -264,6 +266,7 @@
             this.otherhour_txtbox.Size = new System.Drawing.Size(132, 21);
             this.otherhour_txtbox.TabIndex = 33;
             this.otherhour_txtbox.TextChanged += new System.EventHandler(this.otherhour_txtbox_TextChanged);
+            this.otherhour_txtbox.Leave += new System.EventHandler(this.otherhour_txtbox_Leave);
             // 
             // otherrate_txtbox
             // 
@@ -438,6 +441,7 @@
             this.button3.TabIndex = 81;
             this.button3.Text = "NEW";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button7
             // 
