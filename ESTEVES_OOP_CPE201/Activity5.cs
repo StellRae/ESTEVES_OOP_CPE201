@@ -260,8 +260,7 @@ namespace ESTEVES_OOP_CPE201
             double price, discount, discounted;
             int qty;
 
-            try
-            {
+            
                 //
                 price = double.Parse(price_txtbox.Text);
                 discount = double.Parse(discount_txtbox.Text);
@@ -276,10 +275,7 @@ namespace ESTEVES_OOP_CPE201
                 total_amount += discounted;
                 totalbill_txtbox.Text = total_amount.ToString("n");
                 discounted_txtbox.Text = discounted.ToString("n");
-            }
-            catch {
-                MessageBox.Show("Please Check Orders");
-            }
+            
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)

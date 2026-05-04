@@ -70,6 +70,24 @@
     <Compile Include="Activity6.Designer.cs">
       <DependentUpon>Activity6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lesson4_Example3_Methods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson4_Example3_Methods.Designer.cs">
+      <DependentUpon>Lesson4_Example3_Methods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson3_Example2_Methods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson3_Example2_Methods.Designer.cs">
+      <DependentUpon>Lesson3_Example2_Methods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson2_Example4_Methods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson2_Example4_Methods.Designer.cs">
+      <DependentUpon>Lesson2_Example4_Methods.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,12 +168,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Activity1.resx">
       <DependentUpon>Activity1.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +183,9 @@
     <EmbeddedResource Include="EXAMPLE_6.resx">
       <DependentUpon>EXAMPLE_6.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lesson2_Example4_Methods.resx">
+      <DependentUpon>Lesson2_Example4_Methods.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +197,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EXAMPLE_4.resx">
       <DependentUpon>EXAMPLE_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson3_Example2_Methods.resx">
+      <DependentUpon>Lesson3_Example2_Methods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson4_Example3_Methods.resx">
+      <DependentUpon>Lesson4_Example3_Methods.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
