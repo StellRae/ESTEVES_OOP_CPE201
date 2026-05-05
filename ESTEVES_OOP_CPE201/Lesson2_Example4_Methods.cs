@@ -154,6 +154,21 @@ namespace ESTEVES_OOP_CPE201
             quantityTxtbox();
         }
 
+        private void qtyTxtbox_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                price = Double.Parse(priceTxtbox.Text);
+                quantity = Double.Parse(qtyTxtbox.Text);
+                amtpaid = price * quantity;
+                AmtpaidTxtbox.Text = amtpaid.ToString("n");
+                cashgivenTxtbox.Focus();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Invalid input. Please enter a numeric value for quantity.");
+            }
+        }
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             displayTxtbox("Meal O", "134.00");

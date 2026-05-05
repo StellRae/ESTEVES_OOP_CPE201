@@ -935,6 +935,7 @@
             // 
             this.name14lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name14lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name14lbl.Image = ((System.Drawing.Image)(resources.GetObject("name14lbl.Image")));
             this.name14lbl.Location = new System.Drawing.Point(702, 312);
             this.name14lbl.Name = "name14lbl";
@@ -948,6 +949,7 @@
             // 
             this.name20lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name20lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name20lbl.Location = new System.Drawing.Point(398, 397);
             this.name20lbl.Name = "name20lbl";
             this.name20lbl.Size = new System.Drawing.Size(91, 88);
@@ -960,6 +962,7 @@
             // 
             this.name19lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name19lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name19lbl.Location = new System.Drawing.Point(301, 397);
             this.name19lbl.Name = "name19lbl";
             this.name19lbl.Size = new System.Drawing.Size(91, 88);
@@ -983,6 +986,7 @@
             // 
             this.name9lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name9lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name9lbl.Image = ((System.Drawing.Image)(resources.GetObject("name9lbl.Image")));
             this.name9lbl.Location = new System.Drawing.Point(704, 181);
             this.name9lbl.Name = "name9lbl";
@@ -996,6 +1000,7 @@
             // 
             this.name3lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name3lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name3lbl.Image = ((System.Drawing.Image)(resources.GetObject("name3lbl.Image")));
             this.name3lbl.Location = new System.Drawing.Point(604, 59);
             this.name3lbl.Name = "name3lbl";
@@ -1009,6 +1014,7 @@
             // 
             this.name13lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name13lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name13lbl.Image = ((System.Drawing.Image)(resources.GetObject("name13lbl.Image")));
             this.name13lbl.Location = new System.Drawing.Point(604, 312);
             this.name13lbl.Name = "name13lbl";
@@ -1022,6 +1028,7 @@
             // 
             this.name7lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name7lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name7lbl.Image = ((System.Drawing.Image)(resources.GetObject("name7lbl.Image")));
             this.name7lbl.Location = new System.Drawing.Point(512, 181);
             this.name7lbl.Name = "name7lbl";
@@ -1035,6 +1042,7 @@
             // 
             this.name1lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name1lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name1lbl.Image = ((System.Drawing.Image)(resources.GetObject("name1lbl.Image")));
             this.name1lbl.Location = new System.Drawing.Point(410, 59);
             this.name1lbl.Name = "name1lbl";
@@ -1048,6 +1056,7 @@
             // 
             this.name18lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name18lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name18lbl.Location = new System.Drawing.Point(205, 398);
             this.name18lbl.Name = "name18lbl";
             this.name18lbl.Size = new System.Drawing.Size(91, 88);
@@ -1060,6 +1069,7 @@
             // 
             this.name16lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name16lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name16lbl.Location = new System.Drawing.Point(411, 434);
             this.name16lbl.Name = "name16lbl";
             this.name16lbl.Size = new System.Drawing.Size(91, 88);
@@ -1072,6 +1082,7 @@
             // 
             this.name15lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name15lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name15lbl.Image = ((System.Drawing.Image)(resources.GetObject("name15lbl.Image")));
             this.name15lbl.Location = new System.Drawing.Point(798, 312);
             this.name15lbl.Name = "name15lbl";
@@ -1085,6 +1096,7 @@
             // 
             this.name10lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name10lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name10lbl.Image = ((System.Drawing.Image)(resources.GetObject("name10lbl.Image")));
             this.name10lbl.Location = new System.Drawing.Point(799, 181);
             this.name10lbl.Name = "name10lbl";
@@ -1098,6 +1110,7 @@
             // 
             this.name4lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name4lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name4lbl.Image = ((System.Drawing.Image)(resources.GetObject("name4lbl.Image")));
             this.name4lbl.Location = new System.Drawing.Point(702, 59);
             this.name4lbl.Name = "name4lbl";
@@ -1111,6 +1124,7 @@
             // 
             this.name12lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name12lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name12lbl.Image = ((System.Drawing.Image)(resources.GetObject("name12lbl.Image")));
             this.name12lbl.Location = new System.Drawing.Point(511, 312);
             this.name12lbl.Name = "name12lbl";
@@ -1124,6 +1138,7 @@
             // 
             this.name8lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name8lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name8lbl.Image = ((System.Drawing.Image)(resources.GetObject("name8lbl.Image")));
             this.name8lbl.Location = new System.Drawing.Point(605, 181);
             this.name8lbl.Name = "name8lbl";
@@ -1137,6 +1152,7 @@
             // 
             this.name11lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name11lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name11lbl.Image = ((System.Drawing.Image)(resources.GetObject("name11lbl.Image")));
             this.name11lbl.Location = new System.Drawing.Point(410, 312);
             this.name11lbl.Name = "name11lbl";
@@ -1150,6 +1166,7 @@
             // 
             this.name6lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name6lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name6lbl.Image = ((System.Drawing.Image)(resources.GetObject("name6lbl.Image")));
             this.name6lbl.Location = new System.Drawing.Point(411, 181);
             this.name6lbl.Name = "name6lbl";
@@ -1163,6 +1180,7 @@
             // 
             this.name17lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name17lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name17lbl.Location = new System.Drawing.Point(111, 398);
             this.name17lbl.Name = "name17lbl";
             this.name17lbl.Size = new System.Drawing.Size(91, 88);
@@ -1175,6 +1193,7 @@
             // 
             this.name5lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name5lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name5lbl.Image = ((System.Drawing.Image)(resources.GetObject("name5lbl.Image")));
             this.name5lbl.Location = new System.Drawing.Point(798, 59);
             this.name5lbl.Name = "name5lbl";
@@ -1188,6 +1207,7 @@
             // 
             this.name2lbl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.name2lbl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.name2lbl.Image = ((System.Drawing.Image)(resources.GetObject("name2lbl.Image")));
             this.name2lbl.Location = new System.Drawing.Point(512, 59);
             this.name2lbl.Name = "name2lbl";

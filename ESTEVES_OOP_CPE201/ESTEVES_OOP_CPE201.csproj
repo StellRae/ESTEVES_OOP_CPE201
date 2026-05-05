@@ -70,6 +70,26 @@
     <Compile Include="Activity6.Designer.cs">
       <DependentUpon>Activity6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Price_Item_Value.cs" />
+    <Compile Include="Variables.cs" />
+    <Compile Include="Lesson4_Example3_Classes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson4_Example3_Classes.Designer.cs">
+      <DependentUpon>Lesson4_Example3_Classes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson3_Example2_Classes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson3_Example2_Classes.Designer.cs">
+      <DependentUpon>Lesson3_Example2_Classes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson2_Example4_Classes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson2_Example4_Classes.Designer.cs">
+      <DependentUpon>Lesson2_Example4_Classes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lesson4_Example3_Methods.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +203,9 @@
     <EmbeddedResource Include="EXAMPLE_6.resx">
       <DependentUpon>EXAMPLE_6.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lesson2_Example4_Classes.resx">
+      <DependentUpon>Lesson2_Example4_Classes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lesson2_Example4_Methods.resx">
       <DependentUpon>Lesson2_Example4_Methods.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,8 +221,14 @@
     <EmbeddedResource Include="EXAMPLE_4.resx">
       <DependentUpon>EXAMPLE_4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lesson3_Example2_Classes.resx">
+      <DependentUpon>Lesson3_Example2_Classes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lesson3_Example2_Methods.resx">
       <DependentUpon>Lesson3_Example2_Methods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson4_Example3_Classes.resx">
+      <DependentUpon>Lesson4_Example3_Classes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson4_Example3_Methods.resx">
       <DependentUpon>Lesson4_Example3_Methods.cs</DependentUpon>

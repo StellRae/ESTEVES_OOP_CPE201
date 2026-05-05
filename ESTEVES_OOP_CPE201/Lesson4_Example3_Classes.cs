@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,15 +11,16 @@ using System.Windows.Forms;
 
 namespace ESTEVES_OOP_CPE201
 {
-    public partial class Lesson4_Example3_Methods : Form
+    public partial class Lesson4_Example3_Classes : Form
     {
-       double pricelocal, cash_given, change, total_paid, price, discount, discounted, qty, total_qty, total_amount;
-
-        public Lesson4_Example3_Methods()
+        public Lesson4_Example3_Classes()
         {
             InitializeComponent();
         }
 
+        //
+        Price_Item_Value price_discountamount_value = new Price_Item_Value();
+        Variables variables = new Variables();
         private void checkA()
         {
             //enable checkboxes
@@ -57,11 +59,11 @@ namespace ESTEVES_OOP_CPE201
             try
             {
 
-                cash_given = double.Parse(cashgiven_txtbox.Text);
-                total_paid = double.Parse(totalbill_txtbox.Text);
-                change = cash_given - total_paid;
+                variables.cash_given = double.Parse(cashgiven_txtbox.Text);
+                variables.total_amountPaid = double.Parse(totalbill_txtbox.Text);
+                variables.change = variables.cash_given - variables.total_amountPaid;
 
-                change_txtbox.Text = change.ToString("n");
+                change_txtbox.Text = variables.change.ToString("n");
                 display_listbox.Items.Add("Total Bills: " + totalbill_txtbox.Text);
                 display_listbox.Items.Add("Cash Given: " + cashgiven_txtbox.Text);
                 display_listbox.Items.Add("Change: " + change_txtbox.Text);
@@ -72,7 +74,7 @@ namespace ESTEVES_OOP_CPE201
                 MessageBox.Show("Invalid Values");
             }
         }
-            private void print()
+        private void print()
         {
             Receipt print = new Receipt();
             print.printDisplayListBox.Items.AddRange(this.display_listbox.Items);
@@ -121,10 +123,7 @@ namespace ESTEVES_OOP_CPE201
             B_checkbx4.Checked = false;
             B_checkbx5.Checked = false;
 
-            qty_txtbox.TextChanged -= qty_txtbox_TextChanged;
-            price_txtbox.Clear();
-            qty_txtbox.Clear();
-            qty_txtbox.TextChanged += qty_txtbox_TextChanged;
+            
 
             checkBox1.Checked = false;
             checkBox2.Checked = false;
@@ -147,28 +146,40 @@ namespace ESTEVES_OOP_CPE201
             checkBox19.Checked = false;
             checkBox20.Checked = false;
             display_listbox.Items.Clear();
+
+            //reset all textboxes
+            price_txtbox.Clear();
+            quantityTxtbox();
+            discount_txtbox.Clear();
+            discounted_txtbox.Clear();
+            totalbill_txtbox.Clear();
+            totalqty_txtbox.Clear();
+            cashgiven_txtbox.Clear();
+            change_txtbox.Clear();
+            totalqty_txtbox.Clear();
+
         }
         private void bills()
         {
-           
+
             try
             {
 
-            
-            //
-            price = Double.Parse(price_txtbox.Text);
-            discount = Double.Parse(discount_txtbox.Text);
-            qty = Convert.ToInt32(qty_txtbox.Text);
 
-            //
-            discounted = (price * qty) - discount;
-            total_qty += qty;
-            totalqty_txtbox.Text = total_qty.ToString();
+                //
+                variables.price = Double.Parse(price_txtbox.Text);
+                variables.discount_amt = Double.Parse(discount_txtbox.Text);
+                variables.quantity = Convert.ToInt32(qty_txtbox.Text);
 
-            //
-            total_amount += discounted;
-            totalbill_txtbox.Text = total_amount.ToString("n");
-            discounted_txtbox.Text = discounted.ToString("n");
+                //
+                variables.discounted_amt = (variables.price * variables.quantity) - variables.discount_amt;
+                variables.qty_total += variables.quantity;
+                totalqty_txtbox.Text = variables.qty_total.ToString();
+
+                //
+                variables.total_amountPaid += variables.discounted_amt;
+                totalbill_txtbox.Text = variables.total_amountPaid.ToString("n");
+                discounted_txtbox.Text = variables.discounted_amt.ToString("n");
             }
             catch (Exception)
             {
@@ -184,20 +195,160 @@ namespace ESTEVES_OOP_CPE201
         {
             discount_txtbox.Text = discount;
             price_txtbox.Text = price;
-            pricelocal = Convert.ToDouble(price_txtbox.Text);
+            double pricelocal = Convert.ToDouble(price_txtbox.Text);
             display_listbox.Items.Add(Checkbox + " " + price_txtbox.Text);
             qty_txtbox.Text = "";
             qty_txtbox.Focus();
 
         }
-
-        private void quantitytxtbox()
-        {   
-            qty_txtbox.Clear();
+        private void quantityTxtbox()
+        {
+            qty_txtbox.Text = "";
             qty_txtbox.Focus();
+
         }
 
-        private void Lesson4_Example3_Methods_Load(object sender, EventArgs e)
+        private void foodradiobtn()
+        {
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+        }
+
+        private void GetPriceDiscountAmount()
+        {
+            price_txtbox.Text = (price_discountamount_value.GetPriceItem());
+            discount_txtbox.Text = (price_discountamount_value.GetDiscountAmount());
+            variables.price = Double.Parse(price_txtbox.Text);
+        }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "72.00", "Order 1");
+            quantityTxtbox();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "927.00", "Order 2");
+            quantityTxtbox();
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "137.00", "Order 3");
+            quantityTxtbox();
+        }
+
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "106.00", "Order 4");
+            quantityTxtbox();
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "85.00", "Order 5");
+            quantityTxtbox();
+        }
+
+        private void checkBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "269.00", "Order 6");
+            quantityTxtbox();
+        }
+
+        
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "430.00", "Order 8");
+            quantityTxtbox();
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "150.00", "Order 9");
+            quantityTxtbox();
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "250.00", "Order 10");
+            quantityTxtbox();
+        }
+
+        private void checkBox15_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "300.00", "Order 11");
+            quantityTxtbox();
+        }
+
+        private void checkBox14_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "400.00", "Order 12");
+            quantityTxtbox();
+        }
+
+        private void checkBox13_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "100.00", "Order 13");
+            quantityTxtbox();
+        }
+
+        private void checkBox12_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "69.00", "Order 14");
+            quantityTxtbox();
+        }
+
+        private void checkBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "149.00", "Order 15");
+            quantityTxtbox();
+        }
+
+        private void checkBox20_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "49.00", "Order 16");
+            quantityTxtbox();
+        }
+
+        private void checkBox19_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "89.00", "Order 17");
+            quantityTxtbox();
+        }
+
+        private void checkBox18_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "120.00", "Order 18");
+            quantityTxtbox();
+        }
+
+        private void checkBox17_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "130.00", "Order 19");
+            quantityTxtbox();
+        }
+
+        private void checkBox16_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "550.00", "Order 20");
+            quantityTxtbox();
+        }
+
+        
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lesson4_Example3_Classes_Load(object sender, EventArgs e)
         {
             price_txtbox.Enabled = false;
             discounted_txtbox.Enabled = false;
@@ -221,118 +372,84 @@ namespace ESTEVES_OOP_CPE201
             B_checkbx5.Enabled = false;
         }
 
+        private void A_checkbx1_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "1200.00", "Bundle Jumbo Order1A");
+            quantityTxtbox();
+        }
+
+        private void A_checkbx2_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "850.00", "Bundle Large Order2A");
+            quantityTxtbox();
+        }
+
+        private void A_checkbx3_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "650.00", "Bundle Medium Order3A");
+            quantityTxtbox();
+        }
+
+        private void A_checkbx4_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "450.00", "Bundle Small Order4A");
+            quantityTxtbox();
+        }
+
+        private void A_checkbx5_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "250.00", "Bundle Child Order5A");
+            quantityTxtbox();
+        }
+
+        private void B_checkbx1_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "499.00", "Bundle Chicken Order1B");
+            quantityTxtbox();
+        }
+
+        private void name1lbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void B_checkbx2_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "300.00", "Bundle Burger Order2B");
+          quantityTxtbox();
+        }
+
+        private void B_checkbx3_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "350.00", "Bundle Spaghetti Order3B");
+            quantityTxtbox();
+        }
+
+        private void B_checkbx4_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "400.00", "Bundle Chicken Sandwich Order4B");
+            quantityTxtbox();
+        }
+
+        private void B_checkbx5_CheckedChanged(object sender, EventArgs e)
+        {
+            item_priceValue("0.00", "200.00", "Bundle 2 Spaghetti Order5B");
+            quantityTxtbox();
+        }
+
+        private void totalqty_txtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void qty_txtbox_TextChanged(object sender, EventArgs e)
         {
             bills();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void Calc_btn_Click(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "72.00", "Order 1");
-            quantitytxtbox();
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "927.00", "Order 2");
-            quantitytxtbox();
-        }
-
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "137.00", "Order 3");
-            quantitytxtbox();
-        }
-
-
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "106.00", "Order 4");
-            quantitytxtbox();
-        }
-
-        private void checkBox5_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "85.00", "Order 5");
-            quantitytxtbox();
-        }
-
-        private void checkBox10_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "269.00", "Order 6");
-            quantitytxtbox();
-        }
-
-        private void checkBox9_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "350.00", "Order 7");
-            quantitytxtbox();
-        }
-
-        private void checkBox8_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "430.00", "Order 8");
-            quantitytxtbox();
-        }
-
-        private void checkBox7_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "150.00", "Order 9");
-            quantitytxtbox();
-        }
-
-        private void checkBox6_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "250.00", "Order 10");
-            quantitytxtbox();
-        }
-
-        private void checkBox15_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "300.00", "Order 11");
-            quantitytxtbox();
-        }
-
-        private void checkBox14_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "400.00", "Order 12");
-            quantitytxtbox();
-        }
-
-        private void checkBox13_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "100.00", "Order 13");
-            quantitytxtbox();
-        }
-
-        private void checkBox12_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "69.00", "Order 14");
-            quantitytxtbox();
-        }
-
-        private void checkBox11_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "149.00", "Order 15");
-            quantitytxtbox();
-        }
-
-        private void checkBox20_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "49.00", "Order 16");
-            quantitytxtbox();
-        }
-
-        private void checkBox19_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "89.00", "Order 17");
-            quantitytxtbox();
-        }
-
-        private void checkBox18_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "120.00", "Order 18");
-            quantitytxtbox();
+            calculate_btn();
         }
 
         private void Print_btn_Click(object sender, EventArgs e)
@@ -352,97 +469,18 @@ namespace ESTEVES_OOP_CPE201
 
         private void Exit_btn_Click(object sender, EventArgs e)
         {
-            close(); 
+            close();
         }
 
-        private void A_checkbx1_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "1200.00", "Bundle Jumbo Order1A");
-            quantitytxtbox();
-        }
-
-        private void A_checkbx2_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "850.00", "Bundle Large Order2A");
-            quantitytxtbox();
-        }
-
-        private void A_checkbx3_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "650.00", "Bundle Medium Order3A");
-        }
-
-        private void A_checkbx4_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "450.00", "Bundle Small Order4A");
-        }
-
-        private void A_checkbx5_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "250.00", "Bundle Child Order5A");
-            quantitytxtbox();
-        }
-
-        private void B_checkbx1_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "499.00", "Bundle Chicken Order1B");
-            quantitytxtbox();
-        }
-
-        private void name1lbl_Click(object sender, EventArgs e)
+        private void totalbill_txtbox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void B_checkbx2_CheckedChanged(object sender, EventArgs e)
+        private void checkBox9_CheckedChanged_1(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "300.00", "Bundle Burger Order2B");
-            quantitytxtbox();
-        }
-
-        private void B_checkbx3_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "350.00", "Bundle Spaghetti Order3B");
-            quantitytxtbox();
-        }
-
-        private void B_checkbx4_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "400.00", "Bundle Chicken Sandwich Order4B");
-            quantitytxtbox();
-        }
-
-        private void B_checkbx5_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "200.00", "Bundle 2 Spaghetti Order5B");
-            quantitytxtbox();
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            checkA();
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            checkB();
-        }
-
-        private void checkBox17_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "130.00", "Order 19");
-            quantitytxtbox();
-        }
-
-        private void checkBox16_CheckedChanged(object sender, EventArgs e)
-        {
-            item_priceValue("0.00", "550.00", "Order 20");
-            quantitytxtbox();
-        }
-
-        private void Calc_btn_Click(object sender, EventArgs e)
-        {
-            calculate_btn();
+            item_priceValue("0.00", "350.00", "Order 7");
+            quantityTxtbox();
         }
     }
 }

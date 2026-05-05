@@ -56,16 +56,16 @@ namespace ESTEVES_OOP_CPE201
                 MessageBox.Show("No Images in Resources");
             }
             //disable checkboxes
-            A_checkbx1.Checked = false;
-            A_checkbx2.Checked = false;
-            A_checkbx3.Checked = false;
-            A_checkbx4.Checked = false;
-            A_checkbx5.Checked = false;
-            B_checkbx1.Checked = false;
-            B_checkbx2.Checked = false;
-            B_checkbx3.Checked = false;
-            B_checkbx4.Checked = false;
-            B_checkbx5.Checked = false;
+            A_checkbx1.Enabled = false;
+            A_checkbx2.Enabled = false;
+            A_checkbx3.Enabled = false;
+            A_checkbx4.Enabled = false;
+            A_checkbx5.Enabled = false;
+            B_checkbx1.Enabled = false;
+            B_checkbx2.Enabled = false;
+            B_checkbx3.Enabled = false;
+            B_checkbx4.Enabled = false;
+            B_checkbx5.Enabled = false;
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -269,7 +269,7 @@ namespace ESTEVES_OOP_CPE201
                 //
                 discounted = (price * qty) - discount;
                 total_qty += qty;
-                totalqty_txtbox.Text = qty.ToString();
+                totalqty_txtbox.Text = total_qty.ToString();
 
                 //
                 total_amount += discounted;
