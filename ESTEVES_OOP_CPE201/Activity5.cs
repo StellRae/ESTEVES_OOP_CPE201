@@ -247,7 +247,16 @@ namespace ESTEVES_OOP_CPE201
             checkBox19.Checked = false;
             checkBox20.Checked = false;
             display_listbox.Items.Clear();
-            }
+            price_txtbox.Clear();
+            qty_txtbox.Clear();
+            discount_txtbox.Clear();
+            discounted_txtbox.Clear();
+            totalbill_txtbox.Clear();
+            totalqty_txtbox.Clear();
+            cashgiven_txtbox.Clear();
+            change_txtbox.Clear();
+            totalqty_txtbox.Clear();
+        }
 
         private void Exit_btn_Click(object sender, EventArgs e)
         {

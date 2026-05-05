@@ -122,8 +122,7 @@ namespace ESTEVES_OOP_CPE201
             B_checkbx5.Checked = false;
 
             qty_txtbox.TextChanged -= qty_txtbox_TextChanged;
-            price_txtbox.Clear();
-            qty_txtbox.Clear();
+            
             qty_txtbox.TextChanged += qty_txtbox_TextChanged;
 
             checkBox1.Checked = false;
@@ -147,6 +146,16 @@ namespace ESTEVES_OOP_CPE201
             checkBox19.Checked = false;
             checkBox20.Checked = false;
             display_listbox.Items.Clear();
+
+            price_txtbox.Clear();
+            qty_txtbox.Clear();
+            discount_txtbox.Clear();
+            discounted_txtbox.Clear();
+            totalbill_txtbox.Clear();
+            totalqty_txtbox.Clear();
+            cashgiven_txtbox.Clear();
+            change_txtbox.Clear();
+            totalqty_txtbox.Clear();
         }
         private void bills()
         {

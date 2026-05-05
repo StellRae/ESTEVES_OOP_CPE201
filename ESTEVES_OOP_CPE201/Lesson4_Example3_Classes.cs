@@ -149,7 +149,7 @@ namespace ESTEVES_OOP_CPE201
 
             //reset all textboxes
             price_txtbox.Clear();
-            quantityTxtbox();
+            qty_txtbox.Clear();
             discount_txtbox.Clear();
             discounted_txtbox.Clear();
             totalbill_txtbox.Clear();
@@ -157,7 +157,6 @@ namespace ESTEVES_OOP_CPE201
             cashgiven_txtbox.Clear();
             change_txtbox.Clear();
             totalqty_txtbox.Clear();
-
         }
         private void bills()
         {

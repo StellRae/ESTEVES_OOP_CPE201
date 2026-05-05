@@ -137,5 +137,57 @@ namespace ESTEVES_OOP_CPE201
         {
             this.LayoutMdi(MdiLayout.TileHorizontal);
         }
+
+        private void lesson2Example4MethodsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Lesson2_Example4_Methods f = new Lesson2_Example4_Methods();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void lesson3Example2MethodsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Lesson3_Example2_Methods f = new Lesson3_Example2_Methods();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void lesson4Example3MethodsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Lesson4_Example3_Methods f = new Lesson4_Example3_Methods();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void lesson2Example4ClassesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Lesson2_Example4_Classes f = new Lesson2_Example4_Classes();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void lesson3Example2ClassesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Lesson3_Example2_Classes f = new Lesson3_Example2_Classes();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void lesson4Example3ClassesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Lesson4_Example3_Classes f = new Lesson4_Example3_Classes();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void variablesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Variables f = new Variables();
+        }
+
+        private void priceItemValueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Price_Item_Value f = new Price_Item_Value();
+        }
     }
 }
