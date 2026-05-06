@@ -23,6 +23,11 @@ namespace ESTEVES_OOP_CPE201
         Variables variables = new Variables();
         private void checkA()
         {
+            //change background color
+            this.BackColor = Color.LightCyan;
+            //disable other radio button
+            radioButton2.Checked = false;
+
             //enable checkboxes
             A_checkbx1.Checked = true;
             A_checkbx2.Checked = true;
@@ -36,10 +41,19 @@ namespace ESTEVES_OOP_CPE201
             B_checkbx3.Checked = false;
             B_checkbx4.Checked = false;
             B_checkbx5.Checked = false;
+
+            //display data to textboxes
+            price_txtbox.Text = "1250.00";
+            discount_txtbox.Text = "200";
+            variables.price = Convert.ToDouble(price_txtbox.Text);
+
+            // display data inside listbox
+            display_listbox.Items.Add(radioButton2.Text + " " + discount_txtbox.Text);
         }
 
         private void checkB()
         {
+            
             //enable checkboxes
             B_checkbx1.Checked = true;
             B_checkbx2.Checked = true;
@@ -53,6 +67,13 @@ namespace ESTEVES_OOP_CPE201
             A_checkbx3.Checked = false;
             A_checkbx4.Checked = false;
             A_checkbx5.Checked = false;
+
+            //display data to textboxes
+            price_txtbox.Text = "1500.00";
+            discount_txtbox.Text = "350";
+
+            // display data inside listbox
+            display_listbox.Items.Add(radioButton1.Text);
         }
         private void calculate_btn()
         {
@@ -339,12 +360,12 @@ namespace ESTEVES_OOP_CPE201
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-
+            checkA();
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-
+            checkB();
         }
 
         private void Lesson4_Example3_Classes_Load(object sender, EventArgs e)
@@ -373,38 +394,31 @@ namespace ESTEVES_OOP_CPE201
 
         private void A_checkbx1_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "1200.00", "Bundle Jumbo Order1A");
-            quantityTxtbox();
         }
 
         private void A_checkbx2_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "850.00", "Bundle Large Order2A");
-            quantityTxtbox();
+            
         }
 
         private void A_checkbx3_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "650.00", "Bundle Medium Order3A");
-            quantityTxtbox();
+            
         }
 
         private void A_checkbx4_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "450.00", "Bundle Small Order4A");
-            quantityTxtbox();
+            
         }
 
         private void A_checkbx5_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "250.00", "Bundle Child Order5A");
-            quantityTxtbox();
+            
         }
 
         private void B_checkbx1_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "499.00", "Bundle Chicken Order1B");
-            quantityTxtbox();
+            
         }
 
         private void name1lbl_Click(object sender, EventArgs e)
@@ -414,26 +428,22 @@ namespace ESTEVES_OOP_CPE201
 
         private void B_checkbx2_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "300.00", "Bundle Burger Order2B");
-          quantityTxtbox();
+            
         }
 
         private void B_checkbx3_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "350.00", "Bundle Spaghetti Order3B");
-            quantityTxtbox();
+            
         }
 
         private void B_checkbx4_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "400.00", "Bundle Chicken Sandwich Order4B");
-            quantityTxtbox();
+            
         }
 
         private void B_checkbx5_CheckedChanged(object sender, EventArgs e)
         {
-            item_priceValue("0.00", "200.00", "Bundle 2 Spaghetti Order5B");
-            quantityTxtbox();
+            
         }
 
         private void totalqty_txtbox_TextChanged(object sender, EventArgs e)
