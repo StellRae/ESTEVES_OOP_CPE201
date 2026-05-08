@@ -228,12 +228,7 @@ namespace ESTEVES_OOP_CPE201
 
         }
 
-        private void foodradiobtn()
-        {
-            radioButton1.Checked = false;
-            radioButton2.Checked = false;
-        }
-
+    
         private void GetPriceDiscountAmount()
         {
             price_txtbox.Text = (price_discountamount_value.GetPriceItem());

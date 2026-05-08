@@ -207,8 +207,10 @@ namespace ESTEVES_OOP_CPE201
 
         private void item_priceValue(String discount, string price, string Checkbox)
         {
+            //
             discount_txtbox.Text = discount;
             price_txtbox.Text = price;
+            //
             pricelocal = Convert.ToDouble(price_txtbox.Text);
             display_listbox.Items.Add(Checkbox + " " + price_txtbox.Text);
             qty_txtbox.Text = "";

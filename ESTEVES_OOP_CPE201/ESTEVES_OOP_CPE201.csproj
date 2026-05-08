@@ -70,12 +70,13 @@
     <Compile Include="Activity6.Designer.cs">
       <DependentUpon>Activity6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Admin_Form.cs">
+    <Compile Include="POS_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Admin_Form.Designer.cs">
-      <DependentUpon>Admin_Form.cs</DependentUpon>
+    <Compile Include="POS_Admin.Designer.cs">
+      <DependentUpon>POS_Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="pos_dbconnection.cs" />
     <Compile Include="Price_Item_Value.cs" />
     <Compile Include="Variables.cs" />
     <Compile Include="Lesson4_Example3_Classes.cs">
@@ -206,8 +207,8 @@
     <EmbeddedResource Include="Activity6.resx">
       <DependentUpon>Activity6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Admin_Form.resx">
-      <DependentUpon>Admin_Form.cs</DependentUpon>
+    <EmbeddedResource Include="POS_Admin.resx">
+      <DependentUpon>POS_Admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EXAMPLE_6.resx">
       <DependentUpon>EXAMPLE_6.cs</DependentUpon>
@@ -285,6 +286,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\simple-user-default-icon-free-png.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

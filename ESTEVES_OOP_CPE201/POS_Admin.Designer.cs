@@ -1,6 +1,6 @@
 ﻿namespace ESTEVES_OOP_CPE201
 {
-    partial class Admin_Form
+    partial class POS_Admin
     {
         /// <summary>
         /// Required designer variable.
@@ -39,99 +39,124 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.price12 = new System.Windows.Forms.TextBox();
             this.name12 = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.picbox12 = new System.Windows.Forms.PictureBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.price11 = new System.Windows.Forms.TextBox();
             this.name11 = new System.Windows.Forms.TextBox();
             this.picbox11 = new System.Windows.Forms.PictureBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.price15 = new System.Windows.Forms.TextBox();
+            this.name15 = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.picbox15 = new System.Windows.Forms.PictureBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.price14 = new System.Windows.Forms.TextBox();
+            this.name14 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.picbox14 = new System.Windows.Forms.PictureBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.price13 = new System.Windows.Forms.TextBox();
             this.name13 = new System.Windows.Forms.TextBox();
             this.picbox13 = new System.Windows.Forms.PictureBox();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.price17 = new System.Windows.Forms.TextBox();
+            this.name17 = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.picbox17 = new System.Windows.Forms.PictureBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.price16 = new System.Windows.Forms.TextBox();
+            this.name16 = new System.Windows.Forms.TextBox();
             this.picbox16 = new System.Windows.Forms.PictureBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.price20 = new System.Windows.Forms.TextBox();
+            this.name20 = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.picbox20 = new System.Windows.Forms.PictureBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.price19 = new System.Windows.Forms.TextBox();
+            this.name19 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.picbox19 = new System.Windows.Forms.PictureBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.price18 = new System.Windows.Forms.TextBox();
+            this.name18 = new System.Windows.Forms.TextBox();
             this.picbox18 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.price2 = new System.Windows.Forms.TextBox();
             this.name2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.picbox2 = new System.Windows.Forms.PictureBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.price1 = new System.Windows.Forms.TextBox();
             this.name1 = new System.Windows.Forms.TextBox();
             this.picbox1 = new System.Windows.Forms.PictureBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.price5 = new System.Windows.Forms.TextBox();
             this.name5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.picbox5 = new System.Windows.Forms.PictureBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.price4 = new System.Windows.Forms.TextBox();
             this.name4 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.picbox4 = new System.Windows.Forms.PictureBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.price3 = new System.Windows.Forms.TextBox();
             this.name3 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.price7 = new System.Windows.Forms.TextBox();
             this.name7 = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.picbox7 = new System.Windows.Forms.PictureBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.price6 = new System.Windows.Forms.TextBox();
             this.name6 = new System.Windows.Forms.TextBox();
             this.picbox6 = new System.Windows.Forms.PictureBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.price10 = new System.Windows.Forms.TextBox();
             this.name10 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.picbox10 = new System.Windows.Forms.PictureBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.price9 = new System.Windows.Forms.TextBox();
             this.name9 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.picbox9 = new System.Windows.Forms.PictureBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.price8 = new System.Windows.Forms.TextBox();
             this.name8 = new System.Windows.Forms.TextBox();
             this.picbox8 = new System.Windows.Forms.PictureBox();
+            this.pic1 = new System.Windows.Forms.TextBox();
+            this.pic2 = new System.Windows.Forms.TextBox();
+            this.pic3 = new System.Windows.Forms.TextBox();
+            this.pic4 = new System.Windows.Forms.TextBox();
+            this.pic5 = new System.Windows.Forms.TextBox();
+            this.pic10 = new System.Windows.Forms.TextBox();
+            this.pic9 = new System.Windows.Forms.TextBox();
+            this.pic8 = new System.Windows.Forms.TextBox();
+            this.pic7 = new System.Windows.Forms.TextBox();
+            this.pic6 = new System.Windows.Forms.TextBox();
+            this.pic15 = new System.Windows.Forms.TextBox();
+            this.pic14 = new System.Windows.Forms.TextBox();
+            this.pic13 = new System.Windows.Forms.TextBox();
+            this.pic12 = new System.Windows.Forms.TextBox();
+            this.pic11 = new System.Windows.Forms.TextBox();
+            this.pic20 = new System.Windows.Forms.TextBox();
+            this.pic19 = new System.Windows.Forms.TextBox();
+            this.pic18 = new System.Windows.Forms.TextBox();
+            this.pic17 = new System.Windows.Forms.TextBox();
+            this.pic16 = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picbox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox12)).BeginInit();
@@ -157,11 +182,13 @@
             // 
             // picbox3
             // 
+            this.picbox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox3.Location = new System.Drawing.Point(484, 34);
             this.picbox3.Name = "picbox3";
             this.picbox3.Size = new System.Drawing.Size(191, 104);
             this.picbox3.TabIndex = 248;
             this.picbox3.TabStop = false;
+            this.picbox3.Click += new System.EventHandler(this.picbox3_Click);
             // 
             // dataGridView1
             // 
@@ -188,6 +215,7 @@
             this.exi.TabIndex = 245;
             this.exi.Text = "NEW/CANCEL";
             this.exi.UseVisualStyleBackColor = true;
+            this.exi.Click += new System.EventHandler(this.exi_Click);
             // 
             // deletebtn
             // 
@@ -215,6 +243,7 @@
             this.savebtn.TabIndex = 242;
             this.savebtn.Text = "SAVE";
             this.savebtn.UseVisualStyleBackColor = true;
+            this.savebtn.Click += new System.EventHandler(this.savebtn_Click);
             // 
             // searchbtn
             // 
@@ -224,6 +253,7 @@
             this.searchbtn.TabIndex = 241;
             this.searchbtn.Text = "SEARCH";
             this.searchbtn.UseVisualStyleBackColor = true;
+            this.searchbtn.Click += new System.EventHandler(this.searchbtn_Click);
             // 
             // comboBox1
             // 
@@ -251,12 +281,12 @@
             this.label22.TabIndex = 238;
             this.label22.Text = "Name:";
             // 
-            // textBox21
+            // price12
             // 
-            this.textBox21.Location = new System.Drawing.Point(303, 512);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(66, 20);
-            this.textBox21.TabIndex = 237;
+            this.price12.Location = new System.Drawing.Point(303, 512);
+            this.price12.Name = "price12";
+            this.price12.Size = new System.Drawing.Size(66, 20);
+            this.price12.TabIndex = 237;
             // 
             // name12
             // 
@@ -285,18 +315,20 @@
             // 
             // picbox12
             // 
+            this.picbox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox12.Location = new System.Drawing.Point(262, 372);
             this.picbox12.Name = "picbox12";
             this.picbox12.Size = new System.Drawing.Size(187, 104);
             this.picbox12.TabIndex = 233;
             this.picbox12.TabStop = false;
+            this.picbox12.Click += new System.EventHandler(this.picbox12_Click);
             // 
-            // textBox23
+            // price11
             // 
-            this.textBox23.Location = new System.Drawing.Point(75, 512);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(66, 20);
-            this.textBox23.TabIndex = 232;
+            this.price11.Location = new System.Drawing.Point(75, 512);
+            this.price11.Name = "price11";
+            this.price11.Size = new System.Drawing.Size(66, 20);
+            this.price11.TabIndex = 232;
             // 
             // name11
             // 
@@ -307,25 +339,27 @@
             // 
             // picbox11
             // 
+            this.picbox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox11.Location = new System.Drawing.Point(34, 372);
             this.picbox11.Name = "picbox11";
             this.picbox11.Size = new System.Drawing.Size(191, 104);
             this.picbox11.TabIndex = 230;
             this.picbox11.TabStop = false;
+            this.picbox11.Click += new System.EventHandler(this.picbox11_Click);
             // 
-            // textBox25
+            // price15
             // 
-            this.textBox25.Location = new System.Drawing.Point(969, 512);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(66, 20);
-            this.textBox25.TabIndex = 229;
+            this.price15.Location = new System.Drawing.Point(969, 512);
+            this.price15.Name = "price15";
+            this.price15.Size = new System.Drawing.Size(66, 20);
+            this.price15.TabIndex = 229;
             // 
-            // textBox26
+            // name15
             // 
-            this.textBox26.Location = new System.Drawing.Point(969, 482);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(127, 20);
-            this.textBox26.TabIndex = 228;
+            this.name15.Location = new System.Drawing.Point(969, 482);
+            this.name15.Name = "name15";
+            this.name15.Size = new System.Drawing.Size(127, 20);
+            this.name15.TabIndex = 228;
             // 
             // label25
             // 
@@ -347,25 +381,27 @@
             // 
             // picbox15
             // 
+            this.picbox15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox15.Location = new System.Drawing.Point(928, 372);
             this.picbox15.Name = "picbox15";
             this.picbox15.Size = new System.Drawing.Size(192, 104);
             this.picbox15.TabIndex = 225;
             this.picbox15.TabStop = false;
+            this.picbox15.Click += new System.EventHandler(this.picbox15_Click);
             // 
-            // textBox27
+            // price14
             // 
-            this.textBox27.Location = new System.Drawing.Point(747, 512);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(66, 20);
-            this.textBox27.TabIndex = 224;
+            this.price14.Location = new System.Drawing.Point(747, 512);
+            this.price14.Name = "price14";
+            this.price14.Size = new System.Drawing.Size(66, 20);
+            this.price14.TabIndex = 224;
             // 
-            // textBox28
+            // name14
             // 
-            this.textBox28.Location = new System.Drawing.Point(747, 482);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(127, 20);
-            this.textBox28.TabIndex = 223;
+            this.name14.Location = new System.Drawing.Point(747, 482);
+            this.name14.Name = "name14";
+            this.name14.Size = new System.Drawing.Size(127, 20);
+            this.name14.TabIndex = 223;
             // 
             // label27
             // 
@@ -387,18 +423,20 @@
             // 
             // picbox14
             // 
+            this.picbox14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox14.Location = new System.Drawing.Point(706, 372);
             this.picbox14.Name = "picbox14";
             this.picbox14.Size = new System.Drawing.Size(191, 104);
             this.picbox14.TabIndex = 220;
             this.picbox14.TabStop = false;
+            this.picbox14.Click += new System.EventHandler(this.picbox14_Click);
             // 
-            // textBox29
+            // price13
             // 
-            this.textBox29.Location = new System.Drawing.Point(525, 512);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(66, 20);
-            this.textBox29.TabIndex = 219;
+            this.price13.Location = new System.Drawing.Point(525, 512);
+            this.price13.Name = "price13";
+            this.price13.Size = new System.Drawing.Size(66, 20);
+            this.price13.TabIndex = 219;
             // 
             // name13
             // 
@@ -409,11 +447,13 @@
             // 
             // picbox13
             // 
+            this.picbox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox13.Location = new System.Drawing.Point(484, 372);
             this.picbox13.Name = "picbox13";
             this.picbox13.Size = new System.Drawing.Size(191, 104);
             this.picbox13.TabIndex = 217;
             this.picbox13.TabStop = false;
+            this.picbox13.Click += new System.EventHandler(this.picbox13_Click);
             // 
             // label29
             // 
@@ -433,19 +473,19 @@
             this.label30.TabIndex = 215;
             this.label30.Text = "Name:";
             // 
-            // textBox31
+            // price17
             // 
-            this.textBox31.Location = new System.Drawing.Point(303, 683);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(66, 20);
-            this.textBox31.TabIndex = 214;
+            this.price17.Location = new System.Drawing.Point(303, 683);
+            this.price17.Name = "price17";
+            this.price17.Size = new System.Drawing.Size(66, 20);
+            this.price17.TabIndex = 214;
             // 
-            // textBox32
+            // name17
             // 
-            this.textBox32.Location = new System.Drawing.Point(303, 653);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(127, 20);
-            this.textBox32.TabIndex = 213;
+            this.name17.Location = new System.Drawing.Point(303, 653);
+            this.name17.Name = "name17";
+            this.name17.Size = new System.Drawing.Size(127, 20);
+            this.name17.TabIndex = 213;
             // 
             // label31
             // 
@@ -467,47 +507,51 @@
             // 
             // picbox17
             // 
+            this.picbox17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox17.Location = new System.Drawing.Point(262, 543);
             this.picbox17.Name = "picbox17";
             this.picbox17.Size = new System.Drawing.Size(187, 104);
             this.picbox17.TabIndex = 210;
             this.picbox17.TabStop = false;
+            this.picbox17.Click += new System.EventHandler(this.picbox17_Click);
             // 
-            // textBox33
+            // price16
             // 
-            this.textBox33.Location = new System.Drawing.Point(75, 683);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(66, 20);
-            this.textBox33.TabIndex = 209;
+            this.price16.Location = new System.Drawing.Point(75, 683);
+            this.price16.Name = "price16";
+            this.price16.Size = new System.Drawing.Size(66, 20);
+            this.price16.TabIndex = 209;
             // 
-            // textBox34
+            // name16
             // 
-            this.textBox34.Location = new System.Drawing.Point(75, 653);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(127, 20);
-            this.textBox34.TabIndex = 208;
+            this.name16.Location = new System.Drawing.Point(75, 653);
+            this.name16.Name = "name16";
+            this.name16.Size = new System.Drawing.Size(127, 20);
+            this.name16.TabIndex = 208;
             // 
             // picbox16
             // 
+            this.picbox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox16.Location = new System.Drawing.Point(34, 543);
             this.picbox16.Name = "picbox16";
             this.picbox16.Size = new System.Drawing.Size(191, 104);
             this.picbox16.TabIndex = 207;
             this.picbox16.TabStop = false;
+            this.picbox16.Click += new System.EventHandler(this.picbox16_Click);
             // 
-            // textBox35
+            // price20
             // 
-            this.textBox35.Location = new System.Drawing.Point(969, 683);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(66, 20);
-            this.textBox35.TabIndex = 206;
+            this.price20.Location = new System.Drawing.Point(969, 683);
+            this.price20.Name = "price20";
+            this.price20.Size = new System.Drawing.Size(66, 20);
+            this.price20.TabIndex = 206;
             // 
-            // textBox36
+            // name20
             // 
-            this.textBox36.Location = new System.Drawing.Point(969, 653);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(127, 20);
-            this.textBox36.TabIndex = 205;
+            this.name20.Location = new System.Drawing.Point(969, 653);
+            this.name20.Name = "name20";
+            this.name20.Size = new System.Drawing.Size(127, 20);
+            this.name20.TabIndex = 205;
             // 
             // label33
             // 
@@ -529,25 +573,27 @@
             // 
             // picbox20
             // 
+            this.picbox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox20.Location = new System.Drawing.Point(928, 543);
             this.picbox20.Name = "picbox20";
             this.picbox20.Size = new System.Drawing.Size(192, 104);
             this.picbox20.TabIndex = 202;
             this.picbox20.TabStop = false;
+            this.picbox20.Click += new System.EventHandler(this.picbox20_Click);
             // 
-            // textBox37
+            // price19
             // 
-            this.textBox37.Location = new System.Drawing.Point(747, 683);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(66, 20);
-            this.textBox37.TabIndex = 201;
+            this.price19.Location = new System.Drawing.Point(747, 683);
+            this.price19.Name = "price19";
+            this.price19.Size = new System.Drawing.Size(66, 20);
+            this.price19.TabIndex = 201;
             // 
-            // textBox38
+            // name19
             // 
-            this.textBox38.Location = new System.Drawing.Point(747, 653);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(127, 20);
-            this.textBox38.TabIndex = 200;
+            this.name19.Location = new System.Drawing.Point(747, 653);
+            this.name19.Name = "name19";
+            this.name19.Size = new System.Drawing.Size(127, 20);
+            this.name19.TabIndex = 200;
             // 
             // label35
             // 
@@ -569,33 +615,37 @@
             // 
             // picbox19
             // 
+            this.picbox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox19.Location = new System.Drawing.Point(706, 543);
             this.picbox19.Name = "picbox19";
             this.picbox19.Size = new System.Drawing.Size(191, 104);
             this.picbox19.TabIndex = 197;
             this.picbox19.TabStop = false;
+            this.picbox19.Click += new System.EventHandler(this.picbox19_Click);
             // 
-            // textBox39
+            // price18
             // 
-            this.textBox39.Location = new System.Drawing.Point(525, 683);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(66, 20);
-            this.textBox39.TabIndex = 196;
+            this.price18.Location = new System.Drawing.Point(525, 683);
+            this.price18.Name = "price18";
+            this.price18.Size = new System.Drawing.Size(66, 20);
+            this.price18.TabIndex = 196;
             // 
-            // textBox40
+            // name18
             // 
-            this.textBox40.Location = new System.Drawing.Point(525, 653);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(127, 20);
-            this.textBox40.TabIndex = 195;
+            this.name18.Location = new System.Drawing.Point(525, 653);
+            this.name18.Name = "name18";
+            this.name18.Size = new System.Drawing.Size(127, 20);
+            this.name18.TabIndex = 195;
             // 
             // picbox18
             // 
+            this.picbox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox18.Location = new System.Drawing.Point(484, 543);
             this.picbox18.Name = "picbox18";
             this.picbox18.Size = new System.Drawing.Size(191, 104);
             this.picbox18.TabIndex = 194;
             this.picbox18.TabStop = false;
+            this.picbox18.Click += new System.EventHandler(this.picbox18_Click);
             // 
             // label1
             // 
@@ -633,12 +683,12 @@
             this.label4.TabIndex = 190;
             this.label4.Text = "Name:";
             // 
-            // textBox1
+            // price2
             // 
-            this.textBox1.Location = new System.Drawing.Point(303, 174);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(66, 20);
-            this.textBox1.TabIndex = 189;
+            this.price2.Location = new System.Drawing.Point(303, 174);
+            this.price2.Name = "price2";
+            this.price2.Size = new System.Drawing.Size(66, 20);
+            this.price2.TabIndex = 189;
             // 
             // name2
             // 
@@ -667,18 +717,20 @@
             // 
             // picbox2
             // 
+            this.picbox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox2.Location = new System.Drawing.Point(262, 34);
             this.picbox2.Name = "picbox2";
             this.picbox2.Size = new System.Drawing.Size(187, 104);
             this.picbox2.TabIndex = 185;
             this.picbox2.TabStop = false;
+            this.picbox2.Click += new System.EventHandler(this.picbox2_Click);
             // 
-            // textBox3
+            // price1
             // 
-            this.textBox3.Location = new System.Drawing.Point(75, 174);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(66, 20);
-            this.textBox3.TabIndex = 184;
+            this.price1.Location = new System.Drawing.Point(75, 174);
+            this.price1.Name = "price1";
+            this.price1.Size = new System.Drawing.Size(66, 20);
+            this.price1.TabIndex = 184;
             // 
             // name1
             // 
@@ -689,18 +741,20 @@
             // 
             // picbox1
             // 
+            this.picbox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox1.Location = new System.Drawing.Point(34, 34);
             this.picbox1.Name = "picbox1";
             this.picbox1.Size = new System.Drawing.Size(191, 104);
             this.picbox1.TabIndex = 182;
             this.picbox1.TabStop = false;
+            this.picbox1.Click += new System.EventHandler(this.picbox1_Click);
             // 
-            // textBox5
+            // price5
             // 
-            this.textBox5.Location = new System.Drawing.Point(969, 174);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(66, 20);
-            this.textBox5.TabIndex = 181;
+            this.price5.Location = new System.Drawing.Point(969, 174);
+            this.price5.Name = "price5";
+            this.price5.Size = new System.Drawing.Size(66, 20);
+            this.price5.TabIndex = 181;
             // 
             // name5
             // 
@@ -729,18 +783,20 @@
             // 
             // picbox5
             // 
+            this.picbox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox5.Location = new System.Drawing.Point(928, 34);
             this.picbox5.Name = "picbox5";
             this.picbox5.Size = new System.Drawing.Size(192, 104);
             this.picbox5.TabIndex = 177;
             this.picbox5.TabStop = false;
+            this.picbox5.Click += new System.EventHandler(this.picbox5_Click);
             // 
-            // textBox7
+            // price4
             // 
-            this.textBox7.Location = new System.Drawing.Point(747, 174);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(66, 20);
-            this.textBox7.TabIndex = 176;
+            this.price4.Location = new System.Drawing.Point(747, 179);
+            this.price4.Name = "price4";
+            this.price4.Size = new System.Drawing.Size(66, 20);
+            this.price4.TabIndex = 176;
             // 
             // name4
             // 
@@ -769,18 +825,20 @@
             // 
             // picbox4
             // 
+            this.picbox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox4.Location = new System.Drawing.Point(706, 34);
             this.picbox4.Name = "picbox4";
             this.picbox4.Size = new System.Drawing.Size(191, 104);
             this.picbox4.TabIndex = 172;
             this.picbox4.TabStop = false;
+            this.picbox4.Click += new System.EventHandler(this.picbox4_Click);
             // 
-            // textBox9
+            // price3
             // 
-            this.textBox9.Location = new System.Drawing.Point(525, 174);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(66, 20);
-            this.textBox9.TabIndex = 171;
+            this.price3.Location = new System.Drawing.Point(525, 174);
+            this.price3.Name = "price3";
+            this.price3.Size = new System.Drawing.Size(66, 20);
+            this.price3.TabIndex = 171;
             // 
             // name3
             // 
@@ -825,12 +883,12 @@
             this.label18.TabIndex = 166;
             this.label18.Text = "Name:";
             // 
-            // textBox17
+            // price7
             // 
-            this.textBox17.Location = new System.Drawing.Point(303, 345);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(66, 20);
-            this.textBox17.TabIndex = 165;
+            this.price7.Location = new System.Drawing.Point(303, 345);
+            this.price7.Name = "price7";
+            this.price7.Size = new System.Drawing.Size(66, 20);
+            this.price7.TabIndex = 165;
             // 
             // name7
             // 
@@ -859,18 +917,20 @@
             // 
             // picbox7
             // 
+            this.picbox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox7.Location = new System.Drawing.Point(262, 205);
             this.picbox7.Name = "picbox7";
             this.picbox7.Size = new System.Drawing.Size(187, 104);
             this.picbox7.TabIndex = 161;
             this.picbox7.TabStop = false;
+            this.picbox7.Click += new System.EventHandler(this.picbox7_Click);
             // 
-            // textBox19
+            // price6
             // 
-            this.textBox19.Location = new System.Drawing.Point(75, 345);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(66, 20);
-            this.textBox19.TabIndex = 160;
+            this.price6.Location = new System.Drawing.Point(75, 345);
+            this.price6.Name = "price6";
+            this.price6.Size = new System.Drawing.Size(66, 20);
+            this.price6.TabIndex = 160;
             // 
             // name6
             // 
@@ -881,18 +941,20 @@
             // 
             // picbox6
             // 
+            this.picbox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox6.Location = new System.Drawing.Point(34, 205);
             this.picbox6.Name = "picbox6";
             this.picbox6.Size = new System.Drawing.Size(191, 104);
             this.picbox6.TabIndex = 158;
             this.picbox6.TabStop = false;
+            this.picbox6.Click += new System.EventHandler(this.picbox6_Click);
             // 
-            // textBox11
+            // price10
             // 
-            this.textBox11.Location = new System.Drawing.Point(969, 345);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(66, 20);
-            this.textBox11.TabIndex = 157;
+            this.price10.Location = new System.Drawing.Point(969, 345);
+            this.price10.Name = "price10";
+            this.price10.Size = new System.Drawing.Size(66, 20);
+            this.price10.TabIndex = 157;
             // 
             // name10
             // 
@@ -921,18 +983,20 @@
             // 
             // picbox10
             // 
+            this.picbox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox10.Location = new System.Drawing.Point(928, 205);
             this.picbox10.Name = "picbox10";
             this.picbox10.Size = new System.Drawing.Size(192, 104);
             this.picbox10.TabIndex = 153;
             this.picbox10.TabStop = false;
+            this.picbox10.Click += new System.EventHandler(this.picbox10_Click);
             // 
-            // textBox13
+            // price9
             // 
-            this.textBox13.Location = new System.Drawing.Point(747, 345);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(66, 20);
-            this.textBox13.TabIndex = 152;
+            this.price9.Location = new System.Drawing.Point(747, 345);
+            this.price9.Name = "price9";
+            this.price9.Size = new System.Drawing.Size(66, 20);
+            this.price9.TabIndex = 152;
             // 
             // name9
             // 
@@ -961,18 +1025,20 @@
             // 
             // picbox9
             // 
+            this.picbox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox9.Location = new System.Drawing.Point(706, 205);
             this.picbox9.Name = "picbox9";
             this.picbox9.Size = new System.Drawing.Size(191, 104);
             this.picbox9.TabIndex = 148;
             this.picbox9.TabStop = false;
+            this.picbox9.Click += new System.EventHandler(this.picbox9_Click);
             // 
-            // textBox15
+            // price8
             // 
-            this.textBox15.Location = new System.Drawing.Point(525, 345);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(66, 20);
-            this.textBox15.TabIndex = 147;
+            this.price8.Location = new System.Drawing.Point(525, 345);
+            this.price8.Name = "price8";
+            this.price8.Size = new System.Drawing.Size(66, 20);
+            this.price8.TabIndex = 147;
             // 
             // name8
             // 
@@ -983,17 +1049,223 @@
             // 
             // picbox8
             // 
+            this.picbox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picbox8.Location = new System.Drawing.Point(484, 205);
             this.picbox8.Name = "picbox8";
             this.picbox8.Size = new System.Drawing.Size(191, 104);
             this.picbox8.TabIndex = 145;
             this.picbox8.TabStop = false;
+            this.picbox8.Click += new System.EventHandler(this.picbox8_Click);
             // 
-            // Admin_Form
+            // pic1
+            // 
+            this.pic1.Location = new System.Drawing.Point(75, 104);
+            this.pic1.Name = "pic1";
+            this.pic1.Size = new System.Drawing.Size(101, 20);
+            this.pic1.TabIndex = 249;
+            // 
+            // pic2
+            // 
+            this.pic2.Location = new System.Drawing.Point(303, 104);
+            this.pic2.Name = "pic2";
+            this.pic2.Size = new System.Drawing.Size(101, 20);
+            this.pic2.TabIndex = 250;
+            // 
+            // pic3
+            // 
+            this.pic3.Location = new System.Drawing.Point(525, 104);
+            this.pic3.Name = "pic3";
+            this.pic3.Size = new System.Drawing.Size(101, 20);
+            this.pic3.TabIndex = 251;
+            // 
+            // pic4
+            // 
+            this.pic4.Location = new System.Drawing.Point(747, 104);
+            this.pic4.Name = "pic4";
+            this.pic4.Size = new System.Drawing.Size(101, 20);
+            this.pic4.TabIndex = 252;
+            // 
+            // pic5
+            // 
+            this.pic5.Location = new System.Drawing.Point(969, 104);
+            this.pic5.Name = "pic5";
+            this.pic5.Size = new System.Drawing.Size(101, 20);
+            this.pic5.TabIndex = 253;
+            // 
+            // pic10
+            // 
+            this.pic10.Location = new System.Drawing.Point(969, 277);
+            this.pic10.Name = "pic10";
+            this.pic10.Size = new System.Drawing.Size(101, 20);
+            this.pic10.TabIndex = 258;
+            // 
+            // pic9
+            // 
+            this.pic9.Location = new System.Drawing.Point(747, 277);
+            this.pic9.Name = "pic9";
+            this.pic9.Size = new System.Drawing.Size(101, 20);
+            this.pic9.TabIndex = 257;
+            // 
+            // pic8
+            // 
+            this.pic8.Location = new System.Drawing.Point(525, 277);
+            this.pic8.Name = "pic8";
+            this.pic8.Size = new System.Drawing.Size(101, 20);
+            this.pic8.TabIndex = 256;
+            // 
+            // pic7
+            // 
+            this.pic7.Location = new System.Drawing.Point(303, 277);
+            this.pic7.Name = "pic7";
+            this.pic7.Size = new System.Drawing.Size(101, 20);
+            this.pic7.TabIndex = 255;
+            // 
+            // pic6
+            // 
+            this.pic6.Location = new System.Drawing.Point(75, 277);
+            this.pic6.Name = "pic6";
+            this.pic6.Size = new System.Drawing.Size(101, 20);
+            this.pic6.TabIndex = 254;
+            // 
+            // pic15
+            // 
+            this.pic15.Location = new System.Drawing.Point(969, 445);
+            this.pic15.Name = "pic15";
+            this.pic15.Size = new System.Drawing.Size(101, 20);
+            this.pic15.TabIndex = 263;
+            // 
+            // pic14
+            // 
+            this.pic14.Location = new System.Drawing.Point(747, 445);
+            this.pic14.Name = "pic14";
+            this.pic14.Size = new System.Drawing.Size(101, 20);
+            this.pic14.TabIndex = 262;
+            // 
+            // pic13
+            // 
+            this.pic13.Location = new System.Drawing.Point(525, 445);
+            this.pic13.Name = "pic13";
+            this.pic13.Size = new System.Drawing.Size(101, 20);
+            this.pic13.TabIndex = 261;
+            // 
+            // pic12
+            // 
+            this.pic12.Location = new System.Drawing.Point(303, 445);
+            this.pic12.Name = "pic12";
+            this.pic12.Size = new System.Drawing.Size(101, 20);
+            this.pic12.TabIndex = 260;
+            // 
+            // pic11
+            // 
+            this.pic11.Location = new System.Drawing.Point(75, 445);
+            this.pic11.Name = "pic11";
+            this.pic11.Size = new System.Drawing.Size(101, 20);
+            this.pic11.TabIndex = 259;
+            // 
+            // pic20
+            // 
+            this.pic20.Location = new System.Drawing.Point(969, 613);
+            this.pic20.Name = "pic20";
+            this.pic20.Size = new System.Drawing.Size(101, 20);
+            this.pic20.TabIndex = 268;
+            // 
+            // pic19
+            // 
+            this.pic19.Location = new System.Drawing.Point(747, 613);
+            this.pic19.Name = "pic19";
+            this.pic19.Size = new System.Drawing.Size(101, 20);
+            this.pic19.TabIndex = 267;
+            // 
+            // pic18
+            // 
+            this.pic18.Location = new System.Drawing.Point(525, 613);
+            this.pic18.Name = "pic18";
+            this.pic18.Size = new System.Drawing.Size(101, 20);
+            this.pic18.TabIndex = 266;
+            // 
+            // pic17
+            // 
+            this.pic17.Location = new System.Drawing.Point(303, 613);
+            this.pic17.Name = "pic17";
+            this.pic17.Size = new System.Drawing.Size(101, 20);
+            this.pic17.TabIndex = 265;
+            // 
+            // pic16
+            // 
+            this.pic16.Location = new System.Drawing.Point(75, 613);
+            this.pic16.Name = "pic16";
+            this.pic16.Size = new System.Drawing.Size(101, 20);
+            this.pic16.TabIndex = 264;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(31, 519);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(34, 13);
+            this.label37.TabIndex = 272;
+            this.label37.Text = "Price:";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(31, 489);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(38, 13);
+            this.label38.TabIndex = 271;
+            this.label38.Text = "Name:";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(31, 690);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(34, 13);
+            this.label39.TabIndex = 270;
+            this.label39.Text = "Price:";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(31, 660);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(38, 13);
+            this.label40.TabIndex = 269;
+            this.label40.Text = "Name:";
+            // 
+            // POS_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 666);
+            this.ClientSize = new System.Drawing.Size(1393, 769);
+            this.Controls.Add(this.label37);
+            this.Controls.Add(this.label38);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.label40);
+            this.Controls.Add(this.pic20);
+            this.Controls.Add(this.pic19);
+            this.Controls.Add(this.pic18);
+            this.Controls.Add(this.pic17);
+            this.Controls.Add(this.pic16);
+            this.Controls.Add(this.pic15);
+            this.Controls.Add(this.pic14);
+            this.Controls.Add(this.pic13);
+            this.Controls.Add(this.pic12);
+            this.Controls.Add(this.pic11);
+            this.Controls.Add(this.pic10);
+            this.Controls.Add(this.pic9);
+            this.Controls.Add(this.pic8);
+            this.Controls.Add(this.pic7);
+            this.Controls.Add(this.pic6);
+            this.Controls.Add(this.pic5);
+            this.Controls.Add(this.pic4);
+            this.Controls.Add(this.pic3);
+            this.Controls.Add(this.pic2);
+            this.Controls.Add(this.pic1);
             this.Controls.Add(this.picbox3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.exitbtn);
@@ -1005,101 +1277,102 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.textBox21);
+            this.Controls.Add(this.price12);
             this.Controls.Add(this.name12);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.picbox12);
-            this.Controls.Add(this.textBox23);
+            this.Controls.Add(this.price11);
             this.Controls.Add(this.name11);
             this.Controls.Add(this.picbox11);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox26);
+            this.Controls.Add(this.price15);
+            this.Controls.Add(this.name15);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.picbox15);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox28);
+            this.Controls.Add(this.price14);
+            this.Controls.Add(this.name14);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.picbox14);
-            this.Controls.Add(this.textBox29);
+            this.Controls.Add(this.price13);
             this.Controls.Add(this.name13);
             this.Controls.Add(this.picbox13);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.label30);
-            this.Controls.Add(this.textBox31);
-            this.Controls.Add(this.textBox32);
+            this.Controls.Add(this.price17);
+            this.Controls.Add(this.name17);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label32);
             this.Controls.Add(this.picbox17);
-            this.Controls.Add(this.textBox33);
-            this.Controls.Add(this.textBox34);
+            this.Controls.Add(this.price16);
+            this.Controls.Add(this.name16);
             this.Controls.Add(this.picbox16);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox36);
+            this.Controls.Add(this.price20);
+            this.Controls.Add(this.name20);
             this.Controls.Add(this.label33);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.picbox20);
-            this.Controls.Add(this.textBox37);
-            this.Controls.Add(this.textBox38);
+            this.Controls.Add(this.price19);
+            this.Controls.Add(this.name19);
             this.Controls.Add(this.label35);
             this.Controls.Add(this.label36);
             this.Controls.Add(this.picbox19);
-            this.Controls.Add(this.textBox39);
-            this.Controls.Add(this.textBox40);
+            this.Controls.Add(this.price18);
+            this.Controls.Add(this.name18);
             this.Controls.Add(this.picbox18);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.price2);
             this.Controls.Add(this.name2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.picbox2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.price1);
             this.Controls.Add(this.name1);
             this.Controls.Add(this.picbox1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.price5);
             this.Controls.Add(this.name5);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.picbox5);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.price4);
             this.Controls.Add(this.name4);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.picbox4);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.price3);
             this.Controls.Add(this.name3);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.textBox17);
+            this.Controls.Add(this.price7);
             this.Controls.Add(this.name7);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.picbox7);
-            this.Controls.Add(this.textBox19);
+            this.Controls.Add(this.price6);
             this.Controls.Add(this.name6);
             this.Controls.Add(this.picbox6);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.price10);
             this.Controls.Add(this.name10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.picbox10);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.price9);
             this.Controls.Add(this.name9);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.picbox9);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.price8);
             this.Controls.Add(this.name8);
             this.Controls.Add(this.picbox8);
-            this.Name = "Admin_Form";
+            this.Name = "POS_Admin";
             this.Text = "Admin_Form";
+            this.Load += new System.EventHandler(this.POS_Admin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picbox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picbox12)).EndInit();
@@ -1139,98 +1412,123 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox price12;
         private System.Windows.Forms.TextBox name12;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.PictureBox picbox12;
-        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox price11;
         private System.Windows.Forms.TextBox name11;
         private System.Windows.Forms.PictureBox picbox11;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox price15;
+        private System.Windows.Forms.TextBox name15;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.PictureBox picbox15;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox price14;
+        private System.Windows.Forms.TextBox name14;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.PictureBox picbox14;
-        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox price13;
         private System.Windows.Forms.TextBox name13;
         private System.Windows.Forms.PictureBox picbox13;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox price17;
+        private System.Windows.Forms.TextBox name17;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.PictureBox picbox17;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox price16;
+        private System.Windows.Forms.TextBox name16;
         private System.Windows.Forms.PictureBox picbox16;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox price20;
+        private System.Windows.Forms.TextBox name20;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.PictureBox picbox20;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.TextBox price19;
+        private System.Windows.Forms.TextBox name19;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.PictureBox picbox19;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox price18;
+        private System.Windows.Forms.TextBox name18;
         private System.Windows.Forms.PictureBox picbox18;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox price2;
         private System.Windows.Forms.TextBox name2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox picbox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox price1;
         private System.Windows.Forms.TextBox name1;
         private System.Windows.Forms.PictureBox picbox1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox price5;
         private System.Windows.Forms.TextBox name5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox picbox5;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox price4;
         private System.Windows.Forms.TextBox name4;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox picbox4;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox price3;
         private System.Windows.Forms.TextBox name3;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox price7;
         private System.Windows.Forms.TextBox name7;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox picbox7;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox price6;
         private System.Windows.Forms.TextBox name6;
         private System.Windows.Forms.PictureBox picbox6;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox price10;
         private System.Windows.Forms.TextBox name10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox picbox10;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox price9;
         private System.Windows.Forms.TextBox name9;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox picbox9;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox price8;
         private System.Windows.Forms.TextBox name8;
         private System.Windows.Forms.PictureBox picbox8;
+        private System.Windows.Forms.TextBox pic1;
+        private System.Windows.Forms.TextBox pic2;
+        private System.Windows.Forms.TextBox pic3;
+        private System.Windows.Forms.TextBox pic4;
+        private System.Windows.Forms.TextBox pic5;
+        private System.Windows.Forms.TextBox pic10;
+        private System.Windows.Forms.TextBox pic9;
+        private System.Windows.Forms.TextBox pic8;
+        private System.Windows.Forms.TextBox pic7;
+        private System.Windows.Forms.TextBox pic6;
+        private System.Windows.Forms.TextBox pic15;
+        private System.Windows.Forms.TextBox pic14;
+        private System.Windows.Forms.TextBox pic13;
+        private System.Windows.Forms.TextBox pic12;
+        private System.Windows.Forms.TextBox pic11;
+        private System.Windows.Forms.TextBox pic20;
+        private System.Windows.Forms.TextBox pic19;
+        private System.Windows.Forms.TextBox pic18;
+        private System.Windows.Forms.TextBox pic17;
+        private System.Windows.Forms.TextBox pic16;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
     }
 }

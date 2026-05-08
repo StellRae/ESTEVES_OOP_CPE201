@@ -8,6 +8,7 @@ namespace ESTEVES_OOP_CPE201
 {
     internal class Price_Item_Value
     {
+       
         public String price, itemname, discount_amount;
 
         public void SetPriceItemValue(string item_name, string item_price)
