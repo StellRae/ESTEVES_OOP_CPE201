@@ -70,6 +70,7 @@
     <Compile Include="Activity6.Designer.cs">
       <DependentUpon>Activity6.cs</DependentUpon>
     </Compile>
+    <Compile Include="employee_dbconnection.cs" />
     <Compile Include="POS_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +79,7 @@
     </Compile>
     <Compile Include="pos_dbconnection.cs" />
     <Compile Include="Price_Item_Value.cs" />
+    <Compile Include="useraccount_db_connection.cs" />
     <Compile Include="Variables.cs" />
     <Compile Include="Lesson4_Example3_Classes.cs">
       <SubType>Form</SubType>

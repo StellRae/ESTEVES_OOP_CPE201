@@ -206,6 +206,7 @@
             this.exitbtn.TabIndex = 246;
             this.exitbtn.Text = "EXIT";
             this.exitbtn.UseVisualStyleBackColor = true;
+            this.exitbtn.Click += new System.EventHandler(this.exitbtn_Click);
             // 
             // exi
             // 
@@ -225,6 +226,7 @@
             this.deletebtn.TabIndex = 244;
             this.deletebtn.Text = "DELETE";
             this.deletebtn.UseVisualStyleBackColor = true;
+            this.deletebtn.Click += new System.EventHandler(this.deletebtn_Click);
             // 
             // updatebtn
             // 
@@ -234,6 +236,7 @@
             this.updatebtn.TabIndex = 243;
             this.updatebtn.Text = "UPDATE";
             this.updatebtn.UseVisualStyleBackColor = true;
+            this.updatebtn.Click += new System.EventHandler(this.updatebtn_Click);
             // 
             // savebtn
             // 
