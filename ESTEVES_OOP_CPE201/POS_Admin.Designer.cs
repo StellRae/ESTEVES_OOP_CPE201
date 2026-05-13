@@ -186,6 +186,7 @@
             this.picbox3.Location = new System.Drawing.Point(484, 34);
             this.picbox3.Name = "picbox3";
             this.picbox3.Size = new System.Drawing.Size(191, 104);
+            this.picbox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox3.TabIndex = 248;
             this.picbox3.TabStop = false;
             this.picbox3.Click += new System.EventHandler(this.picbox3_Click);
@@ -322,6 +323,7 @@
             this.picbox12.Location = new System.Drawing.Point(262, 372);
             this.picbox12.Name = "picbox12";
             this.picbox12.Size = new System.Drawing.Size(187, 104);
+            this.picbox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox12.TabIndex = 233;
             this.picbox12.TabStop = false;
             this.picbox12.Click += new System.EventHandler(this.picbox12_Click);
@@ -346,6 +348,7 @@
             this.picbox11.Location = new System.Drawing.Point(34, 372);
             this.picbox11.Name = "picbox11";
             this.picbox11.Size = new System.Drawing.Size(191, 104);
+            this.picbox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox11.TabIndex = 230;
             this.picbox11.TabStop = false;
             this.picbox11.Click += new System.EventHandler(this.picbox11_Click);
@@ -388,6 +391,7 @@
             this.picbox15.Location = new System.Drawing.Point(928, 372);
             this.picbox15.Name = "picbox15";
             this.picbox15.Size = new System.Drawing.Size(192, 104);
+            this.picbox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox15.TabIndex = 225;
             this.picbox15.TabStop = false;
             this.picbox15.Click += new System.EventHandler(this.picbox15_Click);
@@ -430,6 +434,7 @@
             this.picbox14.Location = new System.Drawing.Point(706, 372);
             this.picbox14.Name = "picbox14";
             this.picbox14.Size = new System.Drawing.Size(191, 104);
+            this.picbox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox14.TabIndex = 220;
             this.picbox14.TabStop = false;
             this.picbox14.Click += new System.EventHandler(this.picbox14_Click);
@@ -454,6 +459,7 @@
             this.picbox13.Location = new System.Drawing.Point(484, 372);
             this.picbox13.Name = "picbox13";
             this.picbox13.Size = new System.Drawing.Size(191, 104);
+            this.picbox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox13.TabIndex = 217;
             this.picbox13.TabStop = false;
             this.picbox13.Click += new System.EventHandler(this.picbox13_Click);
@@ -514,6 +520,7 @@
             this.picbox17.Location = new System.Drawing.Point(262, 543);
             this.picbox17.Name = "picbox17";
             this.picbox17.Size = new System.Drawing.Size(187, 104);
+            this.picbox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox17.TabIndex = 210;
             this.picbox17.TabStop = false;
             this.picbox17.Click += new System.EventHandler(this.picbox17_Click);
@@ -538,6 +545,7 @@
             this.picbox16.Location = new System.Drawing.Point(34, 543);
             this.picbox16.Name = "picbox16";
             this.picbox16.Size = new System.Drawing.Size(191, 104);
+            this.picbox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox16.TabIndex = 207;
             this.picbox16.TabStop = false;
             this.picbox16.Click += new System.EventHandler(this.picbox16_Click);
@@ -580,6 +588,7 @@
             this.picbox20.Location = new System.Drawing.Point(928, 543);
             this.picbox20.Name = "picbox20";
             this.picbox20.Size = new System.Drawing.Size(192, 104);
+            this.picbox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox20.TabIndex = 202;
             this.picbox20.TabStop = false;
             this.picbox20.Click += new System.EventHandler(this.picbox20_Click);
@@ -622,6 +631,7 @@
             this.picbox19.Location = new System.Drawing.Point(706, 543);
             this.picbox19.Name = "picbox19";
             this.picbox19.Size = new System.Drawing.Size(191, 104);
+            this.picbox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox19.TabIndex = 197;
             this.picbox19.TabStop = false;
             this.picbox19.Click += new System.EventHandler(this.picbox19_Click);
@@ -646,6 +656,7 @@
             this.picbox18.Location = new System.Drawing.Point(484, 543);
             this.picbox18.Name = "picbox18";
             this.picbox18.Size = new System.Drawing.Size(191, 104);
+            this.picbox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox18.TabIndex = 194;
             this.picbox18.TabStop = false;
             this.picbox18.Click += new System.EventHandler(this.picbox18_Click);
@@ -724,6 +735,7 @@
             this.picbox2.Location = new System.Drawing.Point(262, 34);
             this.picbox2.Name = "picbox2";
             this.picbox2.Size = new System.Drawing.Size(187, 104);
+            this.picbox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox2.TabIndex = 185;
             this.picbox2.TabStop = false;
             this.picbox2.Click += new System.EventHandler(this.picbox2_Click);
@@ -748,6 +760,7 @@
             this.picbox1.Location = new System.Drawing.Point(34, 34);
             this.picbox1.Name = "picbox1";
             this.picbox1.Size = new System.Drawing.Size(191, 104);
+            this.picbox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox1.TabIndex = 182;
             this.picbox1.TabStop = false;
             this.picbox1.Click += new System.EventHandler(this.picbox1_Click);
@@ -790,6 +803,7 @@
             this.picbox5.Location = new System.Drawing.Point(928, 34);
             this.picbox5.Name = "picbox5";
             this.picbox5.Size = new System.Drawing.Size(192, 104);
+            this.picbox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox5.TabIndex = 177;
             this.picbox5.TabStop = false;
             this.picbox5.Click += new System.EventHandler(this.picbox5_Click);
@@ -832,6 +846,7 @@
             this.picbox4.Location = new System.Drawing.Point(706, 34);
             this.picbox4.Name = "picbox4";
             this.picbox4.Size = new System.Drawing.Size(191, 104);
+            this.picbox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox4.TabIndex = 172;
             this.picbox4.TabStop = false;
             this.picbox4.Click += new System.EventHandler(this.picbox4_Click);
@@ -924,6 +939,7 @@
             this.picbox7.Location = new System.Drawing.Point(262, 205);
             this.picbox7.Name = "picbox7";
             this.picbox7.Size = new System.Drawing.Size(187, 104);
+            this.picbox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox7.TabIndex = 161;
             this.picbox7.TabStop = false;
             this.picbox7.Click += new System.EventHandler(this.picbox7_Click);
@@ -948,6 +964,7 @@
             this.picbox6.Location = new System.Drawing.Point(34, 205);
             this.picbox6.Name = "picbox6";
             this.picbox6.Size = new System.Drawing.Size(191, 104);
+            this.picbox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox6.TabIndex = 158;
             this.picbox6.TabStop = false;
             this.picbox6.Click += new System.EventHandler(this.picbox6_Click);
@@ -990,6 +1007,7 @@
             this.picbox10.Location = new System.Drawing.Point(928, 205);
             this.picbox10.Name = "picbox10";
             this.picbox10.Size = new System.Drawing.Size(192, 104);
+            this.picbox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox10.TabIndex = 153;
             this.picbox10.TabStop = false;
             this.picbox10.Click += new System.EventHandler(this.picbox10_Click);
@@ -1032,6 +1050,7 @@
             this.picbox9.Location = new System.Drawing.Point(706, 205);
             this.picbox9.Name = "picbox9";
             this.picbox9.Size = new System.Drawing.Size(191, 104);
+            this.picbox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox9.TabIndex = 148;
             this.picbox9.TabStop = false;
             this.picbox9.Click += new System.EventHandler(this.picbox9_Click);
@@ -1056,6 +1075,7 @@
             this.picbox8.Location = new System.Drawing.Point(484, 205);
             this.picbox8.Name = "picbox8";
             this.picbox8.Size = new System.Drawing.Size(191, 104);
+            this.picbox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picbox8.TabIndex = 145;
             this.picbox8.TabStop = false;
             this.picbox8.Click += new System.EventHandler(this.picbox8_Click);

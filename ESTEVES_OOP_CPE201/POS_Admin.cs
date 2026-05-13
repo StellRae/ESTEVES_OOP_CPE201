@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ESTEVES_OOP_CPE201.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,11 +30,10 @@ namespace ESTEVES_OOP_CPE201
       
             private void cleartextboxes()
         {
-            try
-            {
-                pic = Image.FromFile(@"C:\Users\C203-15\Source\Repos\ESTEVES_OOP_CPE201\ESTEVES_OOP_CPE201\Resources\simple-user-default-icon-free-png.webp");
+            
+                pic = Image.FromFile("C:\\Users\\C203-15\\source\\repos\\ESTEVES_OOP_CPE201\\ESTEVES_OOP_CPE201\\Resources\\default_image.png");
 
-                pic1.Clear(); pic2.Clear();
+                pic1.Clear(); pic2.Clear(); 
                 pic3.Clear(); pic4.Clear();
                 pic5.Clear(); pic6.Clear();
                 pic7.Clear(); pic8.Clear();
@@ -77,12 +77,9 @@ namespace ESTEVES_OOP_CPE201
                 name17.Clear(); name18.Clear();
                 name19.Clear(); name20.Clear();
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+           
         
-        }
+        
 
         private void exi_Click(object sender, EventArgs e)
         {
@@ -422,20 +419,16 @@ namespace ESTEVES_OOP_CPE201
 
         private void updatebtn_Click(object sender, EventArgs e)
         {
-        }
-           private void updateButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                posdb_connect.pos_sql = "UPDATE pos_nametbl SET name1 = '" + name1.Text + "', name2 = '" + name2.Text + "', name3 = '" + name3.Text + "', name4 = '" + name4.Text + "', name5 = '" + name5.Text + "', name6 = '" + name6.Text + "', name7 = '" + name7.Text + "', name8 = '" + name8.Text + "', name9 = '" + name9.Text + "', name10 = '" + name10.Text + "', name11 = '" + name11.Text + "', name12 = '" + name12.Text + "', name13 = '" + name13.Text + "', name14 = '" + name14.Text + "', name15 = '" + name15.Text + "', name16 = '" + name16.Text + "', name17 = '" + name17.Text + "', name18 = '" + name18.Text + "', name19 = '" + name19.Text + "', name20 = '" + name20.Text + "' WHERE pos_id = '" + comboBox1.Text + "'";
+            
+                posdb_connect.pos_sql = "UPDATE pos_nameTbl SET name1='" + name1.Text + "', name2='" + name2.Text + "', name3='" + name3.Text + "', name4='" + name4.Text + "', name5='" + name5.Text + "', name6='" + name6.Text + "', name7='" + name7.Text + "', name8='" + name8.Text + "', name9='" + name9.Text + "', name10='" + name10.Text + "', name11='" + name11.Text + "', name12='" + name12.Text + "', name13='" + name13.Text + "', name14='" + name14.Text + "', name15='" + name15.Text + "', name16='" + name16.Text + "', name17='" + name17.Text + "', name18='" + name18.Text + "', name19='" + name19.Text + "', name20='" + name20.Text + "' WHERE pos_id='" + comboBox1.Text + "'";
                 posdb_connect.pos_cmd();
                 posdb_connect.pos_sqladapterUpdate();
 
-                posdb_connect.pos_sql = "UPDATE pos_picTbl SET pic1 = '" + pic1.Text + "', pic2 = '" + pic2.Text + "', pic3 = '" + pic3.Text + "', pic4 = '" + pic4.Text + "', pic5 = '" + pic5.Text + "', pic6 = '" + pic6.Text + "', pic7 = '" + pic7.Text + "', pic8 = '" + pic8.Text + "', pic9 = '" + pic9.Text + "', pic10 = '" + pic10.Text + "', pic11 = '" + pic11.Text + "', pic12 = '" + pic12.Text + "', pic13 = '" + pic13.Text + "', pic14 = '" + pic14.Text + "', pic15 = '" + pic15.Text + "', pic16 = '" + pic16.Text + "', pic17 = '" + pic17.Text + "', pic18 = '" + pic18.Text + "', pic19 = '" + pic19.Text + "', pic20 = '" + pic20.Text + "' WHERE pos_id = '" + comboBox1.Text + "'";
+                posdb_connect.pos_sql = "UPDATE pos_picTbl SET pic1='" + pic1.Text + "', pic2='" + pic2.Text + "', pic3='" + pic3.Text + "', pic4='" + pic4.Text + "', pic5='" + pic5.Text + "', pic6='" + pic6.Text + "', pic7='" + pic7.Text + "', pic8='" + pic8.Text + "', pic9='" + pic9.Text + "', pic10='" + pic10.Text + "', pic11='" + pic11.Text + "', pic12='" + pic12.Text + "', pic13='" + pic13.Text + "', pic14='" + pic14.Text + "', pic15='" + pic15.Text + "', pic16='" + pic16.Text + "', pic17='" + pic17.Text + "', pic18='" + pic18.Text + "', pic19='" + pic19.Text + "', pic20='" + pic20.Text + "' WHERE pos_id='" + comboBox1.Text + "'";
                 posdb_connect.pos_cmd();
                 posdb_connect.pos_sqladapterUpdate();
 
-                posdb_connect.pos_sql = "UPDATE pos_priceTbl SET price1 = '" + price1.Text + "', price2 = '" + price2.Text + "', price3 = '" + price3.Text + "', price4 = '" + price5.Text + "', price5 = '" + price5.Text + "', price6 = '" + price6.Text + "', price7 = '" + price7.Text + "', price8 = '" + price8.Text + "', price9 = '" + price9.Text + "', price10 = '" + price10.Text + "', price11 = '" + price11.Text + "', price12 = '" + price12.Text + "', price13 = '" + price13.Text + "', price14 = '" + price14.Text + "', price15 = '" + price15.Text + "', price16 = '" + price16.Text + "', price17 = '" + price17.Text + "', price18 = '" + price18.Text + "', price19 = '" + price19.Text + "', price20 = '" + price20.Text + "' WHERE pos_id = '" + comboBox1.Text + "'";
+                posdb_connect.pos_sql = "UPDATE pos_priceTbl SET price1='" + price1.Text + "', price2='" + price2.Text + "', price3='" + price3.Text + "', price4='" + price4.Text + "', price5='" + price5.Text + "', price6='" + price6.Text + "', price7='" + price7.Text + "', price8='" + price8.Text + "', price9='" + price9.Text + "', price10='" + price10.Text + "', price11='" + price11.Text + "', price12='" + price12.Text + "', price13='" + price13.Text + "', price14='" + price14.Text + "', price15='" + price15.Text + "', price16='" + price16.Text + "', price17='" + price17.Text + "', price18='" + price18.Text + "', price19='" + price19.Text + "', price20='" + price20.Text + "' WHERE pos_id='" + comboBox1.Text + "'";
                 posdb_connect.pos_cmd();
                 posdb_connect.pos_sqladapterUpdate();
 
@@ -443,13 +436,15 @@ namespace ESTEVES_OOP_CPE201
                 posdb_connect.pos_cmd();
                 posdb_connect.pos_sqladapterSelect();
                 posdb_connect.pos_sqldatasetSELECT();
+
                 dataGridView1.DataSource = posdb_connect.pos_sql_dataset.Tables[0];
+
                 cleartextboxes();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Error occurs in this area. Please contact your administrator!");
-            }
+
+                MessageBox.Show("Updated Successfully!");
+           
+            
+        
         }
 
         private void deletebtn_Click(object sender, EventArgs e)
