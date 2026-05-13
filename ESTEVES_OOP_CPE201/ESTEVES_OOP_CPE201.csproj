@@ -71,6 +71,9 @@
       <DependentUpon>Activity6.cs</DependentUpon>
     </Compile>
     <Compile Include="employee_dbconnection.cs" />
+    <Compile Include="loginDb_dbconnections.cs" />
+    <Compile Include="payrol_dbconnection.cs" />
+    <Compile Include="payrol_variables.cs" />
     <Compile Include="POS_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
